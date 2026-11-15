@@ -64,7 +64,7 @@ Só estas 20 disparam a DM. Todo roteiro/legenda deve usar UMA delas no CTA ("Co
 | 19 | E se você pudesse parar o tempo | QUERO |
 | 20 | O motivo de não postar é a câmera | VÍDEO |
 
-Roteiros completos em `roteiros.md`. Legendas com CTA em `legendas.md`. Todas as 20 palavras já foram usadas uma vez; a próxima rodada recomeça por TURBINA (Reel 21) seguindo a mesma ordem.
+Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Todas as 20 palavras já foram usadas uma vez; a próxima rodada recomeça por TURBINA (Reel 21) seguindo a mesma ordem.
 
 ## Fórmula de copy (modelada no "Santos - Editor das Sombras")
 1. 80% conteúdo real (absurdo, curiosidade, "e se", "você é um...", demonstração).
