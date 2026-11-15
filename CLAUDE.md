@@ -53,8 +53,18 @@ Só estas 20 disparam a DM. Todo roteiro/legenda deve usar UMA delas no CTA ("Co
 | 08 | E se a Lua sumisse | LUA |
 | 09 | Ninguém editou esse vídeo | VIDEO |
 | 10 | Escreve isso, ganha isso | ESTILOS |
+| 11 | Esse perfil tem um sistema | SISTEMA |
+| 12 | As 4 partes de um roteiro que prende | ROTEIRO |
+| 13 | Canal do Panamá é uma escada de água | CANAL |
+| 14 | O que é canal dark | DARK |
+| 15 | Avião bombeiro pra apagar velinha (absurdo) | ANIMADO |
+| 16 | Você é um gato | CURIOSO |
+| 17 | A grade da porta do micro-ondas | SEGREDO |
+| 18 | Vídeo animado em 4 passos | PASSO |
+| 19 | E se você pudesse parar o tempo | QUERO |
+| 20 | O motivo de não postar é a câmera | VÍDEO |
 
-Próximas sem uso: SISTEMA, ROTEIRO, CANAL, DARK, ANIMADO, CURIOSO, SEGREDO, PASSO, QUERO.
+Roteiros completos em `roteiros.md`. Todas as 20 palavras já foram usadas uma vez; a próxima rodada recomeça por TURBINA (Reel 21) seguindo a mesma ordem.
 
 ## Fórmula de copy (modelada no "Santos - Editor das Sombras")
 1. 80% conteúdo real (absurdo, curiosidade, "e se", "você é um...", demonstração).
