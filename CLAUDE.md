@@ -83,8 +83,28 @@ Só estas 20 disparam a DM. Todo roteiro/legenda deve usar UMA delas no CTA ("Co
 | 38 | Ideias infinitas em 3 passos | PASSO |
 | 39 | E se houvesse um túnel atravessando a Terra | QUERO |
 | 40 | "Não tenho tempo pra criar vídeo" | VÍDEO |
+| 41 | Túnel de vento pra bolha de sabão (absurdo) | TURBINA |
+| 42 | Retroescavadeira pra endireitar quadro (absurdo) | QUADRO |
+| 43 | Por que abrir a janela na decolagem | JANELA |
+| 44 | Caneta de cabeça pra baixo / caneta espacial | CANETA |
+| 45 | Cabem 1,3 milhão de Terras no Sol | SOL |
+| 46 | A origem do "tchau" | ORIGEM |
+| 47 | Você é um beija-flor | POLVO |
+| 48 | E se desse pra ir à Lua de carro | LUA |
+| 49 | Esse vídeo começou com uma frase | VIDEO |
+| 50 | Escolha o estilo pela emoção | ESTILOS |
+| 51 | Comenta e a mensagem chega sozinha | SISTEMA |
+| 52 | 3 erros que fazem pular o vídeo | ROTEIRO |
+| 53 | O navio que travou o Canal de Suez | CANAL |
+| 54 | 3 mitos do canal dark | DARK |
+| 55 | Buzina de navio como despertador (absurdo) | ANIMADO |
+| 56 | Por que a cebola faz chorar | CURIOSO |
+| 57 | Os furinhos do cream cracker | SEGREDO |
+| 58 | Comentário vira conversa em 3 passos | PASSO |
+| 59 | E se você nunca mais dormisse | QUERO |
+| 60 | "Não sou criativo" | VÍDEO |
 
-Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Rodada 1 (Reels 01–20) e rodada 2 (Reels 21–40, roteiros e CTAs em `roteiros.md`/`cta.md`) usam as 20 palavras na mesma ordem; a rodada 3 recomeça por TURBINA (Reel 41).
+Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Rodadas 1 (Reels 01–20), 2 (21–40) e 3 (41–60), com roteiros e CTAs em `roteiros.md`/`cta.md`, usam as 20 palavras na mesma ordem; a rodada 4 recomeça por TURBINA (Reel 61).
 
 ## Fórmula de copy (modelada no "Santos - Editor das Sombras")
 1. 80% conteúdo real (absurdo, curiosidade, "e se", "você é um...", demonstração).

@@ -43,3 +43,26 @@
 38 PASSO — 👣 Quer o passo a passo completo? Comenta PASSO que eu te mando no direct.
 39 QUERO — 🕳️ Quer criar vídeos "E se…"? Comenta QUERO que eu te mando no direct.
 40 VÍDEO — ⏱️ Sem tempo? Comenta VÍDEO que eu te mando no direct onde aprender a criar os seus.
+
+# Rodada 3 · Reels 41 a 60
+
+41 TURBINA — 💨 Comenta TURBINA que eu te mando no direct onde aprender a fazer vídeos absurdos assim.
+42 QUADRO — 🖼️ Quer criar vídeos assim? Comenta QUADRO que eu te chamo no direct.
+43 JANELA — 🪟 Quer aprender a fazer vídeos de curiosidade? Comenta JANELA e recebe no direct.
+44 CANETA — 🚀 Comenta CANETA que eu te mando no direct como criar vídeos assim com IA.
+45 SOL — 🌞 Quer fazer vídeos de ciência sem aparecer? Comenta SOL que eu te mando no direct.
+46 ORIGEM — 👋 Comenta ORIGEM que eu te mando no direct onde aprender a criar vídeos assim.
+47 POLVO — 🐦 Quer fazer vídeos "Você é um…"? Comenta POLVO e recebe tudo no direct.
+48 LUA — 🚗 Comenta LUA que eu te mando no direct como criar vídeos "E se…".
+49 VIDEO — ✍️ Uma frase vira um vídeo. Comenta VIDEO que eu te mando no direct onde aprender.
+50 ESTILOS — 🎭 Qual estilo é a sua cara? Comenta ESTILOS que eu te mando no direct como fazer.
+51 SISTEMA — ⚡ Comenta SISTEMA e olha o seu direct.
+52 ROTEIRO — 📝 Comenta ROTEIRO que eu te mando no direct onde aprender a criar roteiros e vídeos assim.
+53 CANAL — 🚢 Quer criar vídeos de curiosidade assim? Comenta CANAL que eu te mando no direct.
+54 DARK — 🖤 Qual mito te segurava? Comenta DARK que eu te mando no direct onde aprender.
+55 ANIMADO — ⏰ Comenta ANIMADO e recebe no direct onde aprender a fazer vídeos animados assim.
+56 CURIOSO — 🧅 Ficou curioso? Comenta CURIOSO que eu te mando no direct como fazer vídeos assim.
+57 SEGREDO — 🍪 Comenta SEGREDO que eu te conto no direct onde aprender a criar vídeos assim.
+58 PASSO — 👣 Quer o passo a passo completo? Comenta PASSO que eu te mando no direct.
+59 QUERO — 😴 Quer criar vídeos "E se…"? Comenta QUERO que eu te mando no direct.
+60 VÍDEO — 💡 Não precisa ser criativo. Comenta VÍDEO que eu te mando no direct onde aprender.
