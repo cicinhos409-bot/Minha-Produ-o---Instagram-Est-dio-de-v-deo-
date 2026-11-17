@@ -114,7 +114,7 @@ Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.m
 - Sem promessa de ganho, sem depoimento inventado, sem "eu faturei". Fatos das curiosidades precisam ser verdadeiros.
 
 ## Avatar pixel do usuário (usar nos vídeos)
-- Recortes sem fundo (18 poses) em `avatar/recortes/*.webp`; versões leves para embutir em `avatar/embed/<pose>.uri` (data URI webp ~4,5 KB). Para gerar outra pose embutível, ver `avatar/cut.py` e `avatar/clean.py`.
+- Recortes sem fundo (18 poses) em `avatar/recortes/*.webp`; versões leves para embutir em `avatar/embed/<pose>.uri` (data URI webp ~4,5 KB). Para gerar outra pose embutível, ver `avatar/cut.py` e `avatar/clean.py`. Versão leve (80 px, ~2,5 KB, base64 puro sem o prefixo `data:image/webp;base64,`) em `avatar/mini/<pose>.b64` — preferir esta nas cenas.
 - No UMBRA, o avatar entra em cena `html` com `<img src='data:...'>` dentro de um cartão: `.card{left:7%;top:38%;width:46%;height:29%}` e `img{width:100%;height:97%;object-fit:contain;object-position:50% 100%;image-rendering:pixelated}` (sem object-fit a imagem fica achatada).
 - Enquadramento seguro do Reels: texto no topo (top 11–30%), cartão do avatar à esquerda (38–67%), lado direito livre até x 88% (botões), legenda em "baixo" (~72%). No CTA usar pose `aponta_lado` + seta `K.linha` terminando em [0.86, 0.69] (botão de comentar).
 - Usar 3–4 poses por vídeo onde fazem sentido no roteiro (gancho, reação, "sem aparecer" com `oculos`, CTA).
