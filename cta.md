@@ -20,3 +20,26 @@
 18 PASSO — 👣 Quer o passo a passo completo? Comenta PASSO que eu te mando no direct.
 19 QUERO — 🙋 Quer aprender a criar vídeos assim? Comenta QUERO que eu te mando no direct.
 20 VÍDEO — 🎬 Comenta VÍDEO que eu te mando no direct onde aprender a criar os seus, sem mostrar o rosto.
+
+# Rodada 2 · Reels 21 a 40
+
+21 TURBINA — 🌀 Quer fazer vídeos absurdos assim? Comenta TURBINA que eu te mando no direct.
+22 QUADRO — 🧽 Comenta QUADRO que eu te chamo no direct e te mostro onde aprender a criar vídeos assim.
+23 JANELA — ✈️ Comenta JANELA que eu te mando no direct onde aprender a criar vídeos de curiosidade.
+24 CANETA — 🖊️ Quer aprender a criar vídeos assim com IA? Comenta CANETA que eu te mando no direct.
+25 SOL — ☀️ Comenta SOL e recebe no direct onde aprender a fazer vídeos assim, sem aparecer.
+26 ORIGEM — 📜 Quer criar vídeos de história assim? Comenta ORIGEM que eu te mando no direct.
+27 POLVO — 🦒 Quer aprender a fazer vídeos "Você é um…"? Comenta POLVO que eu te mando no direct.
+28 LUA — 🌍 Comenta LUA que eu te mando no direct como criar sua série de vídeos "E se…".
+29 VIDEO — 🎥 Comenta VIDEO que eu te mando no direct onde aprender a fazer os seus.
+30 ESTILOS — 🎨 Qual estilo você postaria? Comenta ESTILOS que eu te mando no direct como fazer.
+31 SISTEMA — ⚙️ Quer conhecer esse jeito de criar? Comenta SISTEMA que eu te mando no direct.
+32 ROTEIRO — 📝 Comenta ROTEIRO que eu te mando no direct onde aprender a criar roteiros e vídeos assim.
+33 CANAL — 🛶 Quer criar vídeos de curiosidade assim? Comenta CANAL que eu te mando no direct.
+34 DARK — 🖤 Qual dos três é a sua cara? Comenta DARK que eu te mando no direct onde aprender.
+35 ANIMADO — 🌊 Comenta ANIMADO e recebe no direct onde aprender a fazer vídeos animados assim.
+36 CURIOSO — 🐦 Ficou curioso? Comenta CURIOSO que eu te mando no direct como fazer vídeos assim.
+37 SEGREDO — 🟧 Quer aprender a criar vídeos assim? Comenta SEGREDO que eu te conto no direct.
+38 PASSO — 👣 Quer o passo a passo completo? Comenta PASSO que eu te mando no direct.
+39 QUERO — 🕳️ Quer criar vídeos "E se…"? Comenta QUERO que eu te mando no direct.
+40 VÍDEO — ⏱️ Sem tempo? Comenta VÍDEO que eu te mando no direct onde aprender a criar os seus.

@@ -63,8 +63,28 @@ Só estas 20 disparam a DM. Todo roteiro/legenda deve usar UMA delas no CTA ("Co
 | 18 | Vídeo animado em 4 passos | PASSO |
 | 19 | E se você pudesse parar o tempo | QUERO |
 | 20 | O motivo de não postar é a câmera | VÍDEO |
+| 21 | Turbina eólica pra esfriar a sopa (absurdo) | TURBINA |
+| 22 | Caminhão-pipa pra apagar o quadro (absurdo) | QUADRO |
+| 23 | Por que a janela do avião é redonda | JANELA |
+| 24 | Furinho na lateral da caneta | CANETA |
+| 25 | O Sol que você vê é de 8 minutos atrás | SOL |
+| 26 | Forró não vem de "for all" | ORIGEM |
+| 27 | Você é uma girafa | POLVO |
+| 28 | E se a Terra parasse de girar | LUA |
+| 29 | 3 coisas que não usei pra fazer esse vídeo | VIDEO |
+| 30 | Um assunto, três estilos (mel) | ESTILOS |
+| 31 | Como postar todo dia sem aparecer | SISTEMA |
+| 32 | 3 jeitos de começar um vídeo que prende | ROTEIRO |
+| 33 | Por que Veneza tem canais | CANAL |
+| 34 | 3 tipos de canal dark | DARK |
+| 35 | Cataratas do Iguaçu pra regar a planta (absurdo) | ANIMADO |
+| 36 | Por que o pombo balança a cabeça | CURIOSO |
+| 37 | A caixa-preta é laranja | SEGREDO |
+| 38 | Ideias infinitas em 3 passos | PASSO |
+| 39 | E se houvesse um túnel atravessando a Terra | QUERO |
+| 40 | "Não tenho tempo pra criar vídeo" | VÍDEO |
 
-Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Todas as 20 palavras já foram usadas uma vez; a próxima rodada recomeça por TURBINA (Reel 21) seguindo a mesma ordem.
+Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Rodada 1 (Reels 01–20) e rodada 2 (Reels 21–40, roteiros e CTAs em `roteiros.md`/`cta.md`) usam as 20 palavras na mesma ordem; a rodada 3 recomeça por TURBINA (Reel 41).
 
 ## Fórmula de copy (modelada no "Santos - Editor das Sombras")
 1. 80% conteúdo real (absurdo, curiosidade, "e se", "você é um...", demonstração).
