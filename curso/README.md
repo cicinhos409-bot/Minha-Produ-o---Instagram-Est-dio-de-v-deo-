@@ -18,9 +18,17 @@ Cada arquivo tem duas partes:
 | [modulo-02-aula-03.md](modulo-02-aula-03.md) | M2 · A3 — Quais outliers estudar | 3 tipos (destoa, canal em alta, novo subindo rápido), análise de capa + título com IA, descer do assunto para o hábito com dados reais. |
 | [modulo-02-aula-04.md](modulo-02-aula-04.md) | M2 · A4 (aula 7) — As 3 peças e o esqueleto | Identificação + promessa + autoridade; troca a identificação (hábito sem dono), varia o final; chegar primeiro no idioma. |
 | [modulo-02-aula-05.md](modulo-02-aula-05.md) | M2 · A5 (aula 8) — Banco de brechas | Um documento por nicho, prioridade por views/mês + dono não repetiu + cópia fraca, ficha de cada canal. |
+| [modulo-02-aula-06.md](modulo-02-aula-06.md) | M2 · A6 (aula 9) — Insistir ou largar | ~30 vídeos; fases (<10, 10–20, ~30); impressões, CTR e views; 3 diagnósticos; 4 erros emocionais. |
 
 **Banco de brechas (modelo + fichas já preenchidas):** [banco-de-brechas.md](banco-de-brechas.md)
 
-## Método até agora
-**Garimpar → Dissecar → Mapear → Validar → Ocupar.**
-Se o espaço estiver ocupado na etapa Validar, volta para Mapear.
+## Método completo (módulos 1 e 2)
+1. **Garimpar** outliers (perfil de pesquisa por nicho, Populares, vídeos frescos, views/dia, canal pequeno).
+2. **Mapear o nicho** (vídeo × canal fora da curva, fila de cópias: cópia fraca = porta aberta).
+3. **Medir a demanda** (IA + números com fonte + Google Trends como assunto na pesquisa do YouTube + quem atende).
+4. **Estudar a fundo** (3 tipos; descer do assunto para o hábito com dados reais).
+5. **Montar o título** (identificação + promessa + autoridade; troca a identificação, varia o final; chegar primeiro no idioma).
+6. **Guardar no banco de brechas** e priorizar (views/mês + dono não repetiu + cópia fraca).
+7. **Medir e decidir** (<10 continua, 10–20 alerta, ~30 corta, sinal = faz mais).
+
+> "Você não aposta, você lê o dado." 

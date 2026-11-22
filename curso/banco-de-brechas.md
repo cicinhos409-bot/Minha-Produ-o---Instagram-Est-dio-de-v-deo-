@@ -96,3 +96,10 @@
 
 ## Animais
 (adicionar canais)
+
+---
+
+## Acompanhamento dos canais no ar (aula 9)
+| Canal / brecha | Vídeos postados | Fase | Impressões (3 sem.) | CTR | Views (3 sem.) | Diagnóstico | Decisão | Data |
+|---|---|---|---|---|---|---|---|---|
+| | | <10 / 10–20 / ~30 | | | | assunto / título-capa / ok | continua / alerta / corta / faz mais | |
