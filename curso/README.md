@@ -14,6 +14,7 @@ Cada arquivo tem duas partes:
 | [modulo-01-aula-02.md](modulo-01-aula-02.md) | M1 · A2 — O que é uma brecha viral | 3 condições, 4 caminhos (ângulo × país), brecha dupla, método em 5 etapas. |
 | [modulo-01-aula-03.md](modulo-01-aula-03.md) | M1 · A3 — O outlier | Vídeo muito acima da média do canal = demanda do assunto. Populares, multiplicador, subnicho, validação em outros idiomas. |
 | [modulo-02-aula-01.md](modulo-02-aula-01.md) | M2 · A1 — Mapear o primeiro nicho | Perfil de pesquisa por nicho, vídeos frescos (views + poucos dias + canal pequeno), vídeo × canal fora da curva, as 3 contagens da fila. |
+| [modulo-02-aula-02.md](modulo-02-aula-02.md) | M2 · A2 — Medir a procura | IA abre ângulos menores, números com fonte, Google Trends (assunto + pesquisa do YouTube), quem atende no YouTube. Catarata × hérnia. |
 
 ## Método até agora
 **Garimpar → Dissecar → Mapear → Validar → Ocupar.**
