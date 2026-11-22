@@ -66,3 +66,26 @@
 58 PASSO — 👣 Quer o passo a passo completo? Comenta PASSO que eu te mando no direct.
 59 QUERO — 😴 Quer criar vídeos "E se…"? Comenta QUERO que eu te mando no direct.
 60 VÍDEO — 💡 Não precisa ser criativo. Comenta VÍDEO que eu te mando no direct onde aprender.
+
+# Rodada 4 · Reels 61 a 80 · "Construa do zero" (até 40 s)
+
+61 TURBINA — 🌀 Comenta TURBINA que eu te mando no direct onde aprender a fazer vídeos assim.
+62 QUADRO — 🖼️ Quer criar vídeos assim? Comenta QUADRO que eu te mando no direct.
+63 JANELA — 🪟 Comenta JANELA que eu te mando no direct onde aprender a criar vídeos assim.
+64 CANETA — 🖊️ Quer fazer vídeos sem aparecer? Comenta CANETA que eu te mando no direct.
+65 SOL — ☀️ Comenta SOL que eu te mando no direct onde aprender a fazer vídeos assim.
+66 ORIGEM — 🔥 Quer aprender? Comenta ORIGEM que eu te mando no direct.
+67 POLVO — 🐠 Comenta POLVO que eu te mando no direct onde aprender a criar vídeos assim.
+68 LUA — 🌕 Quer criar vídeos assim com IA? Comenta LUA que eu te mando no direct.
+69 VIDEO — 🎬 Vídeo sem câmera. Comenta VIDEO que eu te mando no direct onde aprender.
+70 ESTILOS — 😎 Comenta ESTILOS que eu te mando no direct onde aprender a fazer vídeos assim.
+71 SISTEMA — 🚦 Comenta SISTEMA que eu te mando no direct onde aprender.
+72 ROTEIRO — 📝 Sem aparecer e sem decorar texto. Comenta ROTEIRO que eu te mando no direct.
+73 CANAL — 🚰 Quer fazer vídeos assim? Comenta CANAL que eu te mando no direct.
+74 DARK — 🔦 Comenta DARK que eu te mando no direct onde aprender a criar vídeos sem aparecer.
+75 ANIMADO — ✏️ Comenta ANIMADO que eu te mando no direct onde aprender a fazer os seus.
+76 CURIOSO — 🍿 Ficou curioso? Comenta CURIOSO que eu te mando no direct.
+77 SEGREDO — 🔐 Comenta SEGREDO que eu te conto no direct onde aprender a criar vídeos assim.
+78 PASSO — 🪜 Quer o passo a passo? Comenta PASSO que eu te mando no direct.
+79 QUERO — ⏰ Quer criar vídeos assim? Comenta QUERO que eu te mando no direct.
+80 VÍDEO — 🎯 Comenta VÍDEO que eu te mando no direct onde aprender a fazer vídeos que prendem.

@@ -103,8 +103,28 @@ Só estas 20 disparam a DM. Todo roteiro/legenda deve usar UMA delas no CTA ("Co
 | 58 | Comentário vira conversa em 3 passos | PASSO |
 | 59 | E se você nunca mais dormisse | QUERO |
 | 60 | "Não sou criativo" | VÍDEO |
+| 61 | Construa um ventilador | TURBINA |
+| 62 | Pendurar um quadro (bucha e nível) | QUADRO |
+| 63 | Construa uma janela | JANELA |
+| 64 | Construa uma caneta esferográfica | CANETA |
+| 65 | Construa um aquecedor solar | SOL |
+| 66 | Construa um fósforo | ORIGEM |
+| 67 | Construa um aquário | POLVO |
+| 68 | Construa uma luneta | LUA |
+| 69 | Um vídeo sem câmera | VIDEO |
+| 70 | Construa um óculos de sol | ESTILOS |
+| 71 | Construa um semáforo | SISTEMA |
+| 72 | Teleprompter vs. não aparecer | ROTEIRO |
+| 73 | Construa um encanamento (sifão) | CANAL |
+| 74 | Construa uma lanterna | DARK |
+| 75 | Construa um desenho animado | ANIMADO |
+| 76 | Construa uma pipoqueira | CURIOSO |
+| 77 | Construa um cofre | SEGREDO |
+| 78 | Construa uma escada | PASSO |
+| 79 | Construa um despertador | QUERO |
+| 80 | Construa um vídeo que prende | VÍDEO |
 
-Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Rodadas 1 (Reels 01–20), 2 (21–40) e 3 (41–60), com roteiros e CTAs em `roteiros.md`/`cta.md`, usam as 20 palavras na mesma ordem; a rodada 4 recomeça por TURBINA (Reel 61).
+Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Rodadas 1 (Reels 01–20), 2 (21–40) e 3 (41–60), com roteiros e CTAs em `roteiros.md`/`cta.md`, usam as 20 palavras na mesma ordem. Rodada 4 (61–80): formato "Construa do zero" com gancho de duplo sentido ("Se você X, você não tem Y. Tem Z."), até 40 s (~95–105 palavras). A rodada 5 recomeça por TURBINA (Reel 81).
 
 ## Fórmula de copy (modelada no "Santos - Editor das Sombras")
 1. 80% conteúdo real (absurdo, curiosidade, "e se", "você é um...", demonstração).

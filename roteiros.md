@@ -195,3 +195,67 @@ E se você decidisse nunca mais dormir? Parece ótimo: mais horas pra ver série
 
 ## Reel 60 · VÍDEO · Objeção
 "Eu não sou criativo, não ia saber o que postar." Esse é um dos motivos mais comuns pra nunca começar. Mas olha os vídeos desse perfil: por que a janela do avião é redonda, de onde vem a palavra tchau, e se a Terra parasse de girar. Nada disso foi inventado do zero. São perguntas do dia a dia, contadas de um jeito curioso. E a parte trabalhosa, montar as cenas, animar e editar, a inteligência artificial faz. Você não precisa ser criativo. Precisa ser curioso. Manda pra quem diz que não leva jeito pra isso. Quer aprender a criar os seus? Comenta VÍDEO que eu te mando no direct.
+
+# Rodada 4 · Reels 61 a 80 · "Construa do zero" com duplo sentido (até 40 s)
+
+Fórmula: 1) gancho com duplo sentido ("Se você X, você não tem Y. Tem Z.") → 2) "Então você…" + "Esse é o/a [nome]" → 3) "Mas…" (novo problema) → repete 2 ou 3 vezes → 4) "Parabéns! Você construiu…" → 5) ponte (IA, sem aparecer) + CTA. Alvo: 80 a 100 palavras (abaixo de 40 s).
+
+## Reel 61 · TURBINA · Ventilador
+Se você tenta se refrescar abanando a mão, você não ganha uma brisa. Ganha um treino de braço. Então você prende umas pás inclinadas num eixo. Girando, elas empurram o ar pra frente. Essas são as hélices. Mas girar na mão cansa do mesmo jeito. Então você coloca um motor elétrico pra girar o eixo. Mas aí o dedo do seu sobrinho vai direto nas pás. Então você cerca tudo com uma grade. Coloque um botão de velocidade. Parabéns! Você construiu um ventilador. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta TURBINA que eu te mando onde aprender.
+
+## Reel 62 · QUADRO · Pendurar um quadro
+Se você bate um prego na parede de tijolo furado, você não tem um quadro pendurado. Tem um quadro no chão. Porque o prego cai no oco do tijolo. Então você fura a parede e enfia um tubinho de plástico. O parafuso entra, abre o plástico e ele trava no furo. Essa é a bucha. Mas o quadro fica torto e te incomoda pra sempre. Então você usa uma bolha de ar num tubinho: bolha no meio, quadro reto. Esse é o nível. Parabéns! Você pendurou um quadro. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta QUADRO que eu te mando onde aprender.
+
+## Reel 63 · JANELA · Janela
+Se você abre um buraco na parede pra entrar luz, você não tem uma janela. Tem uma porta de entrada pra pernilongo. Então você fecha o buraco com vidro. A luz passa, o vento não. Mas o vidro solto treme e quebra. Então você prende ele numa moldura. Essa é a esquadria. Mas a chuva escorre pela janela e entra na parede. Então você coloca embaixo uma pedra inclinada pra fora. Esse é o peitoril. E pro pernilongo, uma tela fininha. Parabéns! Você construiu uma janela. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta JANELA que eu te mando onde aprender.
+
+## Reel 64 · CANETA · Caneta esferográfica
+Se você escreve com uma pena molhada no tinteiro, você não tem uma carta. Tem um borrão. Então você guarda a tinta num tubinho. Mas ela escorre toda pela ponta. Então você usa uma tinta bem grossa e tampa a ponta com uma bolinha de metal. Quando você escreve, a bolinha gira e espalha só uma camadinha de tinta no papel. Essa é a esfera. É por isso que ela se chama esferográfica. Coloque um corpo de plástico e uma tampa. Parabéns! Você construiu uma caneta. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta CANETA que eu te mando onde aprender.
+
+## Reel 65 · SOL · Aquecedor solar
+Se você deixa a mangueira no sol pra tomar banho quente, você não tem um banho. Tem um banho de cinco segundos. Então você passa a água por canos dentro de uma placa preta, que esquenta muito no sol. Esse é o coletor solar. E a água quente, mais leve, sobe sozinha pro alto. Mas de noite ela esfria. Então você guarda essa água numa caixa com parede isolada. Esse é o reservatório térmico. E pro dia nublado, uma resistência elétrica de reserva. Parabéns! Você construiu um aquecedor solar. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta SOL que eu te mando onde aprender.
+
+## Reel 66 · ORIGEM · Fósforo
+Se você tenta fazer fogo esfregando dois gravetos, você não tem uma fogueira. Tem uma bolha na mão. Então você cobre a ponta de um palito com uma massa que pega fogo com o atrito. Essa é a cabeça do fósforo. Mas ela acendia raspando em qualquer lugar, até no bolso. Então você tira um dos ingredientes do palito e coloca na lateral da caixa. Agora ele só acende ali. Esse é o fósforo de segurança. Parabéns! Você construiu um fósforo. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta ORIGEM que eu te mando onde aprender.
+
+## Reel 67 · POLVO · Aquário
+Se você coloca um peixinho num pote com água da torneira, você não tem um aquário. Tem um velório. Porque o cloro da água faz mal pro peixe. Então você pinga um líquido que neutraliza o cloro. Esse é o condicionador. Mas o oxigênio da água vai acabando. Então você coloca uma bomba que solta bolhinhas de ar. Esse é o aerador. Mas a sujeira vira veneno na água. Então você coloca um filtro que limpa tudo o tempo todo. Parabéns! Você construiu um aquário. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta POLVO que eu te mando onde aprender.
+
+## Reel 68 · LUA · Luneta
+Se você olha pra Lua a olho nu, você não vê crateras. Vê um queijo. Então você coloca uma lente grande na frente, que junta muito mais luz que o seu olho. Essa é a objetiva. Mas a imagem fica pequenininha. Então você põe uma segunda lente, perto do olho, que aumenta a imagem. Essa é a ocular. Mas a luz de fora atrapalha. Então você coloca tudo dentro de um tubo escuro. E pra imagem não tremer, um tripé. Parabéns! Você construiu uma luneta. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta LUA que eu te mando onde aprender.
+
+## Reel 69 · VIDEO · Vídeo
+Se você quer contar uma história com uma foto só, você não tem um filme. Tem um porta-retrato. Então você tira várias fotos, uma atrás da outra, e passa todas rápido. Umas vinte e quatro por segundo. O seu olho junta tudo e enxerga movimento. Esse é o quadro por segundo. Mas fica mudo. Então você grava o som junto. Mas aí você tem que gravar, aparecer e editar. Então você pula essa parte e deixa a IA criar as cenas. Parabéns! Você fez um vídeo sem câmera. Foi assim que eu fiz esse. Comenta VIDEO que eu te mando onde aprender.
+
+## Reel 70 · ESTILOS · Óculos de sol
+Se você sai no sol forte sem óculos, você não tem estilo. Tem uma careta. Então você coloca uma lente escura na frente dos olhos. Mas no escuro a sua pupila abre e entra ainda mais raio ultravioleta. Então você coloca na lente um filtro que bloqueia esse raio. Esse é o filtro UV. Mas o brilho da água e do asfalto ainda ofusca. Então você usa uma lente que barra a luz refletida. Essa é a lente polarizada. Parabéns! Você construiu um óculos de sol. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta ESTILOS que eu te mando onde aprender.
+
+## Reel 71 · SISTEMA · Semáforo
+Se dois carros chegam juntos num cruzamento, ninguém tem a preferência. Os dois têm um amassado. Então você coloca uma luz verde pra um lado e vermelha pro outro, trocando de tempos em tempos. Esse é o semáforo. Mas a luz troca de repente e ninguém consegue frear. Então você coloca uma luz amarela no meio, avisando que vai fechar. Mas o sinal fica vermelho mesmo sem ninguém vindo. Então você coloca um sensor no asfalto que percebe o carro esperando. Parabéns! Você construiu um semáforo. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta SISTEMA que eu te mando onde aprender.
+
+## Reel 72 · ROTEIRO · Teleprompter
+Se você grava um vídeo lendo o roteiro num papel, você não tem um apresentador. Tem um aluno colando na prova. Então você coloca um vidro inclinado na frente da câmera e uma tela embaixo dele. O texto reflete no vidro e você lê olhando pra lente. Essa câmera fica atrás do vidro e enxerga através dele. Esse é o teleprompter. Mas você ainda precisa aparecer, decorar e regravar. Então você deixa a IA narrar e animar o roteiro. Parabéns! Você fez um vídeo sem aparecer, igual a esse. Comenta ROTEIRO que eu te mando onde aprender.
+
+## Reel 73 · CANAL · Sifão
+Se você liga o cano da pia direto no esgoto, você não tem uma cozinha. Tem um cheiro. Porque o gás do esgoto sobe pelo cano. Então você faz uma curva em U embaixo da pia. Ela fica sempre com um pouco de água, que tampa a passagem do gás. Esse é o sifão. Mas quando a água desce com força, ela puxa a água do sifão junto. Então você coloca um cano subindo até o telhado, que deixa o ar entrar. Esse é o respiro. Parabéns! Você construiu um encanamento. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta CANAL que eu te mando onde aprender.
+
+## Reel 74 · DARK · Lanterna
+Se você levanta de madrugada e anda no escuro, você não chega no banheiro. Chega no pé da mesa. Então você liga uma luzinha numa pilha. Esse é o LED. Mas a luz se espalha pra todo lado e não ilumina nada direito. Então você coloca atrás dela uma conchinha espelhada, que junta a luz num feixe só pra frente. Esse é o refletor. Mas a pilha acaba no meio da noite. Então você coloca um botão pra desligar. Parabéns! Você construiu uma lanterna. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta DARK que eu te mando onde aprender.
+
+## Reel 75 · ANIMADO · Desenho animado
+Se você desenha um boneco e quer que ele ande, você não tem um desenho animado. Tem um desenho parado. Então você faz vários desenhos, cada um com o boneco um pouquinho mais pra frente. E passa as folhas bem rápido. O seu olho junta tudo e vê o boneco andando. Esse é o flip book. Mas pra um vídeo de um minuto você ia precisar de centenas de desenhos. Então você deixa a IA desenhar e animar pra você. Parabéns! Você fez um desenho animado, igual a esse. Comenta ANIMADO que eu te mando onde aprender.
+
+## Reel 76 · CURIOSO · Pipoqueira
+Se você joga milho numa panela quente e espera, você não tem pipoca. Tem um tiroteio na cozinha. Então você coloca uma tampa. Mas o milho do fundo queima e o de cima nem estoura. Então você coloca óleo, que espalha o calor por igual, e uma manivela que mexe os grãos. Lá dentro, a água do grão vira vapor e estoura a casca. Mas esse vapor deixa a pipoca murcha. Então você faz furinhos na tampa pra ele sair. Parabéns! Você construiu uma pipoqueira. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta CURIOSO que eu te mando onde aprender.
+
+## Reel 77 · SEGREDO · Cofre
+Se você esconde dinheiro debaixo do colchão, você não tem um esconderijo. Tem o primeiro lugar que o ladrão olha. Então você guarda numa caixa de aço grosso. Mas qualquer chave abre a caixa. Então você coloca uma fechadura de números, com discos lá dentro que só se alinham na combinação certa. Esse é o segredo do cofre. Mas o ladrão leva o cofre inteiro embora. Então você parafusa ele por dentro, direto no chão. Parabéns! Você construiu um cofre. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta SEGREDO que eu te mando onde aprender.
+
+## Reel 78 · PASSO · Escada
+Se você liga o primeiro andar ao segundo com uma rampa bem curtinha, você não tem uma subida. Tem um escorregador. Então você divide a subida em vários pedacinhos retos. Esses são os degraus. Mas se cada um tiver uma altura, você tropeça. Então você deixa todos do mesmo tamanho, pro seu pé decorar o passo. Mas no escuro, ou com pressa, você se desequilibra. Então você coloca uma barra pra segurar. Esse é o corrimão. Parabéns! Você construiu uma escada. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta PASSO que eu te mando onde aprender.
+
+## Reel 79 · QUERO · Despertador
+Se você confia que vai acordar sozinho, você não tem um compromisso. Tem um atraso. Então você liga uma campainha num relógio, que toca na hora marcada. Esse é o despertador. Mas você desliga dormindo e volta a dormir. Então você coloca um botão que só adia o toque por alguns minutos. Essa é a soneca. Mas você aperta a soneca dez vezes. Então você deixa o despertador do outro lado do quarto, pra ter que levantar. Parabéns! Você acordou. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta QUERO que eu te mando onde aprender.
+
+## Reel 80 · VÍDEO · Vídeo que prende
+Se o seu vídeo começa com "oi, gente, tudo bem?", você não tem um vídeo. Tem um vídeo pulado. Então você começa pela parte mais curiosa. Esse é o gancho. Mas muita gente assiste sem som. Então você coloca o texto na tela. Essa é a legenda. Mas a pessoa assiste e vai embora. Então você termina com um convite. Esse é o CTA. Mas gravar, aparecer e editar toma tempo. Então você deixa a IA fazer o vídeo animado. Parabéns! Você fez um vídeo que prende. Comenta VÍDEO que eu te mando onde aprender.
