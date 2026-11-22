@@ -34,29 +34,21 @@ O que é uma "brecha", as 3 condições para ela existir e por que levar para ou
 
 ---
 
-## Aplicação no nosso projeto (Reels @cicero.cf.ofcl)
+## Aplicação: canal dark no YouTube
 
-**1. O curso é de YouTube, mas a lógica vale para Reels.** No Reels quem faz o papel do título é o **gancho** (a 1ª frase falada + o texto na tela + a capa). As 5 peças devem estar no gancho.
+**Regra de produção:** nenhum vídeo nasce de título copiado ou traduzido. Todo título passa por **molde (5 peças) → troca do objeto e do medo → escolha de um dos 5 ângulos**.
 
-**2. Vários dos nossos temas são "assuntos com dono".** Furinho da janela do avião, furo da caneta, a caixa-preta é laranja, por que a cebola faz chorar, origem do OK: são curiosidades já exploradas por milhares de perfis. Pela aula, isso explica alcance baixo. Daqui em diante, cada tema clássico passa por um dos 5 ângulos antes de virar roteiro.
+**Como usar as 5 peças num canal dark:**
+- *Número alto*: listas de 15 a 30 itens seguram retenção e dão sensação de vídeo completo (bom para vídeos de 8 a 20 min).
+- *Autoridade emprestada*: médicos, policiais, engenheiros, enfermeiras, historiadores. O canal dark não tem rosto, então a autoridade emprestada substitui a do apresentador. **Não inventar citação**: "o que enfermeiras relatam", e não "a enfermeira Maria disse".
+- *Medo útil*: saúde, dinheiro, segurança, golpe, perda. Os nichos dark que mais rodam vivem disso.
 
-**3. Peças que hoje usamos pouco:**
-- *Número alto*: quase não usamos ("3 erros…", "4 passos" são números baixos).
-- *Autoridade emprestada*: não usamos. Ex.: "pilotos", "engenheiros", "a NASA". **A atribuição tem que ser verdadeira** (regra do CLAUDE.md: fatos reais, nada inventado).
-- *Medo útil*: quase não usamos. No nosso funil, o medo útil do comprador é "não ter tempo / ter vergonha de aparecer / ficar para trás com a IA".
+**Exemplo do método (do curso):** "25 esconderijos que ladrões nunca verificam" → "23 lugares que ladrões checam primeiro" (inverso) → "17 esconderijos para quem mora em apartamento" (público excluído).
 
-**4. Exemplos de tema vizinho (mesmo formato, porta nova):**
-- Clássico: "Por que a cebola faz chorar" →
-  - Inverso: "Por que a cebola gelada quase não faz chorar" (o frio deixa mais lenta a reação que solta o gás; o fato é real).
-  - Teste em 1ª pessoa: "Testei 4 truques pra não chorar cortando cebola; só um funciona de verdade" (óculos de natação bloqueiam o gás).
-- Para o nosso público comprador (canal dark / sem aparecer):
-  - Autoridade + segredo: "7 coisas que canais dark grandes nunca mostram no vídeo".
-  - Inverso: "Os 5 erros que fazem o Instagram esconder seu vídeo". Usar só o que for verificável, sem promessa de ganho.
-
-## Melhorias para a ferramenta (UMBRA / Intelligence)
-O UMBRA já tem `garimpo`, `extract_moldes`, `generate_titles` e `judge`, que batem com o passo a passo do curso. O que vale acrescentar:
-1. **Dissecador das 5 peças**: dado um título viral, marcar cada peça e dizer quais viajam e quais trocar.
-2. **Detector de assunto ocupado**: buscar cópias do mesmo título/tema e mostrar a "fila" (views do 1º, 2º, 3º…). Se já houver 3 ou mais cópias, avisar "assunto com dono".
-3. **Gerador de 5 ângulos**: para cada molde, gerar obrigatoriamente uma versão por ângulo (inverso, público excluído, teste em 1ª pessoa, outro medo, outro nicho).
-4. **Trava anti-tradução**: avisar quando o título gerado for tradução literal e sugerir a autoridade local equivalente.
-5. **Nota de recência**: priorizar no garimpo vídeos recentes com muitas views ("assunto em alta agora").
+## Melhorias para a ferramenta (UMBRA → YouTube Intelligence)
+O UMBRA já tem `yt_intelligence_garimpo`, `extract_moldes`, `generate_titles`, `judge` e a fila de produção, ou seja, o esqueleto do método. O que falta:
+1. **Dissecador das 5 peças**: no molde extraído, marcar número, objeto, segredo, autoridade e medo, e dizer quais trocar.
+2. **"Fila de copiadores"**: para cada outlier, buscar o mesmo título e mostrar as cópias em ordem de publicação, com as views de cada uma. Com 3 ou mais cópias fracas, marcar **assunto com dono**.
+3. **Gerador dos 5 ângulos obrigatórios**: cada molde gera um título por ângulo (inverso, público excluído, teste em 1ª pessoa, outro medo, outro nicho).
+4. **Trava anti-tradução**: reprovar o título gerado quando for tradução literal do original.
+5. **Peso de recência** no garimpo: views por dia desde a publicação, não views totais.

@@ -46,25 +46,29 @@ Próxima aula: o vídeo "fora da curva" (outlier) e onde ele nasce no YouTube.
 
 ---
 
-## Aplicação no nosso projeto
+## Aplicação: canal dark no YouTube
 
-**1. O nosso "outro país" é o caminho inverso.** O mercado de destino é fixo: Instagram em português do Brasil. A brecha de mercado para nós é **garimpar formatos que estão explodindo em inglês (e espanhol) no Reels/TikTok/Shorts e adaptar para o PT-BR**, em vez de garimpar só entre perfis brasileiros, que é onde os assuntos já têm dono.
+**Fluxo de cada vídeo do canal:**
+1. **Garimpar** outliers em inglês (o mercado que valida a demanda).
+2. **Dissecar** em 5 peças.
+3. **Mapear** quais ângulos estão vagos e quais idiomas têm só tradução literal ou nada.
+4. **Validar** pesquisando o título traduzido e o tema no idioma do canal: quem fez, quando, quantas views, se o canal é grande ou pequeno.
+5. **Ocupar** com título e roteiro **reescritos como nativos** (referências, autoridades e expressões locais).
 
-**2. Adaptar, não traduzir.** Usar referências brasileiras: Corpo de Bombeiros em vez de "firefighters", Ponte Rio–Niterói em vez de Golden Gate, real em vez de dólar, expressões faladas e não de legenda traduzida. O teste é ler em voz alta: se soar como dublagem, reescrever.
+**Escolha do idioma do canal (as 4 perguntas):**
+| Idioma | RPM | Concorrência | Teto de views |
+|---|---|---|---|
+| Inglês | Mais alto | Mais disputado | Maior |
+| Alemão / italiano / polonês | Bom | Menor | Menor |
+| Português | Mais baixo | Média, com muita tradução literal fraca (boa brecha de mercado) | Grande |
 
-**3. Trocar a pergunta 3 (RPM) por conversão.** Não vivemos de AdSense, vivemos de venda de afiliado (R$ 237,60 por venda). A pergunta passa a ser: **"quem assiste esse tema é quem compraria um curso de vídeo com IA?"** Um tema pode ter muito volume e público que não compra (ex.: curiosidade infantil) ou volume menor e público comprador (canal dark, renda com vídeo, criar conteúdo sem aparecer). O ideal é alternar: temas de alcance (curiosidade) para crescer e temas de comprador (bastidor, demonstração, canal dark) para vender.
+→ Se o canal é em português, o jogo é **brecha dupla a partir do inglês**: outlier gringo + ângulo novo + adaptação brasileira (SUS em vez de Medicare, real em vez de dólar, autoridade brasileira).
 
-**4. Checklist de brecha para cada Reel novo (antes do roteiro):**
-- [ ] Existe um vídeo de referência com views muito acima da média do perfil? (link + views)
-- [ ] Qual ângulo vago estamos usando? (inverso / público excluído / teste / outro medo / outro nicho)
-- [ ] Buscamos o tema em PT-BR no Instagram e no TikTok: quantos fizeram, com quantas views?
-- [ ] A referência é de outro idioma? Adaptamos referências e linguagem?
-- [ ] O público do tema compraria o curso?
-- [ ] A curiosidade é verdadeira? (fonte)
+**Encaixe cultural:** checar se o tema existe aqui (ex.: aposentadoria e INSS ≠ Social Security; inverno rigoroso não roda no Brasil).
 
-## Melhorias para a ferramenta (UMBRA / Intelligence)
-1. **Classificador 2×2**: para cada ideia, dizer em qual dos 4 caminhos ela está (cópia / mercado / ângulo / dupla) e alertar quando for "cópia".
-2. **Busca multi-idioma do mesmo tema**: pegar um outlier em inglês e procurar o tema em PT, ES, IT e DE, mostrando quem fez e com quantas views. Se a versão local for tradução literal com poucas views, sinalizar "brecha de mercado aberta".
-3. **Detector de "tradução robótica"**: comparar o título/roteiro gerado com a tradução literal da referência e reprovar se estiver parecido demais; pedir reescrita com referências locais.
-4. **Ficha das 4 perguntas** (volume, quem atende, RPM ou conversão, encaixe cultural), com nota e justificativa.
-5. **Fluxo de 5 etapas com retorno**: se a etapa Validar encontrar o espaço ocupado, voltar automaticamente ao Mapear e sugerir o próximo ângulo ou idioma.
+## Melhorias para a ferramenta (UMBRA → YouTube Intelligence)
+1. **Classificador 2×2** em cada ideia (cópia / mercado / ângulo / dupla), com alerta em "cópia".
+2. **Busca do mesmo tema em vários idiomas**: outlier em inglês → resultados em PT/ES/IT/DE/PL com views e data. Só traduções literais com poucas views = **brecha de mercado aberta**.
+3. **Ficha das 4 perguntas** com nota: volume, canal dominante, RPM estimado do idioma, encaixe cultural.
+4. **Detector de "tradução robótica"** no título e no roteiro, com reescrita usando referências locais.
+5. **Etapa Validar com retorno automático**: se o espaço estiver ocupado, sugerir o próximo ângulo ou idioma.
