@@ -22,6 +22,8 @@ Cada arquivo tem duas partes:
 
 **Banco de brechas (modelo + fichas já preenchidas):** [banco-de-brechas.md](banco-de-brechas.md)
 
+**Todas as funções para a ferramenta (48, por etapa do método):** [ferramenta-youtube-intelligence.md](ferramenta-youtube-intelligence.md)
+
 ## Método completo (módulos 1 e 2)
 1. **Garimpar** outliers (perfil de pesquisa por nicho, Populares, vídeos frescos, views/dia, canal pequeno).
 2. **Mapear o nicho** (vídeo × canal fora da curva, fila de cópias: cópia fraca = porta aberta).
