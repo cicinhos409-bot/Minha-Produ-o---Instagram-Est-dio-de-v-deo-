@@ -17,6 +17,9 @@ Cada arquivo tem duas partes:
 | [modulo-02-aula-02.md](modulo-02-aula-02.md) | M2 · A2 — Medir a procura | IA abre ângulos menores, números com fonte, Google Trends (assunto + pesquisa do YouTube), quem atende no YouTube. Catarata × hérnia. |
 | [modulo-02-aula-03.md](modulo-02-aula-03.md) | M2 · A3 — Quais outliers estudar | 3 tipos (destoa, canal em alta, novo subindo rápido), análise de capa + título com IA, descer do assunto para o hábito com dados reais. |
 | [modulo-02-aula-04.md](modulo-02-aula-04.md) | M2 · A4 (aula 7) — As 3 peças e o esqueleto | Identificação + promessa + autoridade; troca a identificação (hábito sem dono), varia o final; chegar primeiro no idioma. |
+| [modulo-02-aula-05.md](modulo-02-aula-05.md) | M2 · A5 (aula 8) — Banco de brechas | Um documento por nicho, prioridade por views/mês + dono não repetiu + cópia fraca, ficha de cada canal. |
+
+**Banco de brechas (modelo + fichas já preenchidas):** [banco-de-brechas.md](banco-de-brechas.md)
 
 ## Método até agora
 **Garimpar → Dissecar → Mapear → Validar → Ocupar.**
