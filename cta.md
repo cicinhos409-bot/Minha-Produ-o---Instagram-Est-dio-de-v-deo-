@@ -112,3 +112,26 @@
 98 PASSO — 🏃 Quer o passo a passo? Comenta PASSO que eu te mando no direct.
 99 QUERO — 🍲 Quer criar vídeos assim? Comenta QUERO que eu te mando no direct.
 100 VÍDEO — 🏭 Comenta VÍDEO que eu te mando no direct onde aprender a montar a sua fábrica de vídeos.
+
+# Rodada 6 · Reels 101 a 120 · modelados em virais gringos
+
+101 TURBINA — 🚗 Comenta TURBINA que eu te mando no direct onde aprender a fazer vídeos assim.
+102 QUADRO — 🖍️ Quer criar vídeos assim sem aparecer? Comenta QUADRO que eu te mando no direct.
+103 JANELA — ✈️ Comenta JANELA que eu te mando no direct onde aprender a criar vídeos assim.
+104 CANETA — 🖊️ Quer aprender a fazer vídeos assim? Comenta CANETA que eu te mando no direct.
+105 SOL — ☀️ Comenta SOL que eu te mando no direct onde aprender a fazer vídeos assim.
+106 ORIGEM — 🐕 Quer criar vídeos assim com IA? Comenta ORIGEM que eu te mando no direct.
+107 POLVO — 🦛 Comenta POLVO que eu te mando no direct onde aprender a criar vídeos assim.
+108 LUA — 🧑‍🚀 Quer fazer vídeos assim sem aparecer? Comenta LUA que eu te mando no direct.
+109 VIDEO — 💊 Comenta VIDEO que eu te mando no direct onde aprender a fazer vídeos animados.
+110 ESTILOS — 🌶️ Comenta ESTILOS que eu te mando no direct onde aprender a fazer vídeos assim.
+111 SISTEMA — 🔑 Quer criar vídeos assim? Comenta SISTEMA que eu te mando no direct.
+112 ROTEIRO — 🧵 Comenta ROTEIRO que eu te mando no direct onde aprender a transformar roteiro em vídeo.
+113 CANAL — 🛗 Quer fazer vídeos assim com IA? Comenta CANAL que eu te mando no direct.
+114 DARK — 🌑 Comenta DARK que eu te mando no direct onde aprender a criar vídeos sem aparecer.
+115 ANIMADO — 👏 Comenta ANIMADO que eu te mando no direct onde aprender a fazer os seus.
+116 CURIOSO — 🫁 Ficou curioso? Comenta CURIOSO que eu te mando no direct.
+117 SEGREDO — 🦶 Comenta SEGREDO que eu te conto no direct onde aprender a criar vídeos assim.
+118 PASSO — 🌊 Quer o passo a passo? Comenta PASSO que eu te mando no direct.
+119 QUERO — 😱 Quer criar vídeos assim? Comenta QUERO que eu te mando no direct.
+120 VÍDEO — 🪐 Comenta VÍDEO que eu te mando no direct onde aprender a fazer vídeos assim.

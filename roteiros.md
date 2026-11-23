@@ -323,3 +323,67 @@ Se você cozinha feijão em panela aberta, você não tem um almoço. Tem uma ja
 
 ## Reel 100 · VÍDEO · Uma fábrica de vídeos
 Se você acha que precisa de câmera, estúdio e editor pra postar todo dia, você não tem um perfil. Tem um plano que nunca sai do papel. Então você escreve frases curtas sobre algo curioso. Esse é o roteiro. Uma voz lê o texto. Essa é a narração. A IA monta cenas animadas em cima. Essa é a edição. E os vídeos ficam agendados de uma vez. Esse é o calendário. Parabéns! Você construiu uma fábrica de vídeos, igual à que fez esse aqui. Comenta VÍDEO que eu te mando onde aprender.
+
+# Rodada 6 · Reels 101 a 120 · Modelados em virais gringos (+1 mi de views)
+
+Base: `pesquisa-gringos.md`. Formatos: "E se…" (What if), "Como funciona" (How it works, corte 3D), "O que acontece no seu corpo" (animação médica 3D) e história real curta. Até 40 s, ponte + CTA no fim.
+
+## Reel 101 · TURBINA · Como o carro liga (ref.: @.dent.experts, 7 mi)
+Você gira a chave e o carro liga. Mas o motor não consegue começar sozinho. Quando você dá a partida, a bateria manda uma corrente forte pra uma peça chamada solenoide. Ela empurra uma engrenagem pequenininha até encaixar nos dentes do volante do motor. Aí um motor elétrico gira tudo isso com força, os pistões começam a se mexer e o combustível pega fogo. Pronto, o motor funciona sozinho, e a engrenagem volta pro lugar. Tudo isso em um segundo. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta TURBINA que eu te mando onde aprender.
+
+## Reel 102 · QUADRO · O quadro mágico (ref.: @zackdfilms, How An Etch A Sketch Works, 1,35 mi)
+Lembra daquele quadro mágico que você desenhava girando dois botões? Por dentro, o vidro está coberto de pó de alumínio. Atrás dele tem uma ponteira de metal presa em fios. Cada botão puxa os fios numa direção: um mexe pra os lados, o outro pra cima e pra baixo. Quando a ponteira passa, ela raspa o pó do vidro e aparece a linha escura. E quando você chacoalha, umas bolinhas lá dentro espalham o pó de novo e apagam tudo. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta QUADRO que eu te mando onde aprender.
+
+## Reel 103 · JANELA · A descarga do avião (ref.: formato "How it works" 3D)
+Do lado da sua janela, a 10 quilômetros de altura, tem um banheiro que quase não usa água. Quando você aperta o botão, uma válvula abre um cano ligado a um tanque. Lá fora, o ar é bem mais rarefeito que dentro da cabine. Essa diferença de pressão puxa tudo do vaso com aquele barulho forte. Em solo, uma bomba faz esse papel. Por isso o barulho assusta: é sucção, não água. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta JANELA que eu te mando onde aprender.
+
+## Reel 104 · CANETA · A caneta de clique (ref.: @mechanismous08, How a button works, 4,2 mi)
+Você clica uma vez, a ponta sai. Clica de novo, ela entra. Mas o botão é o mesmo. O segredo é uma pecinha com dentes inclinados lá dentro. Cada clique empurra essa peça pra baixo e os dentes fazem ela girar um pouquinho. Num giro, ela trava num degrau alto, e a ponta fica pra fora. No próximo clique, ela gira mais e cai num degrau baixo, e a mola puxa a ponta pra dentro. É um carrossel minúsculo. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta CANETA que eu te mando onde aprender.
+
+## Reel 105 · SOL · E se o Sol explodisse? (ref.: @lunarcheeseee, 18,9 mi)
+E se o Sol explodisse agora? Primeiro: ele não tem massa suficiente pra explodir. Mas vamos imaginar. Você não ia perceber nada por 8 minutos e 20 segundos, o tempo que a luz dele leva pra chegar aqui. Nem a Terra ia sentir: a gravidade também viaja na velocidade da luz. Então, de repente, o céu ficaria branco e uma onda de energia atingiria o planeta. Durante 8 minutos, todo mundo ia viver normalmente, sem saber. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta SOL que eu te mando onde aprender.
+
+## Reel 106 · ORIGEM · O cachorro que esperou 9 anos (ref.: formato história real 2D/3D)
+Todo fim de tarde, no Japão, um cachorro chamado Hachiko esperava o dono na estação de trem. Um dia, em 1925, o dono não voltou. Ele tinha morrido no trabalho. Mas o Hachiko continuou indo pra estação. Todo dia, no mesmo horário, por quase 10 anos. As pessoas começaram a levar comida pra ele. Virou notícia no país inteiro. Hoje tem uma estátua dele no lugar exato onde ele esperava, na estação de Shibuya. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta ORIGEM que eu te mando onde aprender.
+
+## Reel 107 · POLVO · O hipopótamo de estimação (ref.: @tempesty4, 7,7 mi)
+Um homem na África do Sul resgatou um filhote de hipopótamo de uma enchente. Deu o nome de Humphrey e criou como se fosse um filho. Nadava com ele no rio e até subia nas costas dele. Os amigos avisavam: é perigoso. Mas ele dizia que o Humphrey era manso. Com o tempo, o bicho cresceu e começou a atacar vizinhos e animais. Em 2011, ele foi nadar com o Humphrey e não voltou. Hipopótamo é um dos animais mais perigosos da África. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta POLVO que eu te mando onde aprender.
+
+## Reel 108 · LUA · E se você fosse pro espaço sem traje? (ref.: formato "What if" 3D)
+E se você saísse no espaço sem roupa espacial? Esquece o filme: você não ia explodir. Sua pele segura o corpo inteiro. Mas sem pressão, a água da sua língua começaria a ferver. O ar sairia dos pulmões, e você teria uns 15 segundos de consciência antes de desmaiar. Seu corpo incharia um pouco, mas não estouraria. Se alguém te puxasse de volta em menos de um minuto e meio, você provavelmente sobreviveria. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta LUA que eu te mando onde aprender.
+
+## Reel 109 · VIDEO · O caminho de um comprimido (ref.: @dr.healthnut.official, 6,9 mi)
+O que acontece depois que você engole um comprimido? Ele desce pelo esôfago e cai no estômago. Ali, a capinha se desmancha e o remédio começa a se dissolver. Ele segue pro intestino, onde a maior parte é absorvida pelo sangue. Mas antes de ir pro corpo, o sangue passa pelo fígado, que filtra uma parte do remédio. Só o que sobra chega onde dói. Por isso alguns remédios levam meia hora pra fazer efeito. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta VIDEO que eu te mando onde aprender.
+
+## Reel 110 · ESTILOS · Por que pimenta arde (ref.: @humanfoodlab03, 2 mi)
+O que acontece no seu corpo quando você come pimenta? A pimenta tem uma substância chamada capsaicina. Ela se encaixa nos sensores da sua língua que avisam quando algo está quente. Então o cérebro recebe o alarme: fogo! Mas não tem fogo nenhum. Sua boca não está queimando de verdade, só acha que está. Você sua, o nariz escorre, os olhos lacrimejam. E água espalha a capsaicina. O que ajuda é leite, que gruda nela e leva embora. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta ESTILOS que eu te mando onde aprender.
+
+## Reel 111 · SISTEMA · Como a chave abre a porta (ref.: formato "How it works" 3D)
+Como uma chave abre a fechadura? Dentro do cilindro tem uma fileira de pininhos, cada um cortado numa altura diferente, empurrados por molinhas. Sem a chave, os pinos atravessam a linha do cilindro e travam tudo. Quando você coloca a chave certa, cada dente levanta um pino na altura exata. Todos os cortes ficam alinhados numa linha só. Aí o cilindro gira, e a porta abre. A chave errada deixa pelo menos um pino no caminho. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta SISTEMA que eu te mando onde aprender.
+
+## Reel 112 · ROTEIRO · Como a máquina de costura costura (ref.: @yasirroghanii, 9,8 mi)
+Como a máquina de costura junta dois tecidos? A agulha tem o furo na ponta, não atrás. Ela desce e empurra a linha de cima por baixo do pano, formando uma alcinha. Lá embaixo, um gancho girando pega essa alcinha e dá a volta numa segunda linha, a da bobina. A agulha sobe, a linha aperta, e as duas ficam presas no meio do tecido. Uns dentinhos puxam o pano pra frente, e tudo se repete centenas de vezes por minuto. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta ROTEIRO que eu te mando onde aprender.
+
+## Reel 113 · CANAL · Por que o elevador não despenca (ref.: formato "How it works" 3D)
+E se o cabo do elevador arrebentar? Primeiro, ele não fica pendurado num cabo só: são vários, e cada um aguenta o peso sozinho. Do outro lado tem um contrapeso, que sobe quando o elevador desce. E nos trilhos tem um freio de segurança. Se a cabine descer rápido demais, ele trava nas guias. Foi esse freio que Elisha Otis demonstrou em 1853, cortando a corda do próprio elevador em público. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta CANAL que eu te mando onde aprender.
+
+## Reel 114 · DARK · O país que está sumindo (ref.: @kurzgesagt, 3,5 mi)
+Tem um país perdendo mais de meio milhão de pessoas por ano. É o Japão. Lá nascem cada vez menos bebês, e a população envelhece. Já tem cidades com casas abandonadas e escolas fechando por falta de crianças. Em várias regiões, tem mais idosos do que jovens pra trabalhar. E o Japão não está sozinho: Coreia do Sul, Itália e China seguem o mesmo caminho. O mundo passou décadas com medo de gente demais. Agora, alguns países têm o problema contrário. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta DARK que eu te mando onde aprender.
+
+## Reel 115 · ANIMADO · E se todo mundo batesse palma junto? (ref.: @thewhatifstudio, 2,6 mi)
+E se oito bilhões de pessoas batessem palma no mesmo segundo? Parece que ia ser um estrondo. Mas o som perde força rápido com a distância. Você só ia ouvir as pessoas perto de você, como uma plateia comum. O barulho de outro país nunca ia chegar até aqui. E como o som leva tempo pra viajar, nem as palmas da sua cidade iam chegar juntas. O maior aplauso da história ia soar… bem normal. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta ANIMADO que eu te mando onde aprender.
+
+## Reel 116 · CURIOSO · Prender a respiração (ref.: formato "inside your body" 3D)
+O que acontece quando você prende a respiração? A vontade de respirar não vem da falta de oxigênio. Vem do gás carbônico que vai se acumulando no sangue. O cérebro percebe e manda o diafragma se contrair, aqueles soquinhos no peito. Se você insistir, uma hora desmaia. E aí o corpo volta a respirar sozinho. Por isso ninguém consegue se sufocar só prendendo o ar: o cérebro desliga você pra te salvar. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta CURIOSO que eu te mando onde aprender.
+
+## Reel 117 · SEGREDO · O que o acelerador faz (ref.: @mechanic.pro0, 1,3 mi)
+Quando você pisa no acelerador, você não está jogando mais gasolina no motor. Você está deixando entrar mais ar. O pedal abre uma borboleta na entrada do motor. Mais ar entra, um sensor mede e o computador do carro injeta a gasolina na medida certa pra esse ar. Mais ar e mais combustível, explosões mais fortes, carro mais rápido. Soltou o pé, a borboleta fecha e o motor desacelera. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta SEGREDO que eu te mando onde aprender.
+
+## Reel 118 · PASSO · 76 dias perdido no mar (ref.: formato história real 3D, @zackdfilms)
+Em 1982, o barco de Steven Callahan afundou no meio do Atlântico. Ele sobrou num bote inflável, com pouca comida e pouca água. Pescava peixe com uma lança improvisada e bebia água de destiladores solares que tinha no kit. Tubarões batiam no bote à noite. O bote furou e ele remendou. Depois de 76 dias à deriva, foi achado por pescadores perto de uma ilha no Caribe. Ele perdeu um terço do peso, mas sobreviveu. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta PASSO que eu te mando onde aprender.
+
+## Reel 119 · QUERO · O que um susto faz no seu corpo (ref.: formato "inside your body" 3D)
+O que acontece no seu corpo quando alguém te dá um susto? Em menos de um segundo, o cérebro aperta o botão de emergência. As glândulas soltam adrenalina no sangue. O coração dispara, a respiração acelera e as pupilas dilatam pra ver melhor. O sangue corre pros músculos das pernas e dos braços, pronto pra lutar ou fugir. Por isso você pula antes mesmo de entender o que aconteceu. Seu corpo reage primeiro e pensa depois. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta QUERO que eu te mando onde aprender.
+
+## Reel 120 · VÍDEO · E se a Terra tivesse anéis? (ref.: formato "What if", @what_if_space)
+E se a Terra tivesse anéis como Saturno? Olhando pro céu, você veria uma faixa enorme e brilhante cruzando de um lado ao outro. Perto da linha do Equador, ela seria uma linha fina bem no alto. Mais longe, um arco gigante. À noite, os anéis refletiriam a luz do Sol e iluminariam tudo. E em parte do ano, a sombra deles cobriria regiões inteiras. Seria a paisagem mais bonita do planeta. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta VÍDEO que eu te mando onde aprender.

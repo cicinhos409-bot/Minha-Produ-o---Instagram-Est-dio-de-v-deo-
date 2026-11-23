@@ -1,0 +1,65 @@
+# Pesquisa de vídeos gringos (animação 3D/2D, inglês) — base da Rodada 6
+
+Critério: vídeos em inglês, animados (3D, 2D, motion), **acima de 1 milhão de views**. Fonte: UMBRA Instagram/TikTok Intelligence (dados de 23/11/2026).
+
+## Histórico de buscas
+| # | Plataforma | Busca / perfil | Resultado |
+|---|---|---|---|
+| 1 | IG (busca) | "3d animation how it works" | só perfil pequeno (@howitworks3danimation, 7 seguidores) — descartado |
+| 2 | IG (perfil) | @zackdfilms | 11,5 mi seguidores, média 1,85 mi views/Reel, 33 posts/semana — **referência principal** |
+| 3 | IG (perfil) | @animagraffs | 6,9 mil seguidores, máx. 9,7 mil views — descartado |
+| 4 | IG (perfil) | @kurzgesagt | 1,6 mi seguidores, média 590 mil; 1 Reel acima de 1 mi |
+| 5 | IG (perfil) | @theinfographicsshow | máx. 42 mil views no IG — descartado |
+
+## Vídeos acima de 1 milhão (Instagram)
+| Perfil | Título | Views | Formato / gancho |
+|---|---|---|---|
+| @zackdfilms | The Elephant That Walked Up To A Vet 😮 | 7,07 mi | 3D, história real curta |
+| @zackdfilms | Orangutan Nearly Drowns Getting Food 😥 | 2,09 mi | 3D, animal + perigo |
+| @zackdfilms | Dumping Yellowstone's Magma On NYC 🤯 | 2,03 mi | 3D, "e se" absurdo em escala |
+| @zackdfilms | Researcher Uses Ants To Make Yogurt 🤢 | 1,75 mi | 3D, curiosidade nojenta/real |
+| @zackdfilms | Ancestry DNA Exposed Grandma's Secret 😱 | 1,51 mi | 3D, história com reviravolta |
+| @zackdfilms | She Pretended To Be A 9/11 Survivor 🤨 | 1,41 mi | 3D, história real chocante |
+| @zackdfilms | How An Etch A Sketch Works 🤔 | 1,35 mi | 3D, "como funciona" objeto |
+| @zackdfilms | The New Android 🤖 (fiction) | 1,20 mi | 3D, ficção curta |
+| @kurzgesagt | Every two years, one million Japanese disappear… | 3,46 mi | 2D motion, dado chocante + pergunta |
+| 6 | TikTok (EUA, ≥1 mi) | "3d animation how it works" | 6 vídeos ≥1 mi (mecanismos e corpo humano em 3D) |
+| 7 | TikTok (EUA, ≥1 mi) | "what happens if animation" | 9 vídeos ≥1 mi — formato "What if" é o maior (até 24,9 mi) |
+| 8 | TikTok (EUA, ≥1 mi) | "what happens inside your body 3d" | 6 vídeos ≥1 mi (animação médica 3D) |
+| 9 | TikTok (EUA, ≥1 mi) | "how it works mechanism animation" | 7 vídeos ≥1 mi (máquina de costura 9,8 mi) |
+| 10 | TikTok (EUA, ≥1 mi) | "2d animation facts did you know" | 3 vídeos ≥1 mi (história explicada em 2D, 8,6 mi) |
+| 11 | TikTok (EUA, ≥1 mi) | "animal facts 3d animation" | 1 vídeo: Humphrey, o hipopótamo (7,7 mi) |
+| 12 | TikTok | Transcrições (ASR) | só o vídeo do Humphrey tinha legenda automática; os outros não |
+
+## Vídeos acima de 1 milhão (TikTok, EUA)
+| Perfil | Tema | Views | Formato |
+|---|---|---|---|
+| @simplysimulated | What if all women disappeared? | 24,9 mi | 3D "What if" |
+| @lunarcheeseee | What if the sun exploded? (8 min 20 s até a luz chegar) | 18,9 mi | 2D/3D "What if" |
+| @yasirroghanii | How a Sewing Machine Works | 9,8 mi | 3D mecanismo |
+| @explainedhistory9 | História explicada | 8,6 mi | 2D |
+| @tempesty4 | Humphrey, o hipopótamo de estimação (história real) | 7,7 mi | 3D história real |
+| @.dent.experts | How a Car Starter Circuit Works | 7,0 mi | 3D mecanismo |
+| @dr.healthnut.official | What happens after you swallow a pill | 6,9 mi | 3D médico |
+| @peanar3d | Duck floating (Blender) | 6,5 mi | 3D bastidor |
+| @aimechanicvibes | 1950 engine starting | 6,1 mi | 3D motor |
+| @asknursetabi | Pill inside your body | 5,2 mi | 3D médico |
+| @mechanismous08 | How a button works | 4,2 mi | 3D mecanismo |
+| @what_if_space | What if you zoomed in until your fingers touched | 4,2 mi | 3D "What if" |
+| @body.secrets.3d4 | What happens when you eat an onion | 3,9 mi | 3D médico |
+| @playthisanimation | What if every cat meowed at the same time | 3,3 mi | "What if" |
+| @thewhatifstudio | What if every human clapped at the same time | 2,6 mi | 3D "What if" |
+| @science.vitals | Eating rice inside the body | 2,3 mi | 3D médico |
+| @humanfoodlab03 | Eating red chili inside your body | 2,0 mi | 3D médico |
+| @depthdynamics | Shooting a gun backwards on a train | 1,7 mi | 3D física |
+| @mechanic.pro0 | How the accelerator pedal works | 1,3 mi | 3D corte |
+
+## Padrões que se repetem nos virais
+1. **"What if…" / "E se…"** em escala absurda (maior teto: 18–25 mi).
+2. **"How X works"** com corte 3D de objeto do dia a dia (máquina de costura, botão, motor de arranque, acelerador, Etch A Sketch).
+3. **"What happens inside your body when…"** com animação médica 3D (comprimido, cebola, pimenta).
+4. **História real curta com reviravolta** (Humphrey, histórias do @zackdfilms).
+5. Gancho na 1ª frase em forma de pergunta; 25–45 s; sem rosto; narração + animação.
+
+## Roteiros da Rodada 6 (Reels 101–120) baseados nesta pesquisa
+Ver `roteiros.md`, seção "Rodada 6". Cada roteiro adapta um formato/tema viral acima, reescrito em português com fatos verificados (não é tradução nem cópia do texto original).
