@@ -89,3 +89,26 @@
 78 PASSO — 🪜 Quer o passo a passo? Comenta PASSO que eu te mando no direct.
 79 QUERO — ⏰ Quer criar vídeos assim? Comenta QUERO que eu te mando no direct.
 80 VÍDEO — 🎯 Comenta VÍDEO que eu te mando no direct onde aprender a fazer vídeos que prendem.
+
+# Rodada 5 · Reels 81 a 100 · "Construa do zero" (até 40 s)
+
+81 TURBINA — 💨 Comenta TURBINA que eu te mando no direct onde aprender a fazer vídeos assim.
+82 QUADRO — 🖼️ Quer criar vídeos assim sem aparecer? Comenta QUADRO que eu te mando no direct.
+83 JANELA — 🪟 Comenta JANELA que eu te mando no direct onde aprender a criar vídeos assim.
+84 CANETA — ✏️ Quer aprender a fazer vídeos assim? Comenta CANETA que eu te mando no direct.
+85 SOL — ⛱️ Comenta SOL que eu te mando no direct onde aprender a fazer vídeos assim.
+86 ORIGEM — 🛞 Quer criar vídeos assim com IA? Comenta ORIGEM que eu te mando no direct.
+87 POLVO — 🐙 Comenta POLVO que eu te mando no direct onde aprender a criar vídeos assim.
+88 LUA — 🚀 Quer fazer vídeos assim sem aparecer? Comenta LUA que eu te mando no direct.
+89 VIDEO — 📅 Comenta VIDEO que eu te mando no direct onde aprender a postar todo dia sem aparecer.
+90 ESTILOS — 👟 Comenta ESTILOS que eu te mando no direct onde aprender a fazer vídeos assim.
+91 SISTEMA — 🚽 Quer criar vídeos assim? Comenta SISTEMA que eu te mando no direct.
+92 ROTEIRO — 📝 Comenta ROTEIRO que eu te mando no direct onde aprender a transformar roteiro em vídeo.
+93 CANAL — 🌧️ Quer fazer vídeos assim com IA? Comenta CANAL que eu te mando no direct.
+94 DARK — 🕯️ Comenta DARK que eu te mando no direct onde aprender a criar vídeos sem aparecer.
+95 ANIMADO — 🎨 Sem saber desenhar. Comenta ANIMADO que eu te mando no direct onde aprender.
+96 CURIOSO — 🧊 Ficou curioso? Comenta CURIOSO que eu te mando no direct.
+97 SEGREDO — 🤐 Comenta SEGREDO que eu te conto no direct onde aprender a criar vídeos assim.
+98 PASSO — 🏃 Quer o passo a passo? Comenta PASSO que eu te mando no direct.
+99 QUERO — 🍲 Quer criar vídeos assim? Comenta QUERO que eu te mando no direct.
+100 VÍDEO — 🏭 Comenta VÍDEO que eu te mando no direct onde aprender a montar a sua fábrica de vídeos.

@@ -123,8 +123,28 @@ Só estas 20 disparam a DM. Todo roteiro/legenda deve usar UMA delas no CTA ("Co
 | 78 | Construa uma escada | PASSO |
 | 79 | Construa um despertador | QUERO |
 | 80 | Construa um vídeo que prende | VÍDEO |
+| 81 | Construa um secador de cabelo | TURBINA |
+| 82 | Construa um porta-retrato | QUADRO |
+| 83 | Construa uma persiana | JANELA |
+| 84 | Construa um lápis | CANETA |
+| 85 | Construa um guarda-sol | SOL |
+| 86 | Construa uma roda | ORIGEM |
+| 87 | Construa um desentupidor | POLVO |
+| 88 | Construa um foguete | LUA |
+| 89 | Construa um perfil que posta todo dia | VIDEO |
+| 90 | Construa um tênis | ESTILOS |
+| 91 | Construa uma descarga | SISTEMA |
+| 92 | Construa um roteiro de 30 segundos | ROTEIRO |
+| 93 | Construa uma calha | CANAL |
+| 94 | Construa uma vela | DARK |
+| 95 | Construa um vídeo animado sem desenhar | ANIMADO |
+| 96 | Construa uma geladeira | CURIOSO |
+| 97 | Construa um zíper | SEGREDO |
+| 98 | Construa uma esteira | PASSO |
+| 99 | Construa uma panela de pressão | QUERO |
+| 100 | Uma fábrica de vídeos | VÍDEO |
 
-Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Rodadas 1 (Reels 01–20), 2 (21–40) e 3 (41–60), com roteiros e CTAs em `roteiros.md`/`cta.md`, usam as 20 palavras na mesma ordem. Rodada 4 (61–80): formato "Construa do zero" com gancho de duplo sentido ("Se você X, você não tem Y. Tem Z."), até 40 s (~95–105 palavras). A rodada 5 recomeça por TURBINA (Reel 81).
+Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Rodadas 1 (Reels 01–20), 2 (21–40) e 3 (41–60), com roteiros e CTAs em `roteiros.md`/`cta.md`, usam as 20 palavras na mesma ordem. Rodada 4 (61–80): formato "Construa do zero" com gancho de duplo sentido ("Se você X, você não tem Y. Tem Z."), até 40 s (~95–105 palavras). Rodada 5 (81–100): mesmo formato "Construa do zero". A rodada 6 recomeça por TURBINA (Reel 101).
 
 ## Fórmula de copy (modelada no "Santos - Editor das Sombras")
 1. 80% conteúdo real (absurdo, curiosidade, "e se", "você é um...", demonstração).

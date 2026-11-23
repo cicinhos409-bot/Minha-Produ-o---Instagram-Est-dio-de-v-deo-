@@ -259,3 +259,67 @@ Se você confia que vai acordar sozinho, você não tem um compromisso. Tem um a
 
 ## Reel 80 · VÍDEO · Vídeo que prende
 Se o seu vídeo começa com "oi, gente, tudo bem?", você não tem um vídeo. Tem um vídeo pulado. Então você começa pela parte mais curiosa. Esse é o gancho. Mas muita gente assiste sem som. Então você coloca o texto na tela. Essa é a legenda. Mas a pessoa assiste e vai embora. Então você termina com um convite. Esse é o CTA. Mas gravar, aparecer e editar toma tempo. Então você deixa a IA fazer o vídeo animado. Parabéns! Você fez um vídeo que prende. Comenta VÍDEO que eu te mando onde aprender.
+
+# Rodada 5 · Reels 81 a 100 · "Construa do zero" com duplo sentido (até 40 s)
+
+Mesma fórmula da rodada 4: gancho com duplo sentido ("Se você X, você não tem Y. Tem Z.") → "Então você…" + "Esse é o/a [nome]" → "Mas…" (novo problema), 2 ou 3 vezes → "Parabéns! Você construiu…" → ponte (IA, sem aparecer) + CTA. Alvo: 80 a 100 palavras.
+
+## Reel 81 · TURBINA · Secador de cabelo
+Se você seca o cabelo balançando a cabeça na janela, você não tem um cabelo seco. Tem um torcicolo. Então você coloca um motorzinho girando uma ventoinha dentro de um tubo. Ela puxa o ar por trás e sopra pela frente. Mas vento frio demora demais. Então você passa o ar por um fio enrolado que esquenta com a eletricidade. Essa é a resistência. Mas se o ar parar, ela superaquece. Então você coloca um sensor que desliga tudo quando esquenta demais. Parabéns! Você construiu um secador de cabelo. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta TURBINA que eu te mando onde aprender.
+
+## Reel 82 · QUADRO · Porta-retrato
+Se você cola a foto direto na parede com fita, você não tem uma decoração. Tem uma foto amarelada e com a ponta dobrada. Então você coloca a foto atrás de um vidro, pra proteger da poeira. Mas o vidro escorrega e a foto fica solta. Então você prende tudo numa borda firme. Essa é a moldura. Mas a foto fica colada no vidro e mancha. Então você coloca entre os dois uma borda de papel grosso. Esse é o paspatur. Parabéns! Você construiu um porta-retrato. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta QUADRO que eu te mando onde aprender.
+
+## Reel 83 · JANELA · Persiana
+Se você pendura um lençol na janela pra dormir até mais tarde, você não tem uma cortina. Tem um fantasma balançando no quarto. Então você corta várias tiras finas e pendura elas deitadas, uma embaixo da outra. Essas são as lâminas. Mas aí o quarto fica escuro o dia inteiro. Então você liga as lâminas num bastão: girou, elas inclinam e deixam a luz entrar. Mas e se você quiser a janela livre? Então você coloca um cordão que recolhe tudo pra cima. Parabéns! Você construiu uma persiana. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta JANELA que eu te mando onde aprender.
+
+## Reel 84 · CANETA · Lápis
+Se você escreve com um pedaço de carvão, você não tem um caderno. Tem a mão preta e o papel borrado. Então você usa grafite, que solta uma camadinha cinza no papel. Mas grafite puro quebra e borra. Então você mistura grafite com argila e assa. Mais argila, mais duro e mais claro. Essa é a mina. E não tem chumbo nenhum nela. Mas ela suja a mão do mesmo jeito. Então você coloca a mina dentro de um cilindro de madeira. Coloque uma borracha na ponta. Parabéns! Você construiu um lápis. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta CANETA que eu te mando onde aprender.
+
+## Reel 85 · SOL · Guarda-sol
+Se você vai pra praia sem sombra nenhuma, você não tem um dia de folga. Tem uma semana de pele descascando. Então você estica um pano grande acima da cabeça. Mas pano solto voa com o vento. Então você prende ele em varetas que abrem como um guarda-chuva gigante. Essa é a armação. Mas segurar isso o dia todo cansa. Então você coloca tudo num cano comprido, enfiado fundo na areia. Essa é a haste. E inclina pro lado do sol. Parabéns! Você construiu um guarda-sol. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta SOL que eu te mando onde aprender.
+
+## Reel 86 · ORIGEM · Roda
+Se você arrasta uma pedra pesada pelo chão, você não tem uma mudança. Tem uma hérnia. Então você coloca troncos embaixo da pedra e ela rola em cima deles. Mas você tem que ficar levando o tronco de trás pra frente o tempo todo. Então você corta um disco de madeira e faz um furo no meio. Essa é a roda. Mas o disco solto foge. Então você passa uma vara pelo furo e prende a carga nela. Esse é o eixo. Coloque uma roda de cada lado. Parabéns! Você construiu uma carroça. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta ORIGEM que eu te mando onde aprender.
+
+## Reel 87 · POLVO · Desentupidor
+Se a pia entope e você enfia a mão no ralo, você não tem uma pia limpa. Tem um pesadelo. Então você pega uma borracha em formato de cúpula e encaixa em cima do ralo. Essa é a ventosa, igual à do braço do polvo. Quando você empurra, a água é forçada pra baixo. Quando você puxa, ela é sugada pra cima. E esse vai e vem solta a sujeira presa. Mas apertar a borracha com a mão é nojento. Então você coloca um cabo comprido. Parabéns! Você construiu um desentupidor. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta POLVO que eu te mando onde aprender.
+
+## Reel 88 · LUA · Foguete
+Se você quer ir pro espaço pulando bem alto, você não tem uma viagem. Tem um tombo. Então você queima combustível dentro de um tubo e solta o gás por um buraco embaixo. O gás vai pra baixo e empurra o tubo pra cima. Esse é o motor. Mas ele precisa de muito combustível. Então você enche quase todo o corpo com tanques. Mas no caminho ele começa a rodopiar. Então você coloca umas asinhas na base. Essas são as aletas. Coloque uma ponta fina na frente. Parabéns! Você construiu um foguete. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta LUA que eu te mando onde aprender.
+
+## Reel 89 · VIDEO · Perfil que posta todo dia
+Se você só posta quando bate a inspiração, você não tem um perfil. Tem um perfil abandonado. Então você escolhe um tema e lista vinte ideias de uma vez. Esse é o calendário. Mas aí falta tempo pra gravar e editar. Então você escreve o roteiro e deixa a IA transformar em vídeo animado, sem câmera. Mas lembrar de postar todo dia é difícil. Então você agenda tudo de uma vez. E quando alguém comenta, a mensagem chega sozinha. Parabéns! Você construiu um perfil que posta todo dia. É assim que esse funciona. Comenta VIDEO que eu te mando onde aprender.
+
+## Reel 90 · ESTILOS · Tênis
+Se você corre descalço no asfalto, você não tem um treino. Tem uma bolha no pé. Então você prende uma placa de borracha embaixo do pé. Essa é a sola. Mas no chão molhado ela escorrega. Então você desenha sulcos na borracha, pra ela agarrar no chão. Mas cada passada bate no joelho. Então você coloca uma espuma macia entre a sola e o pé. Esse é o amortecimento. Feche com tecido e passe um cadarço. Parabéns! Você construiu um tênis. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta ESTILOS que eu te mando onde aprender.
+
+## Reel 91 · SISTEMA · Descarga
+Se você dá descarga jogando um balde de água no vaso, você não tem um banheiro. Tem uma academia. Então você coloca uma caixa cheia de água acima do vaso, com uma tampa no fundo. Você aperta, a tampa abre e a água desce de uma vez. Essa é a válvula. Mas aí a caixa fica vazia. Então você liga um cano pra encher de novo. Mas ele enche até transbordar. Então você coloca uma peça que flutua: subiu, fecha a água. Essa é a boia. Parabéns! Você construiu uma descarga. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta SISTEMA que eu te mando onde aprender.
+
+## Reel 92 · ROTEIRO · Roteiro de 30 segundos
+Se você começa o vídeo se apresentando, você não tem um roteiro. Tem um vídeo pulado no primeiro segundo. Então você abre com uma frase que gera curiosidade. Esse é o gancho. Mas se a explicação enrola, a pessoa sai. Então você explica uma coisa só, com frases curtas. Esse é o conteúdo. Mas o vídeo acaba e ninguém faz nada. Então você termina dizendo o que a pessoa deve fazer. Essa é a chamada. Junte tudo em umas oitenta palavras. Parabéns! Você construiu um roteiro de trinta segundos. A IA transforma ele em vídeo. Comenta ROTEIRO que eu te mando onde aprender.
+
+## Reel 93 · CANAL · Calha
+Se a chuva cai direto do telhado, você não tem uma casa protegida. Tem uma cachoeira na porta de entrada. Então você coloca na beira do telhado um canal comprido pra pegar a água. Essa é a calha. Mas a água fica parada dentro dela. Então você instala a calha levemente inclinada pra um lado. Mas no fim do canal a água despenca de novo. Então você liga um cano descendo pela parede até o chão. Esse é o condutor. Coloque uma tela pra segurar as folhas. Parabéns! Você construiu uma calha. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta CANAL que eu te mando onde aprender.
+
+## Reel 94 · DARK · Vela
+Se a luz acaba e você acende um pedaço de papel, você não tem iluminação. Tem cinco segundos de luz e um susto. Então você usa um bloco de cera, que queima devagar. Mas a cera não pega fogo sozinha. Então você enfia no meio um fio de algodão. Esse é o pavio. O fogo derrete a cera, ela sobe pelo fio como num canudo, vira vapor e queima. E a vela vai se consumindo bem devagar. Coloque num pires pra não pingar. Parabéns! Você construiu uma vela. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta DARK que eu te mando onde aprender.
+
+## Reel 95 · ANIMADO · Vídeo animado sem desenhar
+Se você acha que precisa saber desenhar pra fazer animação, você não tem um vídeo. Tem uma desculpa. Então você escreve o que quer contar, frase por frase. Esse é o roteiro. Mas texto parado não prende ninguém. Então você deixa a IA transformar cada frase numa cena animada. Mas vídeo mudo ninguém assiste. Então você coloca uma narração por cima. Essa é a voz. E a legenda aparece sozinha. Parabéns! Você construiu um vídeo animado, igual a esse, sem desenhar nada. Comenta ANIMADO que eu te mando onde aprender.
+
+## Reel 96 · CURIOSO · Geladeira
+Se você guarda a comida no armário, você não tem uma despensa. Tem uma coleção de fungos. Então você precisa tirar o calor de dentro de uma caixa fechada. Você passa um gás por canos lá dentro. Ele evapora e rouba o calor da comida. Esse é o evaporador. Mas o gás fica quente. Então você leva ele pra trás da geladeira, pra soltar esse calor no ar. Por isso atrás dela é quente. Esse é o condensador. E um motor bombeia o gás em círculo. Parabéns! Você construiu uma geladeira. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta CURIOSO que eu te mando onde aprender.
+
+## Reel 97 · SEGREDO · Zíper
+Se você fecha a jaqueta com dez botões, você não tem uma jaqueta. Tem cinco minutos de atraso. Então você costura duas fileiras de dentinhos, uma em cada lado. Esses são os dentes. Mas encaixar um por um com a mão é impossível. Então você faz uma pecinha em formato de Y que passa por cima das duas fileiras. Subiu, ela aperta e encaixa os dentes. Desceu, separa. Esse é o cursor. Coloque uma lingueta pra puxar. Parabéns! Você construiu um zíper. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta SEGREDO que eu te mando onde aprender.
+
+## Reel 98 · PASSO · Esteira
+Se você quer correr mas chove todo dia, você não tem um treino. Tem uma desculpa. Então você faz um chão que anda pra trás enquanto você anda pra frente. Você estica uma lona entre dois rolos. Essa é a esteira. Mas girar na mão não dá. Então você liga um motor num dos rolos. Mas aí só tem um ritmo. Então você coloca botões de velocidade e de subida. Essa é a inclinação. E uma trava que para tudo se você cair. Parabéns! Você construiu uma esteira. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta PASSO que eu te mando onde aprender.
+
+## Reel 99 · QUERO · Panela de pressão
+Se você cozinha feijão em panela aberta, você não tem um almoço. Tem uma janta. Porque a água ferve a cem graus e não passa disso. Então você fecha a panela com uma tampa bem presa. Mas o vapor escapa pela borda. Então você coloca um anel de borracha. Essa é a vedação. Preso lá dentro, o vapor aumenta a pressão e a água passa de cem graus. O feijão cozinha bem mais rápido. Mas pressão demais é perigoso. Então você coloca uma válvula que solta o excesso. Parabéns! Você construiu uma panela de pressão. Esse vídeo eu fiz no automático, com IA, sem aparecer. Comenta QUERO que eu te mando onde aprender.
+
+## Reel 100 · VÍDEO · Uma fábrica de vídeos
+Se você acha que precisa de câmera, estúdio e editor pra postar todo dia, você não tem um perfil. Tem um plano que nunca sai do papel. Então você escreve frases curtas sobre algo curioso. Esse é o roteiro. Uma voz lê o texto. Essa é a narração. A IA monta cenas animadas em cima. Essa é a edição. E os vídeos ficam agendados de uma vez. Esse é o calendário. Parabéns! Você construiu uma fábrica de vídeos. E esse é o centésimo que sai dela. Comenta VÍDEO que eu te mando onde aprender.
