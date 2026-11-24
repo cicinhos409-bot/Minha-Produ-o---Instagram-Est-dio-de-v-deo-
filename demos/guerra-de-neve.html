@@ -1,0 +1,758 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Guerra de Neve de Massinha</title>
+<style>
+html,body{margin:0;height:100%;overflow:hidden;background:#0b1020}
+canvas{display:block;width:100vw;height:100vh}
+#hud{position:fixed;left:12px;top:10px;font:600 14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;color:#fff;
+background:rgba(18,22,38,.42);padding:8px 12px;border-radius:12px;pointer-events:none;text-shadow:0 1px 2px #0009;max-width:60vw}
+#hud .r{color:#ff8a7e}#hud .b{color:#8ec2ff}#hud .m{color:#ffe08a;font-size:12px}
+</style>
+<script type="importmap">{"imports":{"three":"https://unpkg.com/three@0.160.0/build/three.module.js"}}</script>
+</head>
+<body>
+<div id="hud"></div>
+<script type="module">
+import * as THREE from 'three';
+
+/* ---------------- utilidades ---------------- */
+const V = THREE.Vector3, R = Math.random;
+const rnd = (a, b) => a + R() * (b - a);
+const pick = a => a[Math.floor(R() * a.length)];
+const clamp = THREE.MathUtils.clamp, lerp = THREE.MathUtils.lerp;
+const smooth = (a, b, x) => { const t = clamp((x - a) / (b - a), 0, 1); return t * t * (3 - 2 * t); };
+const G = 9.8;
+
+function h3(x, y, z) { const s = Math.sin(x * 127.1 + y * 311.7 + z * 74.7) * 43758.5453; return s - Math.floor(s); }
+function noise(x, y, z) {
+  const ix = Math.floor(x), iy = Math.floor(y), iz = Math.floor(z), fx = x - ix, fy = y - iy, fz = z - iz;
+  const u = fx * fx * (3 - 2 * fx), v = fy * fy * (3 - 2 * fy), w = fz * fz * (3 - 2 * fz);
+  let r = 0;
+  for (let a = 0; a < 2; a++) for (let b = 0; b < 2; b++) for (let c = 0; c < 2; c++)
+    r += h3(ix + a, iy + b, iz + c) * (a ? u : 1 - u) * (b ? v : 1 - v) * (c ? w : 1 - w);
+  return r * 2 - 1;
+}
+// deforma a geometria para parecer massinha moldada à mão (calombos suaves)
+function lump(geo, amp = 0.05, freq = 2.5) {
+  const p = geo.attributes.position, v = new V(), d = new V(), s = R() * 100;
+  for (let i = 0; i < p.count; i++) {
+    v.fromBufferAttribute(p, i); d.copy(v); const L = d.length() || 1; d.multiplyScalar(1 / L);
+    const n = noise(v.x * freq + s, v.y * freq, v.z * freq) + 0.45 * noise(v.x * freq * 2.7, v.y * freq * 2.7 + s, v.z * freq * 2.7);
+    v.addScaledVector(d, n * amp * L); p.setXYZ(i, v.x, v.y, v.z);
+  }
+  geo.computeVertexNormals(); return geo;
+}
+const matCache = {};
+function clay(c, em) {
+  const k = c + '|' + (em || '');
+  if (!matCache[k]) matCache[k] = new THREE.MeshStandardMaterial({ color: c, roughness: 0.94, metalness: 0, emissive: em || 0x000000 });
+  return matCache[k];
+}
+function at(m, x, y, z) { m.position.set(x, y, z); return m; }
+const shade = (c, f) => new THREE.Color(c).multiplyScalar(f).getHex();
+function blob(r, c, sx = 1, sy = 1, sz = 1, amp = 0.06, seg = 16) {
+  const m = new THREE.Mesh(lump(new THREE.SphereGeometry(r, seg, Math.max(6, Math.round(seg * 0.7))), amp, 2.2), clay(c));
+  m.scale.set(sx, sy, sz); m.castShadow = true; m.receiveShadow = true; return m;
+}
+function boxClay(w, h, d, c, amp = 0.03) {
+  const m = new THREE.Mesh(lump(new THREE.BoxGeometry(w, h, d, 5, 5, 5), amp, 1.3), clay(c));
+  m.castShadow = true; m.receiveShadow = true; return m;
+}
+
+/* ---------------- renderizador e cena ---------------- */
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.05;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+scene.fog = new THREE.Fog(0xcfd8e6, 45, 150);
+const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 500);
+
+const hemi = new THREE.HemisphereLight(0xdfe8ff, 0x8a8fa0, 0.9); scene.add(hemi);
+const sun = new THREE.DirectionalLight(0xfff0d8, 2.4);
+sun.castShadow = true; sun.shadow.mapSize.set(2048, 2048);
+Object.assign(sun.shadow.camera, { left: -32, right: 32, top: 32, bottom: -32, near: 1, far: 160 });
+sun.shadow.bias = -0.0004; sun.shadow.normalBias = 0.04;
+scene.add(sun, sun.target);
+
+// céu com degradê e brilho do sol
+const skyMat = new THREE.ShaderMaterial({
+  side: THREE.BackSide, depthWrite: false, fog: false,
+  uniforms: { top: { value: new THREE.Color() }, bot: { value: new THREE.Color() }, sunDir: { value: new V() }, sunCol: { value: new THREE.Color() } },
+  vertexShader: `varying vec3 vP;void main(){vP=normalize(position);gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}`,
+  fragmentShader: `uniform vec3 top,bot,sunCol,sunDir;varying vec3 vP;void main(){float h=clamp(vP.y*1.6+0.12,0.,1.);vec3 c=mix(bot,top,h);
+  float s=max(dot(normalize(vP),normalize(sunDir)),0.);c+=sunCol*(pow(s,90.)*1.1+pow(s,6.)*0.18);gl_FragColor=vec4(c,1.);}`
+});
+scene.add(new THREE.Mesh(new THREE.SphereGeometry(320, 32, 16), skyMat));
+
+/* ---------------- chão ---------------- */
+function groundY(x, z) {
+  const d = Math.hypot(x, z);
+  let y = noise(x * 0.08, 0, z * 0.08) * 0.5 + noise(x * 0.5, 1, z * 0.5) * 0.06;
+  if (d < 20) y *= 0.25;
+  return y + Math.max(0, d - 42) * 0.07;
+}
+{
+  const g = new THREE.PlaneGeometry(240, 240, 170, 170); g.rotateX(-Math.PI / 2);
+  const p = g.attributes.position;
+  for (let i = 0; i < p.count; i++) p.setY(i, groundY(p.getX(i), p.getZ(i)));
+  g.computeVertexNormals();
+  const ground = new THREE.Mesh(g, clay(0xf3f6fc)); ground.receiveShadow = true; scene.add(ground);
+}
+
+// pegadas e rastros (instanciados, reaproveitados em anel)
+const PRINTS = 1400;
+const printGeo = new THREE.CircleGeometry(0.1, 10); printGeo.rotateX(-Math.PI / 2);
+const prints = new THREE.InstancedMesh(printGeo, new THREE.MeshStandardMaterial({ color: 0xc3cde0, roughness: 1, polygonOffset: true, polygonOffsetFactor: -2 }), PRINTS);
+prints.count = 0; prints.receiveShadow = true; scene.add(prints);
+let pIdx = 0, pFill = 0; const dummy = new THREE.Object3D();
+function addPrint(x, z, yaw, sx = 1, sz = 1.7) {
+  dummy.position.set(x, groundY(x, z) + 0.025, z); dummy.rotation.set(0, yaw, 0); dummy.scale.set(sx, 1, sz); dummy.updateMatrix();
+  prints.setMatrixAt(pIdx, dummy.matrix); pIdx = (pIdx + 1) % PRINTS; pFill = Math.min(PRINTS, pFill + 1);
+  prints.count = pFill; prints.instanceMatrix.needsUpdate = true;
+}
+
+/* ---------------- partículas (fumaça, neve batida) ---------------- */
+const parts = []; const partGeo = lump(new THREE.SphereGeometry(1, 8, 6), 0.15, 2);
+function spawnPart(pos, vel, size, life, color = 0xffffff, grav = 0.35) {
+  if (parts.length > 650) { const o = parts.shift(); scene.remove(o.m); }
+  const m = new THREE.Mesh(partGeo, clay(color)); m.position.copy(pos); m.scale.setScalar(size); m.castShadow = true; scene.add(m);
+  parts.push({ m, v: vel, s: size, life, age: 0, grav });
+}
+function puff(pos, n = 10, s = 0.17, spread = 2.2) {
+  for (let i = 0; i < n; i++) spawnPart(pos, new V(rnd(-1, 1), rnd(0.2, 1.4), rnd(-1, 1)).multiplyScalar(spread), s * rnd(0.6, 1.4), rnd(0.5, 1.1));
+}
+function updateParts(dt) {
+  for (let i = parts.length - 1; i >= 0; i--) {
+    const p = parts[i]; p.age += dt;
+    if (p.age > p.life) { scene.remove(p.m); parts.splice(i, 1); continue; }
+    p.v.y -= G * p.grav * dt; p.m.position.addScaledVector(p.v, dt);
+    const gy = groundY(p.m.position.x, p.m.position.z);
+    if (p.m.position.y < gy) { p.m.position.y = gy; p.v.multiplyScalar(0.4); }
+    const k = p.age / p.life; p.m.scale.setScalar(p.s * (1 + k * 1.2) * (1 - k * k));
+  }
+}
+
+/* ---------------- vila: casas, chaminés, árvores, postes ---------------- */
+const winMat = new THREE.MeshStandardMaterial({ color: 0x3a3f55, roughness: 0.6, emissive: 0xffc46b, emissiveIntensity: 0 });
+const chimneys = [], trees = [], lampLights = [];
+const HOUSE_COLS = [0xc4553f, 0xe0b04f, 0x6d8fb3, 0x8fae6b, 0xb07aa8, 0xd98a5b, 0x7c9a9a];
+function house(x, z) {
+  const g = new THREE.Group(); g.position.set(x, groundY(x, z) - 0.1, z); g.lookAt(0, g.position.y, 0);
+  const w = rnd(3.2, 4.6), d = rnd(3, 4), h = rnd(2.4, 3.3), col = pick(HOUSE_COLS);
+  const body = boxClay(w, h, d, col); body.position.y = h / 2; g.add(body);
+  const roof = new THREE.Mesh(lump(new THREE.CylinderGeometry(d * 0.66, d * 0.66, w + 0.4, 3, 1), 0.04, 1.5), clay(0x7a4a3a));
+  roof.rotation.z = Math.PI / 2; roof.rotation.x = Math.PI / 6 * 0; roof.position.y = h + d * 0.22; roof.castShadow = true; g.add(roof);
+  const snowRoof = new THREE.Mesh(lump(new THREE.CylinderGeometry(d * 0.7, d * 0.7, w + 0.6, 3, 1, false, -0.55, 2.2), 0.06, 1.8), clay(0xffffff));
+  snowRoof.rotation.z = Math.PI / 2; snowRoof.position.y = h + d * 0.27; snowRoof.castShadow = true; g.add(snowRoof);
+  const ch = boxClay(0.5, 1.2, 0.5, 0x8b4b3c); ch.position.set(w * 0.25, h + d * 0.55, -d * 0.1); g.add(ch);
+  const cap = blob(0.32, 0xffffff, 1, 0.45, 1, 0.08, 10); cap.position.set(w * 0.25, h + d * 0.55 + 0.62, -d * 0.1); g.add(cap);
+  g.updateMatrixWorld(); chimneys.push(ch.localToWorld(new V(0, 0.7, 0)));
+  const door = boxClay(0.75, 1.3, 0.12, 0x5a3a2a); door.position.set(0, 0.65, d / 2 + 0.02); g.add(door);
+  for (const sx of [-1, 1]) {
+    const wn = new THREE.Mesh(lump(new THREE.BoxGeometry(0.7, 0.7, 0.1, 2, 2, 2), 0.02), winMat); wn.position.set(sx * w * 0.3, h * 0.6, d / 2 + 0.03); g.add(wn);
+    const sill = blob(0.25, 0xffffff, 1.7, 0.35, 0.6, 0.08, 8); sill.position.set(sx * w * 0.3, h * 0.6 - 0.42, d / 2 + 0.08); g.add(sill);
+  }
+  scene.add(g); return g;
+}
+const houses = [];
+for (let i = 0; i < 11; i++) {
+  const a = i / 11 * Math.PI * 2 + rnd(-0.12, 0.12), r = rnd(25, 33);
+  houses.push(new V(Math.cos(a) * r, 0, Math.sin(a) * r)); house(Math.cos(a) * r, Math.sin(a) * r);
+}
+function tree(x, z, s) {
+  const g = new THREE.Group(); g.position.set(x, groundY(x, z), z); g.scale.setScalar(s);
+  const trunk = new THREE.Mesh(lump(new THREE.CylinderGeometry(0.18, 0.24, 1, 8), 0.05), clay(0x6b4630)); trunk.position.y = 0.5; trunk.castShadow = true; g.add(trunk);
+  for (let k = 0; k < 3; k++) {
+    const rr = 1.5 - k * 0.38, y = 1.1 + k * 0.85;
+    const c = new THREE.Mesh(lump(new THREE.ConeGeometry(rr, 1.4, 9, 2), 0.07, 2), clay(k % 2 ? 0x2f6b47 : 0x2a5f40)); c.position.y = y; c.castShadow = true; g.add(c);
+    const sn = new THREE.Mesh(lump(new THREE.ConeGeometry(rr * 0.7, 0.6, 9, 1), 0.09, 2.5), clay(0xffffff)); sn.position.y = y + 0.42; sn.castShadow = true; g.add(sn);
+  }
+  scene.add(g); trees.push(g);
+}
+for (let i = 0; i < 34; i++) {
+  const a = R() * Math.PI * 2, r = rnd(17, 44), x = Math.cos(a) * r, z = Math.sin(a) * r;
+  if (houses.some(h => Math.hypot(h.x - x, h.z - z) < 4.5)) continue;
+  if (Math.abs(x) < 9 && Math.abs(z) < 14) continue;
+  tree(x, z, rnd(0.9, 1.6));
+}
+for (let i = 0; i < 6; i++) {
+  const a = i / 6 * Math.PI * 2 + 0.5, x = Math.cos(a) * 15.5, z = Math.sin(a) * 15.5;
+  const post = new THREE.Mesh(lump(new THREE.CylinderGeometry(0.08, 0.11, 3, 8), 0.04), clay(0x2d2f36)); post.position.set(x, groundY(x, z) + 1.5, z); post.castShadow = true; scene.add(post);
+  const bulb = new THREE.Mesh(new THREE.SphereGeometry(0.22, 12, 8), winMat); bulb.position.set(x, groundY(x, z) + 3.1, z); scene.add(bulb);
+  const hat = blob(0.3, 0xffffff, 1, 0.4, 1, 0.08, 8); hat.position.set(x, groundY(x, z) + 3.32, z); scene.add(hat);
+  if (i % 2 === 0) { const L = new THREE.PointLight(0xffc27a, 0, 14, 1.6); L.position.set(x, groundY(x, z) + 2.8, z); scene.add(L); lampLights.push(L); }
+}
+// boneco de neve que assiste
+const snowman = new THREE.Group(); { const x = 16, z = 6; snowman.position.set(x, groundY(x, z), z);
+  const b1 = blob(0.9, 0xffffff, 1, 0.92, 1, 0.07, 18); b1.position.y = 0.8; snowman.add(b1);
+  const b2 = blob(0.65, 0xffffff, 1, 0.95, 1, 0.07, 16); b2.position.y = 2.0; snowman.add(b2);
+  for (const s of [-1, 1]) { const arm = new THREE.Mesh(lump(new THREE.CylinderGeometry(0.04, 0.06, 1.3, 6), 0.1), clay(0x5a3b26)); arm.position.set(s * 0.95, 2.15, 0); arm.rotation.z = s * -1.0; arm.castShadow = true; snowman.add(arm); }
+  for (let k = 0; k < 3; k++) { const btn = blob(0.07, 0x222228, 1, 1, 0.6, 0, 8); btn.position.set(0, 1.75 + k * 0.25, 0.62); snowman.add(btn); }
+  const head = new THREE.Group(); head.position.y = 3.0; snowman.add(head); snowman.userData.head = head;
+  head.add(blob(0.48, 0xffffff, 1, 1, 1, 0.06, 16));
+  for (const s of [-1, 1]) { const e = blob(0.06, 0x18181c, 1, 1, 0.6, 0, 8); e.position.set(s * 0.17, 0.1, 0.43); head.add(e); }
+  const nose = new THREE.Mesh(lump(new THREE.ConeGeometry(0.08, 0.5, 8), 0.06), clay(0xf07b22)); nose.rotation.x = Math.PI / 2; nose.position.set(0, -0.02, 0.68); head.add(nose);
+  const hatB = new THREE.Mesh(lump(new THREE.CylinderGeometry(0.42, 0.42, 0.08, 14), 0.04), clay(0x1d1d24)); hatB.position.y = 0.42; head.add(hatB);
+  const hatT = new THREE.Mesh(lump(new THREE.CylinderGeometry(0.3, 0.3, 0.55, 14), 0.04), clay(0x1d1d24)); hatT.position.y = 0.7; hatT.castShadow = true; head.add(hatT);
+  const sc = new THREE.Mesh(lump(new THREE.TorusGeometry(0.42, 0.11, 8, 18), 0.06), clay(0x2f8f6b)); sc.rotation.x = Math.PI / 2; sc.position.y = 2.55; snowman.add(sc);
+  scene.add(snowman);
+}
+
+// neve caindo
+const FLAKES = 2600, flakeGeo = new THREE.BufferGeometry(), fp = new Float32Array(FLAKES * 3);
+for (let i = 0; i < FLAKES; i++) { fp[i * 3] = rnd(-45, 45); fp[i * 3 + 1] = rnd(0, 26); fp[i * 3 + 2] = rnd(-45, 45); }
+flakeGeo.setAttribute('position', new THREE.BufferAttribute(fp, 3));
+const flakes = new THREE.Points(flakeGeo, new THREE.PointsMaterial({ color: 0xffffff, size: 0.11, transparent: true, opacity: 0.9, depthWrite: false }));
+scene.add(flakes);
+
+/* ---------------- fortes de neve ---------------- */
+const TEAM_NAMES = ['Vermelho', 'Azul'];
+class Fort {
+  constructor(team) {
+    this.team = team; this.dir = team === 0 ? 1 : -1; this.z = team === 0 ? -9 : 9; this.wz = this.z + this.dir * 1.05;
+    this.bricks = [];
+    const add = (x, y, z, yaw) => {
+      const m = blob(0.5, 0xf2f5ff, 1, 0.55, 0.75, 0.06, 12);
+      m.position.set(x, groundY(x, z) + y, z); m.rotation.y = yaw + rnd(-0.08, 0.08); scene.add(m);
+      this.bricks.push({ mesh: m, active: true, grow: 1, base: m.scale.clone() });
+    };
+    for (let r = 0; r < 3; r++) for (let c = -6; c <= 6; c++) { const x = c * 0.98 + (r % 2 ? 0.49 : 0); if (Math.abs(x) > 6.2) continue; add(x, 0.28 + r * 0.52, this.wz, 0); }
+    for (const s of [-1, 1]) for (let r = 0; r < 3; r++) for (let j = 1; j <= 2; j++) add(s * 6.6, 0.28 + r * 0.52, this.wz - this.dir * (j * 0.85 - (r % 2 ? 0.4 : 0)), Math.PI / 2);
+    const flagPole = new THREE.Mesh(lump(new THREE.CylinderGeometry(0.05, 0.06, 3.2, 6), 0.05), clay(0x6b4630)); flagPole.position.set(0, groundY(0, this.z) + 1.6, this.z - this.dir * 1.6); flagPole.castShadow = true; scene.add(flagPole);
+    this.flag = blob(0.5, team ? 0x3a7bd5 : 0xd9483b, 1.4, 0.8, 0.12, 0.08, 10); this.flag.position.set(0.7, groundY(0, this.z) + 2.75, this.z - this.dir * 1.6); scene.add(this.flag);
+  }
+  activeFrac() { return this.bricks.filter(b => b.active).length / this.bricks.length; }
+  knock(br, v) {
+    br.active = false;
+    const p = br.mesh.position;
+    for (let i = 0; i < 6; i++) spawnPart(p, new V(rnd(-1.5, 1.5) + (v ? v.x * 0.15 : 0), rnd(1, 3.5), rnd(-1.5, 1.5) + (v ? v.z * 0.15 : 0)), rnd(0.12, 0.22), rnd(0.9, 1.6), 0xf2f5ff, 0.6);
+    puff(p, 6, 0.2, 1.4);
+  }
+  hitBrick(br, v) { if (R() < 0.6) this.knock(br, v); else puff(br.mesh.position, 5, 0.14, 1.3); }
+  smash(x, rad) { for (const br of this.bricks) if (br.active && Math.abs(br.mesh.position.x - x) < rad && Math.abs(br.mesh.position.z - this.wz) < 2.2) this.knock(br, new V(0, 2, this.dir * -4)); }
+  restore(br) { br.active = true; br.grow = 0; br.mesh.visible = true; puff(br.mesh.position, 4, 0.12, 0.9); }
+  reset() { for (const br of this.bricks) { br.active = true; br.grow = 1; br.mesh.visible = true; br.mesh.scale.copy(br.base); } }
+  update(dt) {
+    for (const br of this.bricks) {
+      if (!br.active) { if (br.mesh.visible) { br.mesh.scale.multiplyScalar(Math.max(0, 1 - dt * 7)); if (br.mesh.scale.x < 0.05) br.mesh.visible = false; } }
+      else if (br.grow < 1) { br.grow = Math.min(1, br.grow + dt * 1.6); const k = 1 + 2.7 * Math.pow(br.grow - 1, 3) + 1.7 * Math.pow(br.grow - 1, 2); br.mesh.scale.copy(br.base).multiplyScalar(Math.max(0.01, k)); }
+    }
+    this.flag.rotation.y = Math.sin(clockT * 3 + this.team) * 0.3;
+  }
+}
+const forts = [new Fort(0), new Fort(1)];
+
+/* ---------------- bolas de neve ---------------- */
+const balls = []; let thrown = 0, lastBall = null;
+const ballGeo = lump(new THREE.SphereGeometry(0.13, 12, 9), 0.09, 6);
+function makeBall() { const m = new THREE.Mesh(ballGeo, clay(0xffffff)); m.castShadow = true; scene.add(m); return m; }
+function launch(mesh, from, to, team, arc = 1, count = true) {
+  const d = to.clone().sub(from), dist = Math.hypot(d.x, d.z), T = (dist / 10.5 + 0.45) * arc;
+  const v = new V(d.x / T, (d.y + 0.5 * G * T * T) / T, d.z / T);
+  mesh.position.copy(from); const b = { mesh, v, team, age: 0, alive: true, dodged: new Set() };
+  balls.push(b); if (count) thrown++; lastBall = b; return b;
+}
+function killBall(b) { b.alive = false; scene.remove(b.mesh); }
+
+/* ---------------- crianças de massinha ---------------- */
+const TEAMC = [0xd9483b, 0x3a7bd5];
+const COATS = [0x5f6e8c, 0x8a6f5a, 0x4f7a62, 0x9b8a6a, 0x6a5a7c, 0x7d8c94, 0xb5875f, 0x55606e];
+const SKINS = [0xf2caa6, 0xdca57c, 0x9a6440, 0xffdcc4, 0xc98d64];
+const KID_FPS = 12; // animação "stop-motion"
+const tmp = new V(), tmp2 = new V();
+class Kid {
+  constructor(team, i) {
+    this.team = team; this.i = i; this.dir = team === 0 ? 1 : -1;
+    const g = this.root = new THREE.Group(); g.rotation.order = 'YXZ'; scene.add(g);
+    const coat = pick(COATS), skin = pick(SKINS), tc = TEAMC[team];
+    this.hips = new THREE.Group(); g.add(this.hips);
+    const torso = blob(0.3, coat, 1, 1.22, 0.92, 0.07, 16); torso.position.y = 0.32; this.hips.add(torso);
+    this.neck = new THREE.Group(); this.neck.position.y = 0.7; this.hips.add(this.neck);
+    this.neck.add(at(blob(0.24, skin, 1, 1, 1, 0.04, 18), 0, 0.2, 0));
+    for (const s of [-1, 1]) {
+      const e = blob(0.035, 0x1b1b22, 1, 1.25, 0.6, 0, 8); e.position.set(s * 0.085, 0.24, 0.215); this.neck.add(e);
+      const ck = blob(0.045, 0xf08a8a, 1, 0.7, 0.4, 0, 8); ck.position.set(s * 0.14, 0.15, 0.185); this.neck.add(ck);
+    }
+    const nose = blob(0.045, shade(skin, 0.95), 1, 1, 1.3, 0, 8); nose.position.set(0, 0.18, 0.245); this.neck.add(nose);
+    this.hat = new THREE.Group(); this.hat.position.y = 0.3; this.neck.add(this.hat);
+    const beanie = new THREE.Mesh(lump(new THREE.SphereGeometry(0.265, 16, 10, 0, Math.PI * 2, 0, Math.PI / 2), 0.05, 3), clay(tc)); beanie.scale.y = 1.12; beanie.castShadow = true; this.hat.add(beanie);
+    const rim = new THREE.Mesh(lump(new THREE.TorusGeometry(0.25, 0.06, 8, 20), 0.04, 3), clay(0xf5f0e6)); rim.rotation.x = Math.PI / 2; this.hat.add(rim);
+    const pom = blob(0.085, 0xf5f0e6, 1, 1, 1, 0.12, 10); pom.position.y = 0.31; this.hat.add(pom);
+    this.hatPos = this.hat.position.clone();
+    const sc = new THREE.Mesh(lump(new THREE.TorusGeometry(0.17, 0.075, 8, 18), 0.05, 3), clay(tc)); sc.rotation.x = Math.PI / 2; sc.position.y = 0.66; sc.castShadow = true; this.hips.add(sc);
+    const tail = blob(0.075, tc, 1, 2.2, 0.6, 0.05, 8); tail.position.set(0.11, 0.48, 0.22); tail.rotation.z = 0.25; this.hips.add(tail);
+    this.arms = [];
+    for (const s of [-1, 1]) {
+      const sh = new THREE.Group(); sh.position.set(s * 0.31, 0.55, 0); this.hips.add(sh);
+      const a = blob(0.1, coat, 1, 2.5, 1, 0.06, 10); a.position.y = -0.22; sh.add(a);
+      const mt = blob(0.095, tc, 1, 1, 1, 0.08, 10); mt.position.y = -0.47; sh.add(mt); sh.userData.hand = mt; this.arms.push(sh);
+    }
+    this.legs = [];
+    for (const s of [-1, 1]) {
+      const hp = new THREE.Group(); hp.position.set(s * 0.13, 0.05, 0); this.hips.add(hp);
+      const l = blob(0.11, 0x464b5e, 1, 2.2, 1, 0.05, 10); l.position.y = -0.22; hp.add(l);
+      const b = blob(0.11, 0x2b2a2e, 1, 0.8, 1.5, 0.05, 10); b.position.set(0, -0.47, 0.04); hp.add(b); this.legs.push(hp);
+    }
+    this.home = new V(); this.mode = 'ai'; this.ball = null; this.hatless = false; this.yaw = team === 0 ? 0 : Math.PI;
+    this.P = { crouch: 0, lean: 0, fall: 0, aL: [0, 0], aR: [0, 0], run: 0, jump: 0 };
+    this.walkAcc = 0; this.stepSide = 1;
+    this.setState('cover'); this.st = rnd(0, 2); this.dur = rnd(0.4, 2.5);
+  }
+  setState(s, dur) { this.state = s; this.st = 0; this.dur = dur || 0; this.released = false; }
+  walkTo(goal, after) { this.goal = goal.clone(); this.after = after; this.setState('walk'); }
+  goHome() { if (this.root.position.distanceTo(this.home) > 0.4) this.walkTo(this.home, () => this.setState('cover', rnd(0.4, 1.6))); else this.setState('cover', rnd(0.4, 1.6)); }
+  hand() { return this.arms[1].userData.hand.getWorldPosition(new V()); }
+  hitCenter() { return this.hips.getWorldPosition(tmp).add(tmp2.set(0, 0.62, 0)); }
+  dropBall() { if (this.ball) { scene.remove(this.ball); this.ball = null; } }
+  getHit() {
+    this.dropBall(); this.setState('hit'); puff(this.hitCenter().clone(), 12, 0.2, 2.2);
+  }
+  stealHat(dogMouth) { this.hatless = true; dogMouth.add(this.hat); this.hat.position.set(0, 0, 0); this.hat.rotation.set(0.5, 0, 0); }
+  giveHatBack() { if (!this.hatless) return; this.hatless = false; this.neck.add(this.hat); this.hat.position.copy(this.hatPos); this.hat.rotation.set(0, 0, 0); puff(this.hitCenter().clone().add(new V(0, 0.5, 0)), 5, 0.1, 0.8); }
+  chooseTarget() {
+    const enemy = 1 - this.team, f = forts[enemy];
+    const targets = kids.filter(k => k.team === enemy && k.state !== 'hit' && k.mode !== 'event');
+    if (targets.length && R() < 0.55) { const k = pick(targets); return k.hitCenter().clone().add(new V(rnd(-0.6, 0.6), rnd(-0.2, 0.5), rnd(-0.4, 0.4))); }
+    const live = f.bricks.filter(b => b.active);
+    if (live.length) return pick(live).mesh.position.clone().add(new V(rnd(-0.3, 0.3), rnd(0, 0.2), 0));
+    return new V(rnd(-5, 5), 1, f.z);
+  }
+  update(dt) {
+    this.st += dt; const q = Math.floor(this.st * KID_FPS) / KID_FPS; const P = this.P;
+    P.run = 0; P.jump = 0; P.fall = 0;
+    let faceYaw = this.team === 0 ? 0 : Math.PI;
+    const own = forts[this.team];
+    switch (this.state) {
+      case 'cover': {
+        P.crouch = 0.82; P.lean = 0.2; P.aL = [0.25, 0.15]; P.aR = [0.25, 0.15];
+        if ((q % 3.1) < 0.5) P.crouch = 0.45; // espiada
+        if (this.mode === 'ai' && this.st > this.dur) {
+          const holes = own.bricks.filter(b => !b.active && !b.claimed);
+          if (holes.length && R() < 0.22) {
+            const br = pick(holes); br.claimed = true; this.brick = br;
+            const p = br.mesh.position; this.walkTo(new V(p.x, 0, own.wz - this.dir * 0.75), () => this.setState('patch'));
+          } else this.setState('scoop');
+        }
+        break;
+      }
+      case 'scoop':
+        P.crouch = 1; P.lean = 0.85; P.aL = [-1.3, 0.1]; P.aR = [-1.3, 0.1];
+        if (this.st > 0.7) { const h = this.hand(); puff(new V(h.x, groundY(h.x, h.z), h.z), 3, 0.08, 0.6); this.setState('pack'); this.ball = makeBall(); }
+        break;
+      case 'pack':
+        P.crouch = 0.6; P.lean = 0.3; P.aL = [-1.1, -0.35 + Math.sin(q * 22) * 0.15]; P.aR = [-1.1, -0.35 - Math.sin(q * 22) * 0.15];
+        if (this.st > 0.6) { this.target = this.chooseTarget(); this.setState('throw'); }
+        break;
+      case 'throw':
+        if (this.st < 0.3) { P.crouch = 0.05; P.lean = -0.25; P.aR = [2.5, 0.25]; P.aL = [-0.8, 0.3]; }
+        else { P.crouch = 0.1; P.lean = 0.35; P.aR = [-1.25, 0.1]; P.aL = [0.4, 0.2];
+          if (!this.released && this.ball) { this.released = true; const b = this.ball; this.ball = null; launch(b, this.hand(), this.target, this.team, rnd(0.95, 1.2)); } }
+        if (this.st > 0.62) this.setState('cover', rnd(0.5, 2.2));
+        break;
+      case 'duck':
+        P.crouch = 1; P.lean = 0.55; P.aL = [-2.7, 0.4]; P.aR = [-2.7, 0.4];
+        if (this.st > 0.75) this.setState('cover', rnd(0.3, 1));
+        break;
+      case 'hit': {
+        const t = this.st;
+        P.fall = t < 0.35 ? t / 0.35 : t < 1.5 ? 1 : Math.max(0, 1 - (t - 1.5) / 0.7);
+        P.crouch = 0.2; P.lean = 0; const fl = Math.sin(q * 18) * 0.6 * (t < 0.6 ? 1 : 0);
+        P.aL = [-1.5 + fl, 1.0]; P.aR = [-1.5 - fl, 1.0];
+        if (t > 2.2) { if (this.mode === 'ai') this.goHome(); else this.setState('cover', 0.5); }
+        break;
+      }
+      case 'walk': {
+        P.run = 1; P.crouch = 0.12; P.lean = 0.18; P.aL = [0, 0.15]; P.aR = [0, 0.15];
+        const p = this.root.position, d = tmp.copy(this.goal).sub(p); d.y = 0; const L = d.length();
+        if (L < 0.12) { const a = this.after; this.after = null; if (a) a(); else this.setState('cover'); break; }
+        const sp = (this.speed || 3.6) * dt; p.addScaledVector(d, Math.min(1, sp / L));
+        faceYaw = Math.atan2(d.x, d.z);
+        this.walkAcc += sp; if (this.walkAcc > 0.36) { this.walkAcc = 0; this.stepSide *= -1; addPrint(p.x + Math.cos(faceYaw) * 0.12 * this.stepSide, p.z - Math.sin(faceYaw) * 0.12 * this.stepSide, faceYaw); }
+        break;
+      }
+      case 'patch':
+        P.crouch = 0.9; P.lean = 0.6; P.aL = [-1.4 + Math.sin(q * 12) * 0.3, 0.1]; P.aR = [-1.4 - Math.sin(q * 12) * 0.3, 0.1];
+        if (this.st > 1.4) { if (this.brick) { this.brick.claimed = false; if (!this.brick.active) own.restore(this.brick); this.brick = null; } this.goHome(); }
+        break;
+      case 'celebrate':
+        P.crouch = 0; P.lean = -0.1; P.jump = Math.abs(Math.sin(q * 7)) * 0.32; P.aL = [-2.9, 0.5]; P.aR = [-2.9, 0.5];
+        break;
+      case 'slump':
+        P.crouch = 0.5; P.lean = 0.65; P.aL = [0.1, 0.05]; P.aR = [0.1, 0.05];
+        break;
+      case 'push':
+        P.crouch = 0.45; P.lean = 0.75; P.aL = [-1.5, 0.2]; P.aR = [-1.5, 0.2]; P.run = 0.7;
+        break;
+      case 'ride':
+        P.crouch = 0.95; P.lean = 0.1; P.aL = [-0.8, 0.7]; P.aR = [-0.8, 0.7]; faceYaw = this.rideYaw ?? faceYaw;
+        break;
+      case 'hammer':
+        P.crouch = 0.55; P.lean = 0.5; P.aR = [-1.6 + Math.sin(q * 16) * 0.8, 0.1]; P.aL = [-1.0, 0.2];
+        break;
+      case 'shake':
+        P.crouch = 0; P.lean = -0.1; P.aR = [-2.6 + Math.sin(q * 20) * 0.4, 0.2]; P.aL = [0.2, 0.2]; faceYaw = this.lookYaw ?? faceYaw;
+        break;
+    }
+    if (this.state === 'push' || this.state === 'ride') faceYaw = this.rideYaw ?? faceYaw;
+    // gira suavemente para onde vai
+    let dy = faceYaw - this.yaw; dy = Math.atan2(Math.sin(dy), Math.cos(dy)); this.yaw += dy * Math.min(1, dt * 10);
+    this.root.rotation.y = this.yaw;
+    this.root.position.y = groundY(this.root.position.x, this.root.position.z);
+    this.applyPose(q);
+    if (this.ball) this.ball.position.copy(this.hand());
+  }
+  applyPose(q) {
+    const P = this.P;
+    this.hips.position.y = 0.55 - P.crouch * 0.28 + P.jump;
+    this.hips.rotation.x = P.lean * 0.9;
+    const sw = P.run ? Math.sin(q * 15) * 0.85 * P.run : 0;
+    this.legs[0].rotation.x = -P.crouch * 1.15 + sw; this.legs[1].rotation.x = -P.crouch * 1.15 - sw;
+    this.arms[0].rotation.z = P.aL[1];
+    this.arms[1].rotation.x = P.aR[0] + sw * 0.7; this.arms[1].rotation.z = -P.aR[1];
+    this.arms[0].rotation.x = P.aL[0] - sw * 0.7;
+    this.root.rotation.x = -P.fall * 1.45;
+  }
+}
+const kids = [];
+for (let t = 0; t < 2; t++) for (let i = 0; i < 7; i++) {
+  const k = new Kid(t, i); const f = forts[t];
+  k.home.set((i - 3) * 1.65 + rnd(-0.2, 0.2), 0, f.z + rnd(-0.2, 0.25)); k.root.position.copy(k.home); kids.push(k);
+}
+
+/* ---------------- cachorro ---------------- */
+function makeDog() {
+  const g = new THREE.Group(); const brown = 0x9b6a3c, dark = 0x5a3a22;
+  const body = blob(0.35, brown, 1, 0.8, 1.6, 0.07, 14); body.position.y = 0.6; g.add(body);
+  const head = new THREE.Group(); head.position.set(0, 0.95, 0.55); g.add(head);
+  head.add(blob(0.25, brown, 1, 0.95, 1, 0.05, 12));
+  const snout = blob(0.13, 0xc4925e, 1, 0.8, 1.3, 0.05, 10); snout.position.set(0, -0.05, 0.25); head.add(snout);
+  const nose = blob(0.05, 0x1b1b1f, 1, 0.8, 0.8, 0, 8); nose.position.set(0, 0, 0.42); head.add(nose);
+  for (const s of [-1, 1]) { const ear = blob(0.1, dark, 0.6, 1.5, 0.4, 0.05, 8); ear.position.set(s * 0.2, 0.12, -0.03); ear.rotation.z = s * 0.5; head.add(ear);
+    const e = blob(0.03, 0x111114, 1, 1, 0.6, 0, 6); e.position.set(s * 0.1, 0.08, 0.21); head.add(e); }
+  const mouth = new THREE.Group(); mouth.position.set(0, -0.1, 0.45); head.add(mouth);
+  const tail = blob(0.06, brown, 1, 3.2, 1, 0.05, 8); tail.position.set(0, 0.85, -0.55); tail.rotation.x = -0.6; g.add(tail);
+  const legs = [];
+  for (const [x, z] of [[-0.18, 0.35], [0.18, 0.35], [-0.18, -0.35], [0.18, -0.35]]) { const lg = new THREE.Group(); lg.position.set(x, 0.45, z); g.add(lg); const l = blob(0.08, dark, 1, 2.6, 1, 0.05, 8); l.position.y = -0.22; lg.add(l); legs.push(lg); }
+  scene.add(g); return { g, legs, tail, mouth, head };
+}
+
+/* ---------------- eventos da história ---------------- */
+let hits = [0, 0], round = 1, ev = null, nextEv = 7, banner = '', bannerT = 0, roundOver = false;
+function freeKids(team, n) {
+  const c = kids.filter(k => k.team === team && k.mode === 'ai' && k.state !== 'hit' && !k.hatless);
+  const out = []; while (out.length < n && c.length) out.push(c.splice(Math.floor(R() * c.length), 1)[0]);
+  out.forEach(k => { k.mode = 'event'; k.dropBall(); k.brick && (k.brick.claimed = false); }); return out;
+}
+function releaseKid(k) { k.mode = 'ai'; k.speed = null; k.rideYaw = null; k.goHome(); }
+function wallTarget(f) { const live = f.bricks.filter(b => b.active); return live.length ? pick(live).mesh.position.clone() : new V(rnd(-5, 5), 0.8, f.wz); }
+
+const EVENTS = {
+  giant(team) {
+    const f = forts[team], e = forts[1 - team]; const x = rnd(-3.5, 3.5);
+    const m = blob(1, 0xf6f8ff, 1, 1, 1, 0.07, 24); let r = 0.45; m.scale.setScalar(r);
+    m.position.set(x, r, f.wz + f.dir * 1.6); scene.add(m);
+    const ps = freeKids(team, 2); let phase = 0, t2 = 0, acc = 0;
+    ps.forEach((k, j) => { k.speed = 4; k.walkTo(new V(x + (j ? 0.5 : -0.5), 0, m.position.z - f.dir * (r + 0.5)), () => k.setState('push')); k.rideYaw = f.dir > 0 ? 0 : Math.PI; });
+    return {
+      name: `${TEAM_NAMES[team]} rola uma bola GIGANTE!`, focus: () => m.position,
+      update(dt) {
+        if (phase === 0) { t2 += dt; if (ps.every(k => k.state === 'push') || t2 > 8) phase = 1; return false; }
+        if (phase === 1) {
+          const sp = 2.0 * dt; m.position.z += f.dir * sp; r = Math.min(1.55, r + 0.14 * dt); m.scale.setScalar(r);
+          m.position.y = groundY(m.position.x, m.position.z) + r * 0.97; m.rotation.x += f.dir * sp / r;
+          ps.forEach((k, j) => { k.state = 'push'; k.root.position.set(m.position.x + (j ? 0.55 : -0.55), 0, m.position.z - f.dir * (r + 0.42)); });
+          acc += sp; if (acc > 0.3) { acc = 0; addPrint(m.position.x, m.position.z - f.dir * r * 0.5, 0, r * 4, 1.2); }
+          if (f.dir * (e.wz - m.position.z) < r + 0.15) {
+            e.smash(m.position.x, r + 1.2); puff(m.position, 26, 0.35, 4);
+            for (let i = 0; i < 10; i++) spawnPart(m.position, new V(rnd(-3, 3), rnd(2, 6), rnd(-3, 3)), rnd(0.25, 0.45), rnd(1, 2), 0xf6f8ff, 0.7);
+            scene.remove(m); ps.forEach(k => k.setState('celebrate')); phase = 2; t2 = 0;
+          }
+          return false;
+        }
+        t2 += dt; if (t2 > 1.8) { ps.forEach(releaseKid); return true; } return false;
+      }
+    };
+  },
+  catapult(team) {
+    const f = forts[team], e = forts[1 - team]; const side = pick([-1, 1]);
+    const base = new V(side * 9.6, 0, f.z + f.dir * 0.4);
+    const g = new THREE.Group(); g.position.set(base.x, groundY(base.x, base.z), base.z); g.rotation.y = team === 0 ? 0 : Math.PI; scene.add(g);
+    const wood = 0x8a5a34, partsL = [];
+    const add = (m) => { m.userData.s = m.scale.clone(); m.scale.setScalar(0.001); g.add(m); partsL.push(m); return m; };
+    add(at(blob(0.5, wood, 2.4, 0.3, 1.5, 0.05, 12), 0, 0.35, 0));
+    for (const [x, z] of [[-1, 0.6], [1, 0.6], [-1, -0.6], [1, -0.6]]) add(at(blob(0.28, 0x3b2b20, 0.45, 1, 1, 0.06, 12), x * 1.2, 0.28, z));
+    for (const s of [-1, 1]) add(at(blob(0.15, wood, 1, 5.5, 1, 0.05, 8), s * 0.5, 1.0, 0.1));
+    const armG = new THREE.Group(); armG.position.set(0, 1.35, 0.1); g.add(armG); armG.rotation.x = -0.35;
+    const arm = at(blob(0.13, wood, 1, 1, 12, 0.05, 8), 0, 0, -0.85); arm.userData.parentArm = true;
+    const cup = at(blob(0.32, 0x6b4630, 1, 0.5, 1, 0.06, 10), 0, 0.1, -1.8);
+    for (const m of [arm, cup]) { m.userData.s = m.scale.clone(); m.scale.setScalar(0.001); armG.add(m); partsL.push(m); }
+    const ks = freeKids(team, 2); let phase = 0, t2 = 0, shots = 0, revealed = 0, ammo = null;
+    ks.forEach((k, j) => { k.speed = 4; k.walkTo(new V(base.x + (j ? 1.4 : -1.4), 0, base.z - f.dir * 0.6), () => k.setState('hammer')); });
+    return {
+      name: `${TEAM_NAMES[team]} montou uma CATAPULTA!`, focus: () => g.position,
+      update(dt) {
+        t2 += dt;
+        if (phase === 0) { if (ks.every(k => k.state === 'hammer') || t2 > 8) { phase = 1; t2 = 0; } return false; }
+        if (phase === 1) {
+          while (revealed < partsL.length && t2 > revealed * 0.32) { partsL[revealed].userData.grow = 0; revealed++; puff(g.position.clone().add(new V(0, 1, 0)), 3, 0.1, 1); }
+          if (revealed >= partsL.length && t2 > revealed * 0.32 + 0.8) { phase = 2; t2 = 0; ks.forEach(k => k.setState('celebrate')); }
+        }
+        for (const m of partsL) if (m.userData.grow !== undefined && m.userData.grow < 1) { m.userData.grow = Math.min(1, m.userData.grow + dt * 3); m.scale.copy(m.userData.s).multiplyScalar(m.userData.grow); }
+        if (phase === 2) { // salva de tiros
+          const cyc = t2 % 1.1;
+          if (!ammo && cyc < 0.5) { ammo = []; for (let i = 0; i < 3; i++) { const b = makeBall(); b.scale.setScalar(1.4); ammo.push(b); } }
+          armG.rotation.x = cyc < 0.55 ? -0.35 : cyc < 0.75 ? lerp(-0.35, 1.9, (cyc - 0.55) / 0.2) : lerp(1.9, -0.35, (cyc - 0.75) / 0.35);
+          const cp = cup.getWorldPosition(new V());
+          if (ammo) ammo.forEach((b, i) => b.position.copy(cp).add(new V((i - 1) * 0.15, 0.15, 0)));
+          if (ammo && cyc > 0.68) { ammo.forEach(b => launch(b, cp.clone(), wallTarget(e).add(new V(rnd(-1, 1), 0, 0)), team, rnd(1.15, 1.35))); ammo = null; shots++; puff(cp, 4, 0.1, 1); }
+          if (shots >= 5 && cyc > 0.95) { phase = 3; t2 = 0; ks.forEach(releaseKid); }
+          return false;
+        }
+        if (phase === 3) { g.scale.setScalar(Math.max(0.001, 1 - t2 / 1.2)); if (t2 > 1.2) { puff(g.position.clone().add(new V(0, 0.6, 0)), 12, 0.25, 2); scene.remove(g); return true; } }
+        return false;
+      }
+    };
+  },
+  sled(team) {
+    const f = forts[team], e = forts[1 - team]; const sx = pick([-1, 1]);
+    const start = new V(sx * 13, 0, f.z + f.dir * 3), endP = new V(rnd(-3, 3), 0, e.wz - e.dir * 0.9);
+    const g = new THREE.Group(); scene.add(g);
+    g.add(at(blob(0.5, 0xc0392b, 1.0, 0.22, 2.0, 0.05, 12), 0, 0.32, 0));
+    for (const s of [-1, 1]) { const run = blob(0.06, 0x3a2a22, 1, 1, 18, 0.05, 6); run.position.set(s * 0.4, 0.1, 0); g.add(run);
+      const curl = blob(0.12, 0x3a2a22, 0.5, 1.2, 1, 0.05, 8); curl.position.set(s * 0.4, 0.25, 1.05); g.add(curl); }
+    g.position.set(start.x, groundY(start.x, start.z), start.z); g.visible = false;
+    const riders = freeKids(team, 2); let phase = 0, t2 = 0, acc = 0;
+    const dv = endP.clone().sub(start); dv.y = 0; dv.normalize(); const yaw = Math.atan2(dv.x, dv.z);
+    riders.forEach((k, j) => { k.speed = 4.2; k.walkTo(start.clone().add(new V(0, 0, -dv.z * 1.5 + j * 0.6)), () => k.setState('cover')); });
+    return {
+      name: `${TEAM_NAMES[team]}: ataque de TRENÓ!`, focus: () => g.visible ? g.position : riders[0].root.position,
+      update(dt) {
+        t2 += dt;
+        if (phase === 0) { if (riders.every(k => k.state !== 'walk') || t2 > 9) { phase = 1; t2 = 0; g.visible = true; g.rotation.y = yaw; } return false; }
+        if (phase === 1) {
+          const sp = Math.min(9, 2 + t2 * 5) * dt; g.position.addScaledVector(dv, sp); g.position.y = groundY(g.position.x, g.position.z);
+          riders.forEach((k, j) => { k.state = 'ride'; k.rideYaw = yaw; k.root.position.copy(g.position).addScaledVector(dv, 0.45 - j * 0.85); k.root.position.y += 0.25; });
+          acc += sp; if (acc > 0.25) { acc = 0; for (const s of [-1, 1]) addPrint(g.position.x + Math.cos(yaw) * 0.4 * s, g.position.z - Math.sin(yaw) * 0.4 * s, yaw, 0.5, 2.6); if (R() < 0.5) puff(g.position.clone().addScaledVector(dv, -1), 2, 0.12, 0.8); }
+          if (g.position.distanceTo(new V(endP.x, g.position.y, endP.z)) < 0.9) {
+            e.smash(g.position.x, 1.9); puff(g.position.clone().add(new V(0, 0.8, 0)), 24, 0.3, 3.5);
+            riders.forEach(k => { k.mode = 'ai'; k.rideYaw = null; k.root.position.y = 0; k.getHit(); }); phase = 2; t2 = 0;
+          }
+          return false;
+        }
+        g.position.addScaledVector(dv, dt * Math.max(0, 1.5 - t2)); g.rotation.z = Math.min(1.2, t2);
+        if (t2 > 2.5) { g.scale.setScalar(Math.max(0.001, 1 - (t2 - 2.5) / 0.8)); if (t2 > 3.3) { scene.remove(g); return true; } }
+        return false;
+      }
+    };
+  },
+  dog(team) {
+    const f = forts[team]; const cand = kids.filter(k => k.team === team && k.mode === 'ai' && k.state !== 'hit' && !k.hatless);
+    if (!cand.length) return null; const victim = pick(cand); victim.mode = 'event'; victim.dropBall();
+    const d = makeDog(); const sx = pick([-1, 1]); d.g.position.set(-sx * 30, groundY(-sx * 30, 0), rnd(-1, 1));
+    let phase = 0, t2 = 0, from = new V(), to = new V(); const exit = new V(sx * 32, 0, rnd(-1.5, 1.5));
+    const run = (goal, dt, speed = 7.5) => { const p = d.g.position, dd = goal.clone().sub(p); dd.y = 0; const L = dd.length(); d.g.rotation.y = Math.atan2(dd.x, dd.z); if (L < 0.25) return true; p.addScaledVector(dd, Math.min(1, speed * dt / L)); p.y = groundY(p.x, p.z); return false; };
+    const front = () => new V(victim.root.position.x, 0, f.wz + f.dir * 1.3);
+    return {
+      name: 'Um cachorro invadiu a guerra!', focus: () => d.g.position,
+      update(dt) {
+        t2 += dt; const q = Math.floor(t2 * 12) / 12;
+        d.legs.forEach((l, i) => l.rotation.x = Math.sin(q * 18 + (i % 2) * Math.PI + (i > 1 ? 1 : 0)) * 0.7);
+        d.tail.rotation.z = Math.sin(q * 25) * 0.6; d.g.children[0].position.y = 0.6 + Math.abs(Math.sin(q * 18)) * 0.06;
+        if (phase === 0) { if (run(front(), dt)) { phase = 1; t2 = 0; from.copy(d.g.position); to.copy(victim.root.position).add(new V(0, 0, f.dir * 0.5)); } return false; }
+        if (phase === 1) { const k = Math.min(1, t2 / 0.6); d.g.position.lerpVectors(from, to, k); d.g.position.y = groundY(d.g.position.x, d.g.position.z) + Math.sin(k * Math.PI) * 1.5; d.g.rotation.y = Math.atan2(to.x - from.x, to.z - from.z);
+          if (k >= 1) { victim.stealHat(d.mouth); victim.lookYaw = Math.atan2(sx, 0); victim.setState('shake'); phase = 2; t2 = 0; from.copy(d.g.position); to.copy(front()); } return false; }
+        if (phase === 2) { const k = Math.min(1, t2 / 0.6); d.g.position.lerpVectors(from, to, k); d.g.position.y = groundY(d.g.position.x, d.g.position.z) + Math.sin(k * Math.PI) * 1.5; d.g.rotation.y = Math.atan2(to.x - from.x, to.z - from.z);
+          if (k >= 1) { phase = 3; t2 = 0; victim.speed = 4.5; victim.walkTo(new V(victim.root.position.x + sx * 3, 0, f.wz + f.dir * 2.2), () => { victim.lookYaw = Math.atan2(sx, 0); victim.setState('shake'); }); } return false; }
+        if (phase === 3) { if (run(exit, dt, 8.5)) { scene.remove(d.g); phase = 4; t2 = 0; } return false; }
+        if (phase === 4 && t2 > 1.2) { releaseKid(victim); victim.hatTimer = 10; return true; }
+        return false;
+      }
+    };
+  },
+  storm(team) {
+    const f = forts[team], e = forts[1 - team];
+    const att = kids.filter(k => k.team === team && k.mode === 'ai');
+    att.forEach(k => { k.mode = 'event'; k.dropBall(); if (k.state === 'hit') k.st = 2.2; k.speed = rnd(4.2, 5.2);
+      k.walkTo(new V(k.home.x * 0.85 + rnd(-0.4, 0.4), 0, e.wz - e.dir * 0.35), () => k.setState('celebrate')); });
+    let phase = 0, t2 = 0;
+    return {
+      name: `${TEAM_NAMES[team]} INVADE o forte ${TEAM_NAMES[1 - team].toLowerCase()}!`, focus: () => new V(0, 1, e.z * 0.7),
+      update(dt) {
+        t2 += dt;
+        if (phase === 0) {
+          const arrived = att.filter(k => k.state === 'celebrate').length;
+          if (arrived >= Math.ceil(att.length * 0.6) || t2 > 14) {
+            phase = 1; t2 = 0; roundOver = true;
+            kids.filter(k => k.team !== team).forEach(k => { k.mode = 'event'; k.dropBall(); k.setState('slump'); });
+            e.flag.material = clay(TEAMC[team]); puff(e.flag.position, 14, 0.2, 2);
+            banner = `Forte ${TEAM_NAMES[1 - team].toLowerCase()} tomado! Vitória do ${TEAM_NAMES[team]}. Nova batalha em instantes…`; bannerT = 5;
+          }
+          return false;
+        }
+        if (t2 > 5) { newRound(); return true; } return false;
+      }
+    };
+  }
+};
+function startEvent(forced) {
+  let type = forced;
+  if (!type) {
+    const opts = ['giant', 'catapult', 'sled', 'dog'];
+    if (Math.abs(hits[0] - hits[1]) >= 6 || forts.some(f => f.activeFrac() < 0.6)) opts.push('storm');
+    type = pick(opts);
+  }
+  let team = R() < 0.5 ? 0 : 1;
+  if (type === 'storm') team = forts[0].activeFrac() < forts[1].activeFrac() ? 1 : forts[1].activeFrac() < forts[0].activeFrac() ? 0 : (hits[0] >= hits[1] ? 0 : 1);
+  const e = EVENTS[type](team); if (!e) return;
+  ev = e; ev.type = type; banner = e.name; bannerT = 3.5; cutTo('event');
+}
+function newRound() {
+  round++; hits = [0, 0]; roundOver = false; ev = null; nextEv = rnd(7, 11);
+  for (const b of balls) if (b.alive) killBall(b); balls.length = 0;
+  forts.forEach((f, i) => { f.reset(); f.flag.material = clay(TEAMC[i]); });
+  kids.forEach(k => { k.dropBall(); k.giveHatBack(); k.mode = 'ai'; k.speed = null; k.rideYaw = null; k.root.position.copy(k.home); k.setState('cover', rnd(0.2, 2)); });
+  banner = `Rodada ${round}: a guerra recomeça!`; bannerT = 3;
+  cutTo('wide');
+}
+
+/* ---------------- câmera de cinema ---------------- */
+let shot = null; const camPos = new V(0, 12, 28), camLook = new V();
+function cutTo(type) {
+  if (type === 'follow' && !(lastBall && lastBall.alive)) type = 'wide';
+  if (type === 'event' && !ev) type = 'wide';
+  shot = { type, t: 0, dur: rnd(3, 5), a: R() * Math.PI * 2, s: R() < 0.5 ? 1 : -1, seed: R(), kid: pick(kids), fort: pick(forts), ball: lastBall, snap: true };
+}
+function chooseShot() {
+  if (ev && !roundOver && R() < 0.55) return cutTo('event');
+  if (roundOver) return cutTo(R() < 0.5 ? 'wide' : 'event');
+  const r = R();
+  if (r < 0.26 && lastBall && lastBall.alive && lastBall.age < 0.5) cutTo('follow');
+  else if (r < 0.46) cutTo('low');
+  else if (r < 0.64) cutTo('kid');
+  else if (r < 0.9) cutTo('wide');
+  else cutTo('village');
+}
+function updateCamera(dt) {
+  if (!shot) cutTo('wide');
+  shot.t += dt; const t = shot.t, s = shot.s; const pos = new V(), look = new V();
+  switch (shot.type) {
+    case 'wide': { const z = (shot.seed - 0.5) * 18 + t * 0.5 * s; pos.set(s * 24, 9.5 + Math.sin(t * 0.3), z); look.set(0, 0.8, z * 0.3); break; }
+    case 'follow': { const b = shot.ball; if (b && b.alive) { const dv = new V(b.v.x, 0, b.v.z).normalize(); pos.copy(b.mesh.position).addScaledVector(dv, -3.6).add(new V(s * 0.8, 1.3, 0)); look.copy(b.mesh.position).addScaledVector(dv, 2.5); look.y = b.mesh.position.y * 0.55; shot.last = { p: pos.clone(), l: look.clone() }; } else if (shot.last) { pos.copy(shot.last.p); look.copy(shot.last.l); if (!shot.dead) { shot.dead = t; } if (t - shot.dead > 0.9) shot.dur = 0; } break; }
+    case 'low': { const f = shot.fort, x = (shot.seed - 0.5) * 8 + Math.sin(t * 0.4) * 0.6; pos.set(x, 0.75, f.z - f.dir * 3.0); look.set(x * 0.4, 1.5, f.z + f.dir * 14); break; }
+    case 'kid': { const k = shot.kid, hp = k.root.position; pos.set(hp.x + s * 1.7, hp.y + 1.65, hp.z - k.dir * 2.1); look.set(hp.x - s * 0.4, hp.y + 1.1, hp.z + k.dir * 4); break; }
+    case 'event': { const fc = ev ? ev.focus() : new V(); const ang = shot.a + t * 0.18; pos.set(fc.x + Math.cos(ang) * 8.5, fc.y + 4.2, fc.z + Math.sin(ang) * 8.5); look.copy(fc).add(new V(0, 0.8, 0)); break; }
+    case 'village': { const ang = shot.a + t * 0.05; pos.set(Math.cos(ang) * 42, 8.5, Math.sin(ang) * 42); look.set(0, 2.2, 0); break; }
+  }
+  pos.y = Math.max(pos.y, groundY(pos.x, pos.z) + 0.45);
+  if (shot.snap) { camPos.copy(pos); camLook.copy(look); shot.snap = false; }
+  else { const k = 1 - Math.exp(-dt * (shot.type === 'follow' ? 12 : 5)); camPos.lerp(pos, k); camLook.lerp(look, k); }
+  camera.position.copy(camPos); camera.lookAt(camLook);
+  if (t > shot.dur) chooseShot();
+}
+
+/* ---------------- dia → pôr do sol → noite ---------------- */
+const cDayTop = new THREE.Color(0x5f9be0), cDayBot = new THREE.Color(0xdbe7f5), cSetTop = new THREE.Color(0x384a8f), cSetBot = new THREE.Color(0xff9a5c), cNightTop = new THREE.Color(0x0a1230), cNightBot = new THREE.Color(0x283158);
+const sunWarm = new THREE.Color(0xff8a3d), sunDay = new THREE.Color(0xfff2dc);
+function updateSky(t) {
+  const phase = ((t / 300 - 0.03) % 1 + 1) % 1; const elev = 0.55 * Math.cos(phase * Math.PI * 2) + 0.12;
+  const dayK = smooth(-0.05, 0.45, elev), setK = 1 - Math.abs(clamp((elev - 0.05) / 0.3, -1, 1)), night = smooth(0.12, -0.15, elev);
+  const top = cNightTop.clone().lerp(cSetTop, smooth(-0.25, 0.05, elev)).lerp(cDayTop, dayK);
+  const bot = cNightBot.clone().lerp(cSetBot, smooth(-0.25, 0.05, elev)).lerp(cDayBot, dayK);
+  skyMat.uniforms.top.value.copy(top); skyMat.uniforms.bot.value.copy(bot);
+  const az = phase * Math.PI * 2 + 0.6; const dir = new V(Math.cos(az) * Math.cos(Math.asin(clamp(elev, -1, 1))), elev, Math.sin(az) * 0.4 + 0.6).normalize();
+  skyMat.uniforms.sunDir.value.copy(dir); skyMat.uniforms.sunCol.value.copy(sunWarm.clone().lerp(sunDay, dayK)).multiplyScalar(clamp(elev + 0.2, 0, 1));
+  sun.position.copy(dir).multiplyScalar(70); sun.target.position.set(0, 0, 0);
+  sun.intensity = clamp(elev + 0.08, 0, 1) * 2.8; sun.color.copy(sunWarm).lerp(sunDay, dayK);
+  hemi.intensity = 0.55 + 0.5 * clamp(elev + 0.35, 0, 1); hemi.color.copy(new THREE.Color(0x6a7bb0).lerp(new THREE.Color(0xdfe8ff), dayK));
+  scene.fog.color.copy(bot).lerp(top, 0.25);
+  winMat.emissiveIntensity = night * 2.2; lampLights.forEach(L => L.intensity = night * 9);
+}
+
+/* ---------------- HUD ---------------- */
+const hud = document.getElementById('hud'); let hudTxt = '';
+function updateHud() {
+  const txt = `<span class="r">Vermelho</span> ${hits[0]} acertos &nbsp;·&nbsp; <span class="b">Azul</span> ${hits[1]} acertos<br>Bolas lançadas: ${thrown}` + (bannerT > 0 && banner ? `<br><span class="m">${banner}</span>` : '');
+  if (txt !== hudTxt) { hud.innerHTML = txt; hudTxt = txt; }
+}
+
+/* ---------------- tamanho da janela ---------------- */
+function resize() {
+  const w = innerWidth, h = innerHeight; renderer.setSize(w, h); camera.aspect = w / h;
+  const hf = THREE.MathUtils.degToRad(70); const vf = THREE.MathUtils.radToDeg(2 * Math.atan(Math.tan(hf / 2) / camera.aspect));
+  camera.fov = clamp(vf, 36, 72); camera.updateProjectionMatrix();
+}
+addEventListener('resize', resize); resize();
+
+/* ---------------- a guerra já começa rolando ---------------- */
+let clockT = 0;
+for (const f of forts) for (let i = 0; i < 6; i++) { const b = pick(f.bricks); b.active = false; b.mesh.visible = false; }
+kids.forEach(k => { const s = pick(['cover', 'scoop', 'pack', 'cover', 'throw']); if (s === 'pack' || s === 'throw') k.ball = makeBall(); if (s === 'throw') k.target = k.chooseTarget(); k.setState(s, rnd(0.3, 2)); k.st = rnd(0, 0.5); });
+for (let i = 0; i < 9; i++) { const k = pick(kids); const b = launch(makeBall(), k.home.clone().add(new V(0, 1.4, 0)), k.chooseTarget(), k.team, 1); const adv = rnd(0.2, 1.2); b.v.y -= G * adv; b.mesh.position.addScaledVector(b.v, adv).add(new V(0, 0.5 * G * adv * adv, 0)); }
+for (let i = 0; i < 260; i++) { const t = pick([0, 1]); const f = forts[t]; addPrint(rnd(-7, 7), f.z + rnd(-2.5, 1), R() * 6.28); }
+for (let i = 0; i < 40; i++) addPrint(rnd(-12, 12), rnd(-5, 5), R() * 6.28, 1, 1.7);
+cutTo('wide');
+
+/* ---------------- laço principal ---------------- */
+const clock = new THREE.Clock(); let smokeT = 0, treeT = 3;
+function step(dt) {
+  clockT += dt; scene.updateMatrixWorld();
+  updateSky(clockT);
+  for (const k of kids) {
+    k.update(dt);
+    if (k.hatTimer !== undefined) { k.hatTimer -= dt; if (k.hatTimer <= 0) { k.giveHatBack(); delete k.hatTimer; } }
+  }
+  forts.forEach(f => f.update(dt));
+  // bolas
+  for (const b of balls) {
+    if (!b.alive) continue; b.age += dt; b.v.y -= G * dt; b.mesh.position.addScaledVector(b.v, dt); const p = b.mesh.position;
+    let done = false;
+    for (const k of kids) {
+      if (k.team === b.team || k.state === 'hit' || k.mode === 'event') continue;
+      if (!b.dodged.has(k) && b.v.y < 0 && Math.hypot(p.x - k.root.position.x, p.z - k.root.position.z) < 3.5 && (k.state === 'cover' || k.state === 'scoop' || k.state === 'pack')) { b.dodged.add(k); if (R() < 0.4) { k.dropBall(); k.setState('duck'); } }
+      if (k.hitCenter().distanceTo(p) < 0.45) { k.getHit(); hits[b.team]++; killBall(b); done = true; break; }
+    }
+    if (done) continue;
+    for (const f of forts) { for (const br of f.bricks) if (br.active && br.mesh.position.distanceTo(p) < 0.46) { f.hitBrick(br, b.v); killBall(b); done = true; break; } if (done) break; }
+    if (done) continue;
+    if (p.distanceTo(snowman.position.clone().add(new V(0, 1.6, 0))) < 1.3) { puff(p, 6, 0.12, 1.5); killBall(b); continue; }
+    if (p.y < groundY(p.x, p.z) + 0.06) { puff(p, 5, 0.12, 1.3); addPrint(p.x, p.z, R() * 6.28, 2.2, 2.2); killBall(b); continue; }
+    if (b.age > 9) killBall(b);
+  }
+  for (let i = balls.length - 1; i >= 0; i--) if (!balls[i].alive) balls.splice(i, 1);
+  // eventos
+  if (ev) { if (ev.update(dt)) ev = null; }
+  else if (!roundOver) {
+    nextEv -= dt;
+    const weak = forts.findIndex(f => f.activeFrac() < 0.4);
+    if (weak >= 0) { startEvent('storm'); nextEv = rnd(12, 18); }
+    else if (nextEv <= 0) { startEvent(); nextEv = rnd(13, 19); }
+  }
+  bannerT -= dt;
+  // fumaça das chaminés
+  smokeT -= dt; if (smokeT <= 0) { smokeT = 0.28; for (const c of chimneys) if (R() < 0.55) spawnPart(c, new V(rnd(0.15, 0.45), rnd(0.6, 1.0), rnd(-0.1, 0.1)), rnd(0.18, 0.3), rnd(2.5, 4), 0xa3a8b2, -0.03); }
+  // neve caindo dos pinheiros
+  treeT -= dt; if (treeT <= 0) { treeT = rnd(1.5, 4); const tr = pick(trees); const top = tr.position.clone().add(new V(rnd(-0.6, 0.6), 2.2 * tr.scale.x, rnd(-0.6, 0.6))); for (let i = 0; i < 9; i++) spawnPart(top, new V(rnd(-0.6, 0.6), rnd(-0.5, 0.5), rnd(-0.6, 0.6)), rnd(0.1, 0.2), rnd(1.2, 2), 0xffffff, 0.35); }
+  updateParts(dt);
+  // flocos
+  const pa = flakeGeo.attributes.position, arr = pa.array;
+  for (let i = 0; i < FLAKES; i++) { const j = i * 3; arr[j + 1] -= (0.7 + (i % 7) * 0.12) * dt; arr[j] += Math.sin(clockT * 0.8 + i) * 0.006; if (arr[j + 1] < 0) { arr[j + 1] = 26; arr[j] = camPos.x + rnd(-40, 40); arr[j + 2] = camPos.z + rnd(-40, 40); } }
+  pa.needsUpdate = true;
+  // boneco de neve acompanha a ação com o olhar
+  { const h = snowman.userData.head, d = camLook.clone().sub(snowman.position); const want = Math.atan2(d.x, d.z); let dy = want - h.rotation.y; dy = Math.atan2(Math.sin(dy), Math.cos(dy)); h.rotation.y += dy * Math.min(1, dt * 2); }
+  updateCamera(dt);
+  updateHud();
+}
+function tick() { step(Math.min(clock.getDelta(), 0.05)); renderer.render(scene, camera); requestAnimationFrame(tick); }
+// (para testes) #t=40 adianta a simulação em 40 s antes de mostrar
+{ const m = location.hash.match(/t=(\d+)/); if (m) for (let i = 0; i < +m[1] * 30; i++) step(1 / 30); }
+window.__dbg = { kids, forts, get ev() { return ev; }, get balls() { return balls; } };
+requestAnimationFrame(tick);
+</script>
+</body>
+</html>
