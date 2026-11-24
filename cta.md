@@ -1,5 +1,7 @@
 # CTAs das 20 palavras-chave (só a chamada, sem título)
 
+**Regra atual (desde a Rodada 8):** a descrição do Reel continua sendo SÓ a CTA (sem título, sem hashtags). O tom da CTA pode acompanhar o gancho do viral de referência (gringa > 1 mi / Brasil > 2 mi), mas sempre com UMA palavra-chave do rodízio e "te mando no direct".
+
 01 TURBINA — 👇 Comenta TURBINA que eu te mando no direct onde aprender a fazer vídeos assim.
 02 QUADRO — 💬 Quer criar os seus? Escreve QUADRO aqui embaixo que eu te chamo no direct.
 03 JANELA — 🎬 Quer aprender a criar vídeos assim? Comenta JANELA e recebe tudo no direct.

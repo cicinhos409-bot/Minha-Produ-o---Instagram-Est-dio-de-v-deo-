@@ -1,3 +1,13 @@
+# Pesquisa de vídeos virais (gringa e Brasil) — base dos roteiros
+
+## Regra fixa (desde a Rodada 8)
+- Toda vez que o usuário pedir Reel novo: pesquisar primeiro e registrar aqui (data, plataforma, busca, resultado).
+- **Gringa: acima de 1 milhão de views** (foco principal, tentar sempre primeiro).
+- **Brasil: só acima de 2 milhões de views**, e só se não achar na gringa.
+- Nunca usar vídeo abaixo desses cortes. A copy do Reel = a copy do viral, adaptada para o Brasil.
+
+---
+
 # Pesquisa de vídeos gringos (animação 3D/2D, inglês) — base da Rodada 6
 
 Critério: vídeos em inglês, animados (3D, 2D, motion), **acima de 1 milhão de views**. Fonte: UMBRA Instagram/TikTok Intelligence (dados de 23/11/2026).
@@ -147,8 +157,9 @@ Extensão conectada: 21 Reels no feed capturado, 80 perfis. A leitura da lista c
 | 12 | 3,2 mi | @ocaradafotoclt | https://www.instagram.com/reel/DfZ6T3_xP2P/ | Vocês escolheram TREINO (escolha do público, PT) |
 | 13 | 2,6 mi | @historiasdojoe | https://www.instagram.com/reel/Dezn4OlPew5/ | Noite 1 — Rodovia 9 (zumbi/sobrevivência, PT) |
 | 14 | 2,6 mi | @niloeoinfinito | https://www.instagram.com/reel/DflNukESeKq/ | Por que eu não consigo parar? (fé, PT) |
-| 15 | 1,9 mi | @fernandosev7n | https://www.instagram.com/reel/DdjkDBjkbqA/ | Jogo Walkable Cities (games, PT) |
-| 16 | 1,6 mi | @explicandodireito.br | https://www.instagram.com/reel/DfAQhq-xbYC/ | Feriado de Finados: seus direitos (PT) |
-| 17 | 1,4 mi | @prime.flix94 | https://www.instagram.com/reel/DfNpmm_zTVS/ | Celular amanheceu com 100% (suspense, PT) |
-| 18 | 1,0 mi | @arquitetoexplica | https://www.instagram.com/reel/DfXu9VRAfjO/ | Como funciona o isolamento acústico (PT) |
+| 15 | 1,9 mi | @fernandosev7n | https://www.instagram.com/reel/DdjkDBjkbqA/ | Jogo Walkable Cities (games, PT) | ❌ BR abaixo de 2 mi — não usar |
+| 16 | 1,6 mi | @explicandodireito.br | https://www.instagram.com/reel/DfAQhq-xbYC/ | Feriado de Finados: seus direitos (PT) | ❌ BR abaixo de 2 mi — não usar |
+| 17 | 1,4 mi | @prime.flix94 | https://www.instagram.com/reel/DfNpmm_zTVS/ | Celular amanheceu com 100% (suspense, PT) | ❌ BR abaixo de 2 mi — não usar |
+| 18 | 1,0 mi | @arquitetoexplica | https://www.instagram.com/reel/DfXu9VRAfjO/ | Como funciona o isolamento acústico (PT) | ❌ BR abaixo de 2 mi — não usar |
+Elegíveis pela regra nova: todos os gringos (1–4, 6, 10) e os brasileiros acima de 2 mi (5, 7, 8, 9, 11, 12, 13, 14). Os marcados com ❌ ficam fora.
 Perfil seguido: @desmontandoomundo (789 mil seguidores, média 6 mi views).

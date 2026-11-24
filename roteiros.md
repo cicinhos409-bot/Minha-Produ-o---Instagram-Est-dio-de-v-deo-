@@ -2,6 +2,8 @@
 
 Arquivo de áudio: `reelNN.mp3` na pasta do Umbra. Cada roteiro usa uma palavra da automação Youze v3.
 
+**Regra atual (desde a Rodada 8):** cada roteiro é a transcrição de um viral adaptada para o Brasil — gringa acima de 1 milhão de views (preferência) ou Brasil acima de 2 milhões. Nunca abaixo disso. Mesmo gancho, mesma ordem e mesmo ritmo do original; no fim, ponte curta (se couber) + CTA com a palavra do rodízio. Todo Reel registra: link do original, perfil, views. Ver `CLAUDE.md` › Fórmula de copy.
+
 ---
 
 ## Reel 01 · TURBINA · Absurdo

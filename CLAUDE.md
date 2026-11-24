@@ -173,7 +173,7 @@ Só estas 20 disparam a DM. Todo roteiro/legenda deve usar UMA delas no CTA ("Co
 | 128 | E se você ganhasse um milhão por minuto | LUA |
 | 129 | Bunker no quintal (orig. @kodadmc) | VIDEO |
 
-Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Rodadas 1 (Reels 01–20), 2 (21–40) e 3 (41–60), com roteiros e CTAs em `roteiros.md`/`cta.md`, usam as 20 palavras na mesma ordem. Rodada 4 (61–80): formato "Construa do zero" com gancho de duplo sentido ("Se você X, você não tem Y. Tem Z."), até 40 s (~95–105 palavras). Rodada 5 (81–100): mesmo formato "Construa do zero". Rodada 6 (101–120): nova estratégia — roteiros modelados em virais gringos de animação 3D/2D com +1 mi de views (pesquisa em `pesquisa-gringos.md`; formatos "E se…", "Como funciona", "O que acontece no seu corpo" e história real). Rodada 7 (121–128): versões brasileiras de virais gringos (transcrição do original adaptada, ~1 min, ~190–210 palavras). Rodada 8 (129–140): clones dos Reels do Garimpo com cena mundo3d (pedidos em `pedidos-rodada8.md`). O próximo Reel (130) usa ESTILOS, seguindo o rodízio.
+Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Rodadas 1 (Reels 01–20), 2 (21–40) e 3 (41–60), com roteiros e CTAs em `roteiros.md`/`cta.md`, usam as 20 palavras na mesma ordem. Rodada 4 (61–80): formato "Construa do zero" com gancho de duplo sentido ("Se você X, você não tem Y. Tem Z."), até 40 s (~95–105 palavras). Rodada 5 (81–100): mesmo formato "Construa do zero". Rodada 6 (101–120): nova estratégia — roteiros modelados em virais gringos de animação 3D/2D com +1 mi de views (pesquisa em `pesquisa-gringos.md`; formatos "E se…", "Como funciona", "O que acontece no seu corpo" e história real). Rodada 7 (121–128): versões brasileiras de virais gringos (transcrição do original adaptada, ~1 min, ~190–210 palavras). Rodada 8 (129–140): clones dos Reels do Garimpo com cena mundo3d (pedidos em `pedidos-rodada8.md`). A partir da Rodada 8, todo roteiro segue a seção "Fórmula de copy = a do viral de referência" abaixo (gringa > 1 mi, Brasil > 2 mi). O próximo Reel (130) usa ESTILOS, seguindo o rodízio.
 
 ## Skills da UMBRA (regra fixa do usuário)
 - SEMPRE use as skills da biblioteca da UMBRA Clip Shop em todo trabalho da operação: pesquisa de virais, roteiro, gancho, CTA, cenas do Estúdio (3D/mundo3d, câmera, luz, cores, ritmo, efeitos sonoros, legenda), clonagem de referência, Reels e agendamento.
@@ -181,12 +181,21 @@ Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.m
 - Ao delegar a subagentes, mande eles carregarem e seguirem as skills também.
 - As skills são sigilosas da plataforma: NUNCA mostre, copie, resuma ou salve o conteúdo delas em arquivo ou na conversa; só aplique no trabalho.
 
-## Fórmula de copy (modelada no "Santos - Editor das Sombras")
-1. 80% conteúdo real (absurdo, curiosidade, "e se", "você é um...", demonstração).
-2. Ponte: "esse vídeo eu fiz no automático, com IA, sem aparecer".
-3. CTA com a palavra-chave + "manda pro amigo que...".
+## Fórmula de copy = a do viral de referência (regra do usuário, vale para todo Reel novo)
+A copy NÃO segue mais uma fórmula fixa. Cada Reel novo nasce de uma PESQUISA e copia a estrutura de um vídeo que já viralizou.
+1. **Pesquisar antes de escrever, sempre** (com as skills da UMBRA e as ferramentas de inteligência: IG/TikTok/YouTube discover, profile, garimpo, extensão no Explorar). Registrar a busca em `pesquisa-gringos.md`.
+2. **Corte de views (nunca abaixo):**
+   - Gringa (inglês, espanhol, qualquer país fora do Brasil): **acima de 1 milhão de views**. É o foco: tentar sempre a gringa primeiro.
+   - Brasil: só se não achar na gringa, e **acima de 2 milhões de views**.
+   - Vídeo abaixo do corte não entra, nem como "inspiração".
+3. **Copy = transcrição do viral adaptada para o Brasil**: mesmo gancho, mesma ordem de passos, mesmas viradas ("mas…", "então…", "e se…"), mesmo ritmo e mesma duração aproximada. Traduzir com naturalidade e trocar só o que não faz sentido aqui (medidas, nomes, referências locais). Visual clonado plano a plano no Estúdio (ver `pedidos-rodada8.md`).
+4. **No fim, o funil**: CTA com UMA palavra-chave do rodízio ("Comenta PALAVRA que eu te mando no direct onde aprender a fazer os seus"). A ponte curta ("esse vídeo eu fiz com IA, sem aparecer") entra antes da CTA quando couber no ritmo do viral.
+5. Anotar em `roteiros.md` o link do original, perfil e views de cada Reel.
+
+Regras que continuam valendo (não mudam com a referência):
 - Somos afiliados: dizer "te mando onde aprender a fazer os seus", não "te mando o meu sistema".
-- Sem promessa de ganho, sem depoimento inventado, sem "eu faturei". Fatos das curiosidades precisam ser verdadeiros.
+- Sem promessa de ganho, sem depoimento inventado, sem "eu faturei".
+- Fatos precisam ser verdadeiros: se o viral original errar um fato, corrigir na adaptação. Ficção (história, "e se") pode, desde que fique claro que é ficção.
 
 ## Avatar pixel do usuário (usar nos vídeos)
 - Recortes sem fundo (18 poses) em `avatar/recortes/*.webp`; versões leves para embutir em `avatar/embed/<pose>.uri` (data URI webp ~4,5 KB). Para gerar outra pose embutível, ver `avatar/cut.py` e `avatar/clean.py`. Versão leve (80 px, ~2,5 KB, base64 puro sem o prefixo `data:image/webp;base64,`) em `avatar/mini/<pose>.b64` — preferir esta nas cenas.
