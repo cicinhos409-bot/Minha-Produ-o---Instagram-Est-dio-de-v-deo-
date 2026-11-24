@@ -146,3 +146,6 @@
 126 ORIGEM — 🥜 Quer criar vídeos assim com IA? Comenta ORIGEM que eu te mando no direct.
 127 POLVO — 🦠 Comenta POLVO que eu te mando no direct onde aprender a criar vídeos assim.
 128 LUA — 💰 Quer fazer vídeos assim sem aparecer? Comenta LUA que eu te mando no direct.
+
+## Rodada 8
+129 VIDEO — ☢️ Comenta VIDEO que eu te mando no direct onde aprender a fazer vídeos assim.
