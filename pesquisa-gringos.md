@@ -108,3 +108,23 @@ Buscas: "3d animation", "what if animation", "animated story true story animatio
 | 35 | 1,0 mi | TikTok | @cubzyplayz | How a rock becomes a nutcracker | https://www.tiktok.com/@cubzyplayz/video/7705456059623689475 |
 
 Outliers fortes (muito acima da média do canal): How It Works 3D (#7, canal de 8 mil inscritos), Robots Taught Me (#15, 1,5 mil inscritos), NeverEndTopIC (#25), Only Jesus Christ (#26), Facto Nerd (#16), OutwardAnimates (#6, #10).
+
+---
+# Explorar do Instagram (24/11/2026, extensão UMBRA v0.34 no instagram.com/explore)
+Extensão conectada: 21 Reels no feed capturado, 80 perfis. A leitura da lista completa da extensão deu "ocupado" (Estúdio gravando); dados abaixo vêm do status do Instagram Intelligence e do print do usuário.
+
+## Referências +1 mi vistas no Explorar
+| Perfil | Reel | Views | Tema |
+|---|---|---|---|
+| @ai.toon.studio_ | https://www.instagram.com/reel/DgFlsuUOxsX/ | 79,5 mi | Desenho animado feito com IA, emocional: "The applause is for the result, but the effort remains unseen" |
+| @ai.toon.studio_ | https://www.instagram.com/reel/DgFmL1uOgsM/ | 20,2 mi | Desenho animado com IA, áudio "Cry" (sem narração) |
+| @desmontandoomundo | (print do usuário) | 2,8 mi | "Como um fio vira luz sem queimar dentro da lâmpada?" — 3D lowpoly, ~2 min |
+| @bazingacuriosa | (print do usuário) | 1,4 mi | "Por que a mão não solta o fio quando você leva choque?" — 3D, 1:16 |
+
+## Raio-X @ai.toon.studio_ (Orit Naor)
+- 349,7 mil seguidores; bio: "I make cartoons with AI" + comunidade grátis + serviço para marcas.
+- Média de 8,65 mi views nos últimos 12 Reels, mas é puxada por 2 outliers (79,5 mi e 20,2 mi, postados em 23/11 com 5 min de diferença). Os outros 10 ficaram entre 300 e 1,6 mi.
+- Postou 12 Reels em ~1h30 no mesmo dia (volume altíssimo, testando muitos de uma vez).
+- Formato dos virais: desenho animado com IA, emocional, sem narração, só música (áudio "Cry") e uma frase na legenda. Os de música de jogo (GTA) e música pop ficaram bem abaixo.
+- Engajamento médio 2%; o de 79,5 mi teve 3,7 mi de curtidas (4,7%).
+- Lição para o nosso perfil: o que explode lá é emoção + animação de personagem (estilo Pixar) + música, não explicação. A bio dela vende exatamente o que nós vendemos (aprender a fazer desenho animado com IA).
