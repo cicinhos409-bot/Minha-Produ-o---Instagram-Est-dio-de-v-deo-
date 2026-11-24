@@ -128,3 +128,27 @@ Extensão conectada: 21 Reels no feed capturado, 80 perfis. A leitura da lista c
 - Formato dos virais: desenho animado com IA, emocional, sem narração, só música (áudio "Cry") e uma frase na legenda. Os de música de jogo (GTA) e música pop ficaram bem abaixo.
 - Engajamento médio 2%; o de 79,5 mi teve 3,7 mi de curtidas (4,7%).
 - Lição para o nosso perfil: o que explode lá é emoção + animação de personagem (estilo Pixar) + música, não explicação. A bio dela vende exatamente o que nós vendemos (aprender a fazer desenho animado com IA).
+
+---
+# Garimpo do Instagram (24/11/2026) — 18 Reels salvos pelo usuário para modelar
+| # | Views | Perfil | Reel | Tema / formato |
+|---|---|---|---|---|
+| 1 | 42,0 mi | @neuronvisuals | https://www.instagram.com/reel/DeS-h4RxteU/ | Damas x xadrez: quem pensa 3 passos à frente (motivacional animado, EN) |
+| 2 | 40,5 mi | @infiniteslice01 | https://www.instagram.com/reel/DfSyz0fIonK/ | Cebola roxa x 1000 cortes (ASMR satisfatório 3D, EN) |
+| 3 | 19,7 mi | @kodadmc | https://www.instagram.com/reel/De4rwIniQEY/ | Um buraco no quintal te salvaria de uma bomba nuclear? (ES) |
+| 4 | 13,2 mi | @historiasinteresantess | https://www.instagram.com/reel/Dff2LLLBT1e/ | Abrimos a porta ou deixamos a senhora lá fora? (história A/B, ES) |
+| 5 | 9,4 mi | @voceeanimal | https://www.instagram.com/reel/DfFXxJeO93o/ | E se você fosse um rato? (PT) |
+| 6 | 9,1 mi | @elchicodatos | https://www.instagram.com/reel/Df-vwOLgxC7/ | Como saber se alguém é daltônico (2.5D/3D, ES) |
+| 7 | 7,2 mi | @estou_lhe_informando | https://www.instagram.com/reel/DfqM4HTA2JW/ | Engasgou sozinho em casa? (sobrevivência, PT) |
+| 8 | 7,0 mi | @entendasobretudo | https://www.instagram.com/reel/DfNpboMPYkF/ | Acordou num caixão enterrado? (sobrevivência, PT) |
+| 9 | 6,5 mi | @historiascomkaio | https://www.instagram.com/reel/DencWxZBrjB/ | Apocalipse zumbi — Ep. 1: O Prédio (série, PT) |
+| 10 | 3,6 mi | @delve.app | https://www.instagram.com/reel/Decan7HOgrz/ | Por que mais faixas nunca resolvem o trânsito (EN) |
+| 11 | 3,6 mi | @esporte.emquadros | https://www.instagram.com/reel/Df0ZGtuvKi1/ | Palito — Ep. 01: o desafio do interclasse (série, PT) |
+| 12 | 3,2 mi | @ocaradafotoclt | https://www.instagram.com/reel/DfZ6T3_xP2P/ | Vocês escolheram TREINO (escolha do público, PT) |
+| 13 | 2,6 mi | @historiasdojoe | https://www.instagram.com/reel/Dezn4OlPew5/ | Noite 1 — Rodovia 9 (zumbi/sobrevivência, PT) |
+| 14 | 2,6 mi | @niloeoinfinito | https://www.instagram.com/reel/DflNukESeKq/ | Por que eu não consigo parar? (fé, PT) |
+| 15 | 1,9 mi | @fernandosev7n | https://www.instagram.com/reel/DdjkDBjkbqA/ | Jogo Walkable Cities (games, PT) |
+| 16 | 1,6 mi | @explicandodireito.br | https://www.instagram.com/reel/DfAQhq-xbYC/ | Feriado de Finados: seus direitos (PT) |
+| 17 | 1,4 mi | @prime.flix94 | https://www.instagram.com/reel/DfNpmm_zTVS/ | Celular amanheceu com 100% (suspense, PT) |
+| 18 | 1,0 mi | @arquitetoexplica | https://www.instagram.com/reel/DfXu9VRAfjO/ | Como funciona o isolamento acústico (PT) |
+Perfil seguido: @desmontandoomundo (789 mil seguidores, média 6 mi views).
