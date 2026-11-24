@@ -135,3 +135,14 @@
 118 PASSO — 🌊 Quer o passo a passo? Comenta PASSO que eu te mando no direct.
 119 QUERO — 😱 Quer criar vídeos assim? Comenta QUERO que eu te mando no direct.
 120 VÍDEO — 🪐 Comenta VÍDEO que eu te mando no direct onde aprender a fazer vídeos assim.
+
+# Rodada 7 · Reels 121 a 128 · versões brasileiras de virais gringos (~1 min)
+
+121 TURBINA — 🌧️ Comenta TURBINA que eu te mando no direct onde aprender a fazer vídeos assim.
+122 QUADRO — 🕳️ Quer criar vídeos assim sem aparecer? Comenta QUADRO que eu te mando no direct.
+123 JANELA — ⛏️ Comenta JANELA que eu te mando no direct onde aprender a criar vídeos assim.
+124 CANETA — 💎 Quer aprender a fazer vídeos assim? Comenta CANETA que eu te mando no direct.
+125 SOL — 🌳 Comenta SOL que eu te mando no direct onde aprender a fazer vídeos assim.
+126 ORIGEM — 🥜 Quer criar vídeos assim com IA? Comenta ORIGEM que eu te mando no direct.
+127 POLVO — 🦠 Comenta POLVO que eu te mando no direct onde aprender a criar vídeos assim.
+128 LUA — 💰 Quer fazer vídeos assim sem aparecer? Comenta LUA que eu te mando no direct.

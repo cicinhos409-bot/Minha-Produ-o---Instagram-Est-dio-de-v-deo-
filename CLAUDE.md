@@ -163,8 +163,16 @@ Só estas 20 disparam a DM. Todo roteiro/legenda deve usar UMA delas no CTA ("Co
 | 118 | 76 dias perdido no mar | PASSO |
 | 119 | O que um susto faz no corpo | QUERO |
 | 120 | E se a Terra tivesse anéis | VÍDEO |
+| 121 | A capa de chuva perfeita (orig. @unnecessaryengineering) | TURBINA |
+| 122 | Pra onde vai a água da rua (bueiro/piscinão) | QUADRO |
+| 123 | A mina de ouro com fábrica de gelo | JANELA |
+| 124 | Como um lápis vira diamante | CANETA |
+| 125 | Como um lixão vira parque | SOL |
+| 126 | A invenção do quebra-nozes | ORIGEM |
+| 127 | O menor motor do mundo (bactéria) | POLVO |
+| 128 | E se você ganhasse um milhão por minuto | LUA |
 
-Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Rodadas 1 (Reels 01–20), 2 (21–40) e 3 (41–60), com roteiros e CTAs em `roteiros.md`/`cta.md`, usam as 20 palavras na mesma ordem. Rodada 4 (61–80): formato "Construa do zero" com gancho de duplo sentido ("Se você X, você não tem Y. Tem Z."), até 40 s (~95–105 palavras). Rodada 5 (81–100): mesmo formato "Construa do zero". Rodada 6 (101–120): nova estratégia — roteiros modelados em virais gringos de animação 3D/2D com +1 mi de views (pesquisa em `pesquisa-gringos.md`; formatos "E se…", "Como funciona", "O que acontece no seu corpo" e história real). A rodada 7 recomeça por TURBINA (Reel 121).
+Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Rodadas 1 (Reels 01–20), 2 (21–40) e 3 (41–60), com roteiros e CTAs em `roteiros.md`/`cta.md`, usam as 20 palavras na mesma ordem. Rodada 4 (61–80): formato "Construa do zero" com gancho de duplo sentido ("Se você X, você não tem Y. Tem Z."), até 40 s (~95–105 palavras). Rodada 5 (81–100): mesmo formato "Construa do zero". Rodada 6 (101–120): nova estratégia — roteiros modelados em virais gringos de animação 3D/2D com +1 mi de views (pesquisa em `pesquisa-gringos.md`; formatos "E se…", "Como funciona", "O que acontece no seu corpo" e história real). Rodada 7 (121–128): versões brasileiras de virais gringos (transcrição do original adaptada, ~1 min, ~190–210 palavras). O próximo Reel (129) usa VIDEO, seguindo o rodízio.
 
 ## Fórmula de copy (modelada no "Santos - Editor das Sombras")
 1. 80% conteúdo real (absurdo, curiosidade, "e se", "você é um...", demonstração).
