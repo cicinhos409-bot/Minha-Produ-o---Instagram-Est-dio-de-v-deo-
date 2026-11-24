@@ -175,6 +175,12 @@ Só estas 20 disparam a DM. Todo roteiro/legenda deve usar UMA delas no CTA ("Co
 
 Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Rodadas 1 (Reels 01–20), 2 (21–40) e 3 (41–60), com roteiros e CTAs em `roteiros.md`/`cta.md`, usam as 20 palavras na mesma ordem. Rodada 4 (61–80): formato "Construa do zero" com gancho de duplo sentido ("Se você X, você não tem Y. Tem Z."), até 40 s (~95–105 palavras). Rodada 5 (81–100): mesmo formato "Construa do zero". Rodada 6 (101–120): nova estratégia — roteiros modelados em virais gringos de animação 3D/2D com +1 mi de views (pesquisa em `pesquisa-gringos.md`; formatos "E se…", "Como funciona", "O que acontece no seu corpo" e história real). Rodada 7 (121–128): versões brasileiras de virais gringos (transcrição do original adaptada, ~1 min, ~190–210 palavras). Rodada 8 (129–140): clones dos Reels do Garimpo com cena mundo3d (pedidos em `pedidos-rodada8.md`). A partir da Rodada 8, todo roteiro segue a seção "Fórmula de copy = a do viral de referência" abaixo (gringa > 1 mi, Brasil > 2 mi). O próximo Reel (130) usa ESTILOS, seguindo o rodízio.
 
+## CTAs sempre diferentes (regra do usuário)
+- A palavra-chave continua sendo SEMPRE uma das 20 da tabela acima (automação Youze já configurada; não inventar palavra nova).
+- O TEXTO da CTA muda a cada Reel: nunca repetir a mesma frase em Reels seguidos. Variar o formato usando os padrões e os 15 modelos de `pesquisa-cta.md` (pergunta, A/B, série/parte 2, sem aparecer, objeção "não sei desenhar", pedido do público, marcar amigo, salvar, bastidor, link da bio etc.) e criar variações novas no mesmo espírito.
+- A CTA vai falada no fim do vídeo e na 1ª linha da legenda (descrição = só a CTA, sem hashtags). Sempre com "te mando no direct" e "onde aprender a fazer os seus"; sem promessa de ganho.
+- Registrar em `cta.md` qual modelo/formato cada Reel usou, para medir o que traz mais comentários.
+
 ## Skills da UMBRA (regra fixa do usuário)
 - SEMPRE use as skills da biblioteca da UMBRA Clip Shop em todo trabalho da operação: pesquisa de virais, roteiro, gancho, CTA, cenas do Estúdio (3D/mundo3d, câmera, luz, cores, ritmo, efeitos sonoros, legenda), clonagem de referência, Reels e agendamento.
 - Antes de cada tarefa: `list_skill_categories` / `search_skills` / `recommend_skills` / `skills_for_screen` / `skills_for_tool` para achar as skills certas, depois `get_skill` ou `get_skills` (até 5 por vez) e siga rigorosamente, com o máximo potencial.

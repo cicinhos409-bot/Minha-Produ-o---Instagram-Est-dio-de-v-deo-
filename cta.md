@@ -1,5 +1,7 @@
 # CTAs das 20 palavras-chave (só a chamada, sem título)
 
+**CTA sempre diferente:** a cada Reel, texto e formato novos (ver modelos em `pesquisa-cta.md`), sempre com uma das 20 palavras do rodízio. Anotar o formato usado ao lado da CTA, ex.: `130 ESTILOS — [A/B] ...`.
+
 **Regra atual (desde a Rodada 8):** a descrição do Reel continua sendo SÓ a CTA (sem título, sem hashtags). O tom da CTA pode acompanhar o gancho do viral de referência (gringa > 1 mi / Brasil > 2 mi), mas sempre com UMA palavra-chave do rodízio e "te mando no direct".
 
 01 TURBINA — 👇 Comenta TURBINA que eu te mando no direct onde aprender a fazer vídeos assim.
