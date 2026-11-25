@@ -156,3 +156,7 @@
 133 CANAL — [pergunta + palavra] 🧊 Você dormiria 3 dias num iglu? Comenta CANAL que eu te mando no direct onde aprender a fazer os seus.
 139 QUERO — [fica até o final] 👀 Ficou até o final? Comenta QUERO que eu te mando no direct onde aprender a fazer os seus.
 140 VÍDEO — [pedido do público] 🚽 O que mais você quer ver no bunker? Comenta VÍDEO que eu te mando no direct onde aprender a fazer os seus.
+130 ESTILOS — [neuronvisuals] 🧱 Quer aprender a fazer vídeos animados assim? Comenta ESTILOS que eu te mando no direct onde aprender a fazer os seus.
+134 DARK — [série / parte 2] 🧟 Quer a parte 2 com os zumbis tentando entrar? Comenta DARK que eu te mando no direct onde aprender a fazer a sua própria série animada.
+135 ANIMADO — [sem aparecer] Ninguém apareceu, ninguém gravou, ninguém desenhou 👀 Comenta ANIMADO que eu te mando no direct onde aprender a fazer os seus.
+136 CURIOSO — [marcar amigo] 🇯🇵 Marca aquele amigo que sonha em morar no Japão e comenta CURIOSO que eu te mando no direct onde aprender a fazer os seus.

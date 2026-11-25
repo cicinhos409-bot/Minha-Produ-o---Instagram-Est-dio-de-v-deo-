@@ -172,7 +172,11 @@ Só estas 20 disparam a DM. Todo roteiro/legenda deve usar UMA delas no CTA ("Co
 | 127 | O menor motor do mundo (bactéria) | POLVO |
 | 128 | E se você ganhasse um milhão por minuto | LUA |
 | 129 | Bunker no quintal (orig. @kodadmc) | VIDEO |
+| 130 | O primeiro tijolo (perfeccionismo) (orig. @neuronvisuals) | ESTILOS |
 | 133 | Buraco na neve vira iglu? (orig. @kodadmc) | CANAL |
+| 134 | Bunker pro apocalipse zumbi (orig. @kodadmc) | DARK |
+| 135 | Como saber se alguém é daltônico (orig. @elchicodatos) | ANIMADO |
+| 136 | Nasceu no Japão e não é japonês (orig. @elchicodatos) | CURIOSO |
 | 139 | O preso que alimentava a parede (orig. @elchicodatos) | QUERO |
 | 140 | O banheiro do bunker, parte 2 (orig. @kodadmc) | VÍDEO |
 
