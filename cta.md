@@ -153,3 +153,6 @@
 
 ## Rodada 8
 129 VIDEO — ☢️ Comenta VIDEO que eu te mando no direct onde aprender a fazer vídeos assim.
+133 CANAL — [pergunta + palavra] 🧊 Você dormiria 3 dias num iglu? Comenta CANAL que eu te mando no direct onde aprender a fazer os seus.
+139 QUERO — [fica até o final] 👀 Ficou até o final? Comenta QUERO que eu te mando no direct onde aprender a fazer os seus.
+140 VÍDEO — [pedido do público] 🚽 O que mais você quer ver no bunker? Comenta VÍDEO que eu te mando no direct onde aprender a fazer os seus.

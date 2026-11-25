@@ -7,7 +7,7 @@ Responda sempre em português. Leia este arquivo antes de escrever roteiros, leg
 - Preço R$ 297, comissão 80% (≈ R$ 237,60 por venda). Meta inicial: 5 vendas (R$ 1.188).
 - Funil: Reel → pessoa comenta a PALAVRA-CHAVE → automação Youze (responde comentário, pede para seguir, manda o link) → VSL https://estudio-de-video.vercel.app → checkout Kiwify (afid=PlkfAbG9).
 - Perfil: @cicero.cf.ofcl. Agendamento: JetPost (workspace "Meu Instagram - Estúdio De Vídeo"). Vídeos: UMBRA Clip Shop → Estúdio de Vídeos (estilo sugerido: Kinetic Noir, preto + verde-limão).
-- Narração: o usuário gera os áudios em outra plataforma (NÃO usar ElevenLabs) e salva na pasta do Umbra como `reelNN.mp3`.
+- Narração: Cartesia (voz Rafael pt-BR) desde o Reel 130, ou KikiVoice — NUNCA ElevenLabs. Arquivo na pasta do Umbra como `Audios/reelNN.mp3`.
 
 ## Palavras-chave (automação Youze "Reels - Rodizio 20 palavras v3", id 0acc7eb8-11dd-42c3-be22-e7fa6ace9b8e)
 Só estas 20 disparam a DM. Todo roteiro/legenda deve usar UMA delas no CTA ("Comenta PALAVRA que eu te mando no direct").
@@ -172,6 +172,9 @@ Só estas 20 disparam a DM. Todo roteiro/legenda deve usar UMA delas no CTA ("Co
 | 127 | O menor motor do mundo (bactéria) | POLVO |
 | 128 | E se você ganhasse um milhão por minuto | LUA |
 | 129 | Bunker no quintal (orig. @kodadmc) | VIDEO |
+| 133 | Buraco na neve vira iglu? (orig. @kodadmc) | CANAL |
+| 139 | O preso que alimentava a parede (orig. @elchicodatos) | QUERO |
+| 140 | O banheiro do bunker, parte 2 (orig. @kodadmc) | VÍDEO |
 
 Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Rodadas 1 (Reels 01–20), 2 (21–40) e 3 (41–60), com roteiros e CTAs em `roteiros.md`/`cta.md`, usam as 20 palavras na mesma ordem. Rodada 4 (61–80): formato "Construa do zero" com gancho de duplo sentido ("Se você X, você não tem Y. Tem Z."), até 40 s (~95–105 palavras). Rodada 5 (81–100): mesmo formato "Construa do zero". Rodada 6 (101–120): nova estratégia — roteiros modelados em virais gringos de animação 3D/2D com +1 mi de views (pesquisa em `pesquisa-gringos.md`; formatos "E se…", "Como funciona", "O que acontece no seu corpo" e história real). Rodada 7 (121–128): versões brasileiras de virais gringos (transcrição do original adaptada, ~1 min, ~190–210 palavras). Rodada 8 (129–140): clones dos Reels do Garimpo com cena mundo3d (pedidos em `pedidos-rodada8.md`). A partir da Rodada 8, todo roteiro segue a seção "Fórmula de copy = a do viral de referência" abaixo (gringa > 1 mi, Brasil > 2 mi). O próximo Reel (130) usa ESTILOS, seguindo o rodízio.
 
