@@ -163,3 +163,33 @@ Extensão conectada: 21 Reels no feed capturado, 80 perfis. A leitura da lista c
 | 18 | 1,0 mi | @arquitetoexplica | https://www.instagram.com/reel/DfXu9VRAfjO/ | Como funciona o isolamento acústico (PT) | ❌ BR abaixo de 2 mi — não usar |
 Elegíveis pela regra nova: todos os gringos (1–4, 6, 10) e os brasileiros acima de 2 mi (5, 7, 8, 9, 11, 12, 13, 14). Os marcados com ❌ ficam fora.
 Perfil seguido: @desmontandoomundo (789 mil seguidores, média 6 mi views).
+
+# Garimpo pela extensão UMBRA no Instagram (25/11/2026) — referências para os Reels 130–140
+Busca: aba Reels de cada perfil, ordenada por views, só acima do corte (gringa > 1 mi, Brasil > 2 mi). Views lidas na hora pela extensão.
+Perfis varridos: @zackdfilms, @kodadmc, @neuronvisuals, @elchicodatos, @ai.toon.studio_, @desmontandoomundo (BR), @delve.app e @whatif.sim (sem Reels acima do corte / página não carregou).
+
+| # | Views | Perfil | Reel | Tema | Duração |
+|---|---|---|---|---|---|
+| 1 | 4,7 mi | @kodadmc | https://www.instagram.com/reel/DfhUyeICl79/ | Onde você esconderia uma agulha por 100 milhões? (dilema, 16 mil comentários) | 51 s |
+| 2 | 4,4 mi | @kodadmc | https://www.instagram.com/reel/DfNm5GWC45q/ | Painel solar, bateria e inversor: luz de graça mesmo? | 104 s |
+| 3 | 2,8 mi | @kodadmc | https://www.instagram.com/reel/DfGfSRzCUFU/ | Um buraco na neve vira iglu? | 83 s |
+| 4 | 2,1 mi | @kodadmc | https://www.instagram.com/reel/De9dZQzC3x_/ | Meu bunker para o apocalipse zumbi | 78 s |
+| 5 | 1,3 mi | @kodadmc | https://www.instagram.com/reel/De-hjUvCH67/ | Só queria assar carne… e construí uma churrasqueira | 93 s |
+| 6 | 1,0 mi | @kodadmc | https://www.instagram.com/reel/De7GpsYilzs/ | E o banheiro do bunker? (parte 2) | 84 s |
+| 7 | 9,8 mi | @elchicodatos | https://www.instagram.com/reel/Df5RxZygoMA/ | Como as pessoas no Japão não são japonesas (2.5D) | 64 s |
+| 8 | 9,2 mi | @elchicodatos | https://www.instagram.com/reel/Df-vwOLgxC7/ | Como saber se alguém é daltônico (2.5D) | — |
+| 9 | 5,4 mi | @elchicodatos | https://www.instagram.com/reel/Df8Z5nvgc7V/ | O preso que alimentou a parede (2.5D) | 70 s |
+| 10 | 3,6 mi | @elchicodatos | https://www.instagram.com/reel/Df3MzcTAJOh/ | GTA 6: "caso com você quando sair" (marca de terceiro — evitar) | 91 s |
+| 11 | 102 mi | @neuronvisuals | https://www.instagram.com/reel/DeSZWn3RYFG/ | Perfeccionismo: o primeiro tijolo (motivacional; CTA "Comment Animate") | 14 s |
+| 12 | 75,5 mi | @neuronvisuals | https://www.instagram.com/reel/DeZjO87xrHl/ | Hábitos de 5 minutos de manhã (motivacional) | 11 s |
+| 13 | 55,7 mi | @neuronvisuals | https://www.instagram.com/reel/DeQiTowR0af/ | (não aberto) | — |
+| 14 | 14,4 mi | @neuronvisuals | https://www.instagram.com/reel/Df0OeOdh7y3/ | (não aberto) | — |
+| 15 | 8,2 mi | @zackdfilms | https://www.instagram.com/reel/DgD7_epwr0J/ | elefante (3D realista) | — |
+| 16 | 3,5 mi | @zackdfilms | https://www.instagram.com/reel/DgFwt64K3Qg/ | (3D realista) | — |
+| 17 | 2,3 mi | @zackdfilms | https://www.instagram.com/reel/DgIcXMuKebx/ | bacon (3D realista) | — |
+| 18 | 2,1 mi | @zackdfilms | https://www.instagram.com/reel/DgGFPIfxJUq/ | ovo / "he had to start" (3D realista) | — |
+| 19 | 86,2 mi | @ai.toon.studio_ | https://www.instagram.com/reel/DgFlsuUOxsX/ | (cartoon emocional, 1 dia) | — |
+| 20 | 21,6 mi | @ai.toon.studio_ | https://www.instagram.com/reel/DgFmL1uOgsM/ | (cartoon emocional) | — |
+| 21 | 20,1 mi (BR) | @desmontandoomundo | https://www.instagram.com/reel/DfK3j32JpGS/ | Como construir um muro de arrimo (28 mil comentários) | 143 s |
+| 22 | 16,9 mi (BR) | @desmontandoomundo | https://www.instagram.com/reel/DezX76zgi47/ | (não aberto) | — |
+| 23 | 11,4 mi (BR) | @desmontandoomundo | https://www.instagram.com/reel/De4oWvEh06y/ | (não aberto) | — |
