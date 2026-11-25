@@ -17,3 +17,7 @@ Narração: Reel 129 KikiVoice (L007, 1.1x); Reels 130–140 Cartesia (voz Rafae
 | 138 | ca46f5f7-1ada-4f67-9308-8dcdd57f1673 | 106,2 s | enviado (gravando) | — |
 
 Vídeos prontos baixados em `Estudio/Rodada8/`. Reels 131, 132, 137 e 138: narração KikiVoice L007 (créditos da Cartesia acabaram); avisar crédito "Generated with KikiVoice" se plano grátis.
+
+## Agendamento (Instagram @cicero.cf.ofcl, 26/11/2026)
+07:00 130 · 08:00 132 · 10:00 129 · 12:00 135 · 12:30 137 · 14:00 133 · 16:00 136 · 18:00 134 · 19:30 139 · 20:00 140 · 21:30 131 (mais os 8 da Rodada 7 nas horas ímpares = 19 no dia).
+Reel 138 NÃO agendado: o arquivo (57,7 MB) deu "grande demais para enviar"; a versão 720p comprimida (19,9 MB) ficou na pasta Downloads do navegador. O usuário decidiu deixá-lo de fora por enquanto.
