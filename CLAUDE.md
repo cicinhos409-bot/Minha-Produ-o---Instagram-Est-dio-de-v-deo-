@@ -220,3 +220,7 @@ Regras que continuam valendo (não mudam com a referência):
 - Enquadramento seguro do Reels: texto no topo (top 11–30%), cartão do avatar à esquerda (38–67%), lado direito livre até x 88% (botões), legenda em "baixo" (~72%). No CTA usar pose `aponta_lado` + seta `K.linha` terminando em [0.86, 0.69] (botão de comentar).
 - Usar 3–4 poses por vídeo onde fazem sentido no roteiro (gancho, reação, "sem aparecer" com `oculos`, CTA).
 - Pedidos do Estúdio devem ser formato **short** (9:16). Formato "longo" sai horizontal.
+
+## Efeito sonoro no rebobinar (regra do usuário)
+- Toda vez que a cena usar o passo `rebobinar` (◀◀ com riscas brancas, a montagem voltando no tempo), coloque junto o efeito sonoro de rebobinar: em `sfx.eventos` adicionar `{"t": <início do rebobinar>, "som": "rebobinar"}` (volume normal ou um pouco acima), um para cada rebobinar do vídeo.
+- Vale para todos os Reels novos e para os que já tinham rebobinar sem som (141, 143, 145).
