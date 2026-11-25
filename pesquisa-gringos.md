@@ -193,3 +193,59 @@ Perfis varridos: @zackdfilms, @kodadmc, @neuronvisuals, @elchicodatos, @ai.toon.
 | 21 | 20,1 mi (BR) | @desmontandoomundo | https://www.instagram.com/reel/DfK3j32JpGS/ | Como construir um muro de arrimo (28 mil comentários) | 143 s |
 | 22 | 16,9 mi (BR) | @desmontandoomundo | https://www.instagram.com/reel/DezX76zgi47/ | (não aberto) | — |
 | 23 | 11,4 mi (BR) | @desmontandoomundo | https://www.instagram.com/reel/De4oWvEh06y/ | (não aberto) | — |
+
+# Garimpo Rodada 9 (25/11/2026) — virais acima de 3 mi (TikTok; Instagram bloqueou pedidos automáticos com feedback_required; YouTube sem views legíveis)
+## Os 20 escolhidos
+
+| # | Views | Perfil | Link TikTok | ID TikTok | Duração | Tema | Formato | Transcrição OK? |
+|---|---|---|---|---|---|---|---|---|
+| 1 | 16,86 mi | @buildfromzero3d | https://www.tiktok.com/@buildfromzero3d/video/7704754180962929934 | 7704754180962929934 | ≈99 s | Buraco na praia vira torre anti-tsunami | "Se você cavar…, mas… então…" engenharia 3D lowpoly | sim |
+| 2 | 15,45 mi | @cardboard_cinema | https://www.tiktok.com/@cardboard_cinema/video/7672119860985367822 | 7672119860985367822 | ≈66 s | Por que o castor não para de construir (experimento do som de água) | curiosidade animal + experimento real, 2.5D | sim |
+| 3 | 13,43 mi | @youbuiltit | https://www.tiktok.com/@youbuiltit/video/7695224911056440590 | 7695224911056440590 | ≈97 s | Buraco no quintal vira piscina (válvula, filtro, skimmer, cloro) | "Se você cavar…" construção em corte 3D | sim |
+| 4 | 11,12 mi | @youbuiltit | https://www.tiktok.com/@youbuiltit/video/7703375912875625741 | 7703375912875625741 | ≈97 s | Galhos viram abrigo na floresta (cabana de folhas) | sobrevivência "construa" 3D | sim |
+| 5 | 9,60 mi | @thebloxyproductionsyt | https://www.tiktok.com/@thebloxyproductionsyt/video/7707405309328837901 | 7707405309328837901 | ≈89 s | Esconderijo secreto dentro do palheiro | "Se você se esconder…, mas…" 3D cartoon | sim |
+| 6 | 9,28 mi | @thebloxyproductionsyt | https://www.tiktok.com/@thebloxyproductionsyt/video/7706042762956655885 | 7706042762956655885 | ≈92 s | Base de túneis na selva (armadilha de água, entrada no rio) | "Se você cavar…" corte de terreno 3D | sim |
+| 7 | 8,22 mi | @mildly.elsewhere | https://www.tiktok.com/@mildly.elsewhere/video/7708420858909314317 | 7708420858909314317 | ≈89 s | Buraco à beira-mar vira dique seco de navio | "Se você cavar…" engenharia 3D | sim |
+| 8 | 7,64 mi | @hoopssaga1 | https://www.tiktok.com/@hoopssaga1/video/7665895942251498782 | 7665895942251498782 | ≈84 s | Golfinhos protegem salva-vidas de tubarão (Rob Howes, NZ 2004) | história real em 1ª pessoa, 3D | sim |
+| 9 | 7,32 mi | @alexguyai | https://www.tiktok.com/@alexguyai/video/7705768601269128478 | 7705768601269128478 | ≈74 s | Hipopótamo não sabe nadar (anda no fundo, dorme submerso) | curiosidade animal, 3D cartoon | sim |
+| 10 | 6,87 mi | @mildly.elsewhere | https://www.tiktok.com/@mildly.elsewhere/video/7708134928084471054 | 7708134928084471054 | ≈89 s | 4 buracos no quintal viram galinheiro (raposa, guaxinim, geada) | "Se você cavar…" construção 3D | sim |
+| 11 | 5,78 mi | @loveanimal814 | https://www.tiktok.com/@loveanimal814/video/7705452136338967839 | 7705452136338967839 | ≈85 s | Por que o leopardo-das-neves é obcecado pela cauda | curiosidade animal 3D | sim |
+| 12 | 5,32 mi | @youbuiltit | https://www.tiktok.com/@youbuiltit/video/7708493392937880863 | 7708493392937880863 | ≈106 s | Árvore morta vira canoa (fogo, pedras quentes) | sobrevivência "construa" 3D | sim |
+| 13 | 5,00 mi | @theriddlerdata | https://www.tiktok.com/@theriddlerdata/video/7618563520132582689 | 7618563520132582689 | ≈90 s | O que acontece quando você coloca aparelho nos dentes (dia 1, 2, 3) | "O que aconteceria se…" linha do tempo, 2D/3D | sim |
+| 14 | 4,62 mi | @the_what_if_animator | https://www.tiktok.com/@the_what_if_animator/video/7698888456348388640 | 7698888456348388640 | ≈47 s | Guerra nuclear numa viagem de carro — não volte pro carro (parte 1) | "E se…" sobrevivência em série, stickman | sim |
+| 15 | 4,57 mi | @mildly.elsewhere | https://www.tiktok.com/@mildly.elsewhere/video/7709241667307490574 | 7709241667307490574 | ≈81 s | Vacas com olhos pintados no traseiro espantam leões (Botsuana) | história curta + fato científico, 3D | sim |
+| 16 | 4,21 mi | @what_if_space | https://www.tiktok.com/@what_if_space/video/7696879268386573600 | 7696879268386573600 | ≈51 s | E se você desse zoom até os dedos se tocarem | "E se…" zoom micro/átomos, 3D | sim |
+| 17 | 3,95 mi | @cardboard_cinema | https://www.tiktok.com/@cardboard_cinema/video/7620077926079270157 | 7620077926079270157 | ≈52 s | Golfinhos e o baiacu (câmera escondida da BBC) | curiosidade animal + revelação, 2.5D | sim |
+| 18 | 3,91 mi | @mildly.elsewhere | https://www.tiktok.com/@mildly.elsewhere/video/7710646161387949326 | 7710646161387949326 | ≈91 s | Buraco no deserto vira oásis (palmeiras de El Oued, Argélia) | "Se você cavar…" 3D | sim |
+| 19 | 3,27 mi | @zheno_yt | https://www.tiktok.com/@zheno_yt/video/7619817628361575687 | 7619817628361575687 | ≈56 s | Por que o leão não é o rei de verdade | lista de fatos/mitos animais, 3D | sim |
+| 20 | 3,25 mi | @unnecessaryengineering | https://www.tiktok.com/@unnecessaryengineering/video/7701719637041368353 | 7701719637041368353 | ≈60 s | Mala com rodinha vira hotel (e você ainda arrasta a mala) | "Vamos consertar isso" invenção absurda 3D | sim |
+
+## 6 reservas
+
+| # | Views | Perfil | Link TikTok | ID TikTok | Duração | Tema | Formato | Transcrição OK? |
+|---|---|---|---|---|---|---|---|---|
+| R1 | 4,56 mi | @thebloxyproductionsyt | https://www.tiktok.com/@thebloxyproductionsyt/video/7704861383288032525 | 7704861383288032525 | ≈105 s | Bunker secreto debaixo de um toco de árvore | "Se você cavar…" 3D (mesmo perfil de 2 dos 20) | sim |
+| R2 | 4,52 mi | @youbuiltit | https://www.tiktok.com/@youbuiltit/video/7709537134939573517 | 7709537134939573517 | ≈104 s | Junco vira barco (Alcatraz 2019) | sobrevivência "construa" 3D | sim |
+| R3 | 3,42 mi | @mildly.elsewhere | https://www.tiktok.com/@mildly.elsewhere/video/7710237802427862286 | 7710237802427862286 | ≈67 s | Poço na Índia em pirâmide invertida (Chand Baori) | "Se você cavar…" 3D | sim |
+| R4 | 3,17 mi | @unnecessaryengineering | https://www.tiktok.com/@unnecessaryengineering/video/7702085946342149408 | 7702085946342149408 | ≈68 s | Mochila vira aeroporto inteiro | invenção absurda 3D (gêmeo do #20) | sim |
+| R5 | 3,00 mi | @buildfromzero3d | https://www.tiktok.com/@buildfromzero3d/video/7706528906991373581 | 7706528906991373581 | ≈101 s | Bunker escondido na parede de um poço | "Se você se esconder…" 3D (tema bunker já usado na R8) | sim |
+| R6 | 8,58 mi | @explainedhistory9 | https://www.tiktok.com/@explainedhistory9/video/7688932910379863326 | 7688932910379863326 | ≈90 s | Curas bizarras da Peste Negra (galinha, cobra, esmeralda) | história explicada 2D (transcrição parcial) | parcial |
+
+## Fora da lista (motivo)
+
+| Views | Perfil | Link TikTok | Tema | Motivo | Transcrição |
+|---|---|---|---|---|---|
+| 6,16 mi | @youbuiltit | https://www.tiktok.com/@youbuiltit/video/7695368567193079053 | Buraco no quintal vira privada (sifão, respiro) | sobrepõe Reels 73/91 (sifão/descarga) | sim |
+| 4,04 mi | @survivemanual | https://www.tiktok.com/@survivemanual/video/7704794925543574815 | 7 dias antes do ataque nuclear (avô, bunker, inverno nuclear) | longo (~5 min, 784 palavras) + conselho de iodo a checar | sim |
+| 19,6 mi | @man_ia_c | https://www.tiktok.com/@man_ia_c/video/7693494009494342945 | E se os elétrons sumissem por 5 s | sem narração (só texto/música) | não |
+| 14,5 mi | @man_ia_c | https://www.tiktok.com/@man_ia_c/video/7693305573487562016 | E se o oxigênio sumisse por 5 s | sem narração | não |
+| 14,4 mi | @britdocs | https://www.tiktok.com/@britdocs/video/7553911431167626526 | O que acontece quando você come alho (anatomia 3D) | sem narração | não |
+| 9,50 mi | @aimechanicvibes | https://www.tiktok.com/@aimechanicvibes/video/7669638152084032798 | Como funciona a embreagem hidráulica | sem narração | não |
+| 5,12 mi | @1hidden_by_design | https://www.tiktok.com/@1hidden_by_design/video/7705893779672141086 | Por que a chuva não vaza pelo telhado | sem legenda automática | não |
+| 5,26 mi | @man_ia_c | https://www.tiktok.com/@man_ia_c/video/7693617402180881697 | E se os nêutrons sumissem por 5 s | não testado (mesmo formato sem voz) | — |
+| 4,38 mi | @man_ia_c | https://www.tiktok.com/@man_ia_c/video/7696143265405488416 | E se π fosse exatamente 3 | não testado | — |
+| 4,33 mi | @ifinity3d | https://www.tiktok.com/@ifinity3d/video/7697688945232039201 | E se seu carro nunca parasse de acelerar | sem narração | não |
+| 3,90 mi | @ifinity3d | https://www.tiktok.com/@ifinity3d/video/7697611862564719904 | E se você encolhesse pela metade a cada 2 s | não testado (perfil sem voz) | — |
+| 3,06 mi | @ifinity3d | https://www.tiktok.com/@ifinity3d/video/7697960681135508769 | E se cada pulo fosse 2x mais alto | não testado | — |
+| 3,78 mi | @humananatomy3d | https://www.tiktok.com/@humananatomy3d/video/7617109742086933774 | Estômago depois de comer melancia | não testado | — |
+| 10,58 mi | @plipstories | https://www.tiktok.com/@plipstories/video/7618116883786599693 | História real de Anthony Broadwater | pessoa real/condenação — não testado | — |
