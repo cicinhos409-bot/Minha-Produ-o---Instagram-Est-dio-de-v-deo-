@@ -160,3 +160,7 @@
 134 DARK — [série / parte 2] 🧟 Quer a parte 2 com os zumbis tentando entrar? Comenta DARK que eu te mando no direct onde aprender a fazer a sua própria série animada.
 135 ANIMADO — [sem aparecer] Ninguém apareceu, ninguém gravou, ninguém desenhou 👀 Comenta ANIMADO que eu te mando no direct onde aprender a fazer os seus.
 136 CURIOSO — [marcar amigo] 🇯🇵 Marca aquele amigo que sonha em morar no Japão e comenta CURIOSO que eu te mando no direct onde aprender a fazer os seus.
+131 SISTEMA — [objeção] ☀️ Não sabe desenhar? Nem eu. Comenta SISTEMA que eu te mando no direct onde aprender a fazer os seus vídeos animados com IA.
+132 ROTEIRO — [salvar] ⏰ Salva pra não esquecer. Comenta ROTEIRO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+137 SEGREDO — [pergunta/escolha] 🪡 Onde você esconderia a agulha? Responde aqui e comenta SEGREDO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+138 PASSO — [passo a passo] 🧱 Quer o passo a passo? ✅ Comenta PASSO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
