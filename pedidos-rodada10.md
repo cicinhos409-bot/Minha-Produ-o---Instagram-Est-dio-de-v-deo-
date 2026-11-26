@@ -22,3 +22,6 @@
 | 178 | PASSO | Filhote de elefante não sabe usar a tromba | https://www.tiktok.com/@mohackman/video/7706105880122625294 · @mohackman · 11,96 mi (TikTok) views | 43103407-1a3f-44df-8930-73683bd4ee36 | ElevenLabs Matheus |
 | 179 | QUERO | E se um bicho vivesse no ventilador de teto (ficção) | https://www.tiktok.com/@oddly.adapted/video/7710438152699170061 · @oddly.adapted · 3,66 mi (TikTok) views | b3e103ae-2ec0-4c66-b16a-1eb7cf346841 | ElevenLabs Matheus |
 | 180 | VÍDEO | Pescador solta baleia presa (história real) | https://www.tiktok.com/@hoopssaga1/video/7705846582368849183 · @hoopssaga1 · 4,15 mi (TikTok) views | a2f5f687-5fe1-4547-bbc1-c7989f17649b | ElevenLabs Matheus |
+
+## Agendamento (Instagram @cicero.cf.ofcl, 28/11/2026, horário de Brasília)
+161 07:00 · 162 07:50 · 163 08:40 · 164 09:30 · 165 10:20 · 166 11:10 · 167 12:00 · 168 12:50 · 169 13:40 · 170 14:30 · 171 15:20 · 172 16:10 · 173 17:00 · 174 17:50 · 175 18:40 · 176 19:30 · 177 20:20 · 178 21:10 · 179 22:00 · 180 22:50 (20 posts, Reels + feed, legenda = só a CTA). Caminho do conector: Publora create_post → get_upload_url → UMBRA collect_generated_media + upload_generated_to_url → complete_media → update_post.
