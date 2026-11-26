@@ -12,3 +12,8 @@
 | 168 | LUA | E se o magma de Yellowstone caísse em Nova York (hipótese) | https://www.youtube.com/shorts/gpZstBrMiF0 · @zackdfilms · 6,1 mi (YouTube) views | f2d5ab82-fe25-40cf-b353-6a104a63b996 | ElevenLabs Matheus |
 | 169 | VIDEO | O elefante baleado que foi até o veterinário (história real) | https://www.youtube.com/shorts/buxxsDdLtP8 · @zackdfilms · 13 mi (YouTube) · 8,47 mi (IG) views | 4021c0ac-fa85-4e67-aa20-84822e78ea0b | ElevenLabs Matheus |
 | 170 | ESTILOS | 3 patentes bizarras | https://www.youtube.com/shorts/ofLgYMeZIEQ · @zackdfilms · 8,3 mi (YouTube) views | 6715599c-4299-450c-81f4-bc47e34c3612 | ElevenLabs Matheus |
+| 171 | SISTEMA | Quando trocar a escova de dentes | https://www.youtube.com/shorts/Zsr6EQdWNjA · @zackdfilms · 7,9 mi (YouTube) views | 0c233e5a-2f0d-4e36-960a-bc2d4a116fc0 | ElevenLabs Matheus |
+| 172 | ROTEIRO | O menino e a fazenda (ficção) | https://www.youtube.com/shorts/4fp5vMtRZuE · @zackdfilms · 5,8 mi (YouTube) views | a3f2c163-a13b-4bd3-b147-c31f7bb9a92c | ElevenLabs Matheus |
+| 173 | CANAL | Orangotango salvo na piscina (história real) | https://www.youtube.com/shorts/TLmmiI1CiaA · @zackdfilms · 8,1 mi (YouTube) views | 6e07470b-f2fe-495d-a837-95c627b9da98 | ElevenLabs Matheus |
+| 174 | DARK | Em coma, ele "joga tênis" na mente (dramatização) | https://www.tiktok.com/@weirdsecret_/video/7702771616136187169 · @weirdsecret_ · 7,86 mi (TikTok) views | 1416ff56-811c-4263-a799-0650b7f9728d | ElevenLabs Matheus |
+| 175 | ANIMADO | A cidade da bolinha de apertar gigante (ficção) | https://www.tiktok.com/@mildly.elsewhere/video/7711810121344601358 · @mildly.elsewhere · 4,22 mi (TikTok) views | 0e1b79aa-0ced-4401-9abd-3b46939e8b94 | ElevenLabs Matheus |

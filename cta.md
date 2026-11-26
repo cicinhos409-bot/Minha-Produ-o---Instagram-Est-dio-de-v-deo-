@@ -198,3 +198,8 @@
 168 LUA — [série / parte 2] 🌋 Parte 2: e se a lava caísse em São Paulo? Comenta LUA que eu te mando no direct onde aprender a fazer os seus vídeos animados.
 169 VIDEO — [marcar amigo] 🐘 Marca alguém que torce pelos elefantes e comenta VIDEO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
 170 ESTILOS — [escolha A/B/C] 🛁 A) máscara, B) guarda-chuva ou C) banheira: qual você usaria? Responde e comenta ESTILOS que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+171 SISTEMA — [salvar] 🪥 Salva pra lembrar de olhar a sua escova. Comenta SISTEMA que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+172 ROTEIRO — [bastidor (texto digitado)] 🫙 Essa fazenda inteira saiu de um texto digitado: sem câmera e sem desenhar nada (história de ficção). Comenta ROTEIRO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+173 CANAL — [pergunta / opinião] 🦧 E você, pularia na água pra salvar ela? Responde aqui e comenta CANAL que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+174 DARK — [prompt + passo a passo] 🧠 Quer saber onde aprender o passo a passo de uma animação dessas? Comenta DARK que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+175 ANIMADO — [neuronvisuals (Quer aprender a animar…?)] 🚚 Quer aprender a animar uma cidade inteira assim? Comenta ANIMADO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
