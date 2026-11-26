@@ -164,3 +164,25 @@
 132 ROTEIRO — [salvar] ⏰ Salva pra não esquecer. Comenta ROTEIRO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
 137 SEGREDO — [pergunta/escolha] 🪡 Onde você esconderia a agulha? Responde aqui e comenta SEGREDO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
 138 PASSO — [passo a passo] 🧱 Quer o passo a passo? ✅ Comenta PASSO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+
+## Rodada 9
+141 TURBINA — [neuronvisuals (Quer aprender a fazer vídeos animados assim?)] 🌊 Quer aprender a fazer animações assim? Comenta TURBINA que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+142 QUADRO — [pergunta + palavra] 🦫 Você sabia que o castor constrói pra calar o barulho da água? Comenta QUADRO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+143 JANELA — [passo a passo] ⚓ Quer o passo a passo pra criar um vídeo animado assim? Comenta JANELA que eu te mando no direct onde aprender a fazer os seus.
+144 CANETA — [marcar amigo] 🦛 Marca aquele amigo que nada igual hipopótamo e comenta CANETA que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+145 SOL — [salvar] 🌴 Salva esse pra não perder e comenta SOL que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+146 ORIGEM — [fica até o final] 👀 Fica até o final: os golfinhos seguraram o tubarão longe por 40 minutos. Comenta ORIGEM que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+147 POLVO — [sem aparecer] 🐆 Sem câmera, sem zoológico e sem aparecer: tudo feito com IA. Comenta POLVO que eu te mando no direct onde aprender a fazer os seus.
+148 LUA — [pedido do público] 🤏 Qual "e se" eu animo no próximo? Escreve aqui e comenta LUA que eu te mando no direct onde aprender a fazer os seus.
+149 VIDEO — [objeção (não sei desenhar)] 🏊 Nunca desenhou nada na vida? Nem eu. Comenta VIDEO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+150 ESTILOS — [A/B (escolha)] 🌾 A ou B: você ficava na caixa do palheiro (A) ou no túnel do chiqueiro (B)? Responde e comenta ESTILOS que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+151 SISTEMA — [bastidor (começou com uma frase)] 🐔 Esse galinheiro inteiro começou com uma frase digitada, sem câmera e sem aparecer. Comenta SISTEMA que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+152 ROTEIRO — [série / parte 2] 🧳 Parte 2: a mochila que vira aeroporto? Comenta ROTEIRO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+153 CANAL — [pergunta + palavra] 🛶 Você teria paciência pra escavar uma canoa dessas? Comenta CANAL que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+154 DARK — [fica até o final] 🌿 Assiste até o fim pra ver a entrada que ninguém procura. Comenta DARK que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+155 ANIMADO — [marcar amigo] 🐄 Marca o amigo que ia rir dessa ideia (igual o vizinho) e comenta ANIMADO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+156 CURIOSO — [salvar] 🔖 Salva pra mostrar pro mais curioso da turma e comenta CURIOSO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+157 SEGREDO — [o segredo / curiosidade] 🤫 Quer saber o segredo de como esse vídeo foi feito? Comenta SEGREDO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+158 PASSO — [passo a passo] 👣 Do galho à cabana em 1 minuto de animação. Quer o passo a passo? Comenta PASSO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+159 QUERO — [pergunta / opinião] 👑 E aí, o leão merece a coroa ou não? Responde aqui e comenta QUERO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+160 VÍDEO — [sem aparecer] 🎬 Animei esse poço inteiro sem câmera e sem aparecer. Comenta VÍDEO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
