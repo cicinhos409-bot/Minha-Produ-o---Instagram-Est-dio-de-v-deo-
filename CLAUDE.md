@@ -7,7 +7,7 @@ Responda sempre em português. Leia este arquivo antes de escrever roteiros, leg
 - Preço R$ 297, comissão 80% (≈ R$ 237,60 por venda). Meta inicial: 5 vendas (R$ 1.188).
 - Funil: Reel → pessoa comenta a PALAVRA-CHAVE → automação Youze (responde comentário, pede para seguir, manda o link) → VSL https://estudio-de-video.vercel.app → checkout Kiwify (afid=PlkfAbG9).
 - Perfil: @cicero.cf.ofcl. Agendamento: JetPost (workspace "Meu Instagram - Estúdio De Vídeo"). Vídeos: UMBRA Clip Shop → Estúdio de Vídeos (estilo sugerido: Kinetic Noir, preto + verde-limão).
-- Narração: desde 26/11 (Rodada 10, lote 2 em diante) usar **ElevenLabs** (pedido do usuário; substitui a regra antiga "nunca ElevenLabs"), sempre a mesma voz masculina pt-BR de narrador. Antes: Cartesia (voz Rafael) desde o Reel 130 e KikiVoice L007 quando a Cartesia ficou sem créditos. Arquivo na pasta do Umbra como `Audios/reelNN.mp3`.
+- Narração: desde 26/11 (Rodada 10, lote 2 em diante) usar **ElevenLabs** (pedido do usuário; substitui a regra antiga "nunca ElevenLabs"), voz **Matheus** (voiceId F7823wtD50WK1gnmgBk5, eleven_multilingual_v2, pt, stability 0.5, similarity 0.75, style 0.2, speed ~1.1). Antes: Cartesia (voz Rafael) desde o Reel 130 e KikiVoice L007 quando a Cartesia ficou sem créditos. Arquivo na pasta do Umbra como `Audios/reelNN.mp3`.
 
 ## Palavras-chave (automação Youze "Reels - Rodizio 20 palavras v3", id 0acc7eb8-11dd-42c3-be22-e7fa6ace9b8e)
 Só estas 20 disparam a DM. Todo roteiro/legenda deve usar UMA delas no CTA ("Comenta PALAVRA que eu te mando no direct").
