@@ -183,8 +183,23 @@ Só estas 20 disparam a DM. Todo roteiro/legenda deve usar UMA delas no CTA ("Co
 | 138 | Muro de arrimo (orig. @desmontandoomundo) | PASSO |
 | 139 | O preso que alimentava a parede (orig. @elchicodatos) | QUERO |
 | 140 | O banheiro do bunker, parte 2 (orig. @kodadmc) | VÍDEO |
+| 141 | Torre anti-tsunami (orig. @buildfromzero3d) | TURBINA |
+| 142 | O castor e o som da água (orig. @cardboard_cinema) | QUADRO |
+| 143 | Dique seco de navio (orig. @mildly.elsewhere) | JANELA |
+| 144 | Hipopótamo não sabe nadar (orig. @alexguyai) | CANETA |
+| 145 | Oásis no fundo do buraco (orig. @mildly.elsewhere) | SOL |
+| 146 | Golfinhos protegem salva-vidas do tubarão (orig. @hoopssaga1) | ORIGEM |
+| 147 | Leopardo-das-neves e a cauda (orig. @loveanimal814) | POLVO |
+| 148 | E se você desse zoom até os dedos se tocarem (orig. @what_if_space) | LUA |
+| 149 | Buraco no quintal vira piscina (orig. @youbuiltit) | VIDEO |
+| 150 | Esconderijo secreto no palheiro (orig. @thebloxyproductionsyt) | ESTILOS |
+| 151 | Galinheiro com 4 buracos no quintal (orig. @mildly.elsewhere) | SISTEMA |
+| 152 | Mala com rodinha vira hotel (orig. @unnecessaryengineering) | ROTEIRO |
+| 153 | Árvore morta vira canoa (orig. @youbuiltit) | CANAL |
+| 154 | Base de túneis na selva (orig. @thebloxyproductionsyt) | DARK |
+| 155 | Vacas com olhos pintados no traseiro (orig. @mildly.elsewhere) | ANIMADO |
 
-Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Rodadas 1 (Reels 01–20), 2 (21–40) e 3 (41–60), com roteiros e CTAs em `roteiros.md`/`cta.md`, usam as 20 palavras na mesma ordem. Rodada 4 (61–80): formato "Construa do zero" com gancho de duplo sentido ("Se você X, você não tem Y. Tem Z."), até 40 s (~95–105 palavras). Rodada 5 (81–100): mesmo formato "Construa do zero". Rodada 6 (101–120): nova estratégia — roteiros modelados em virais gringos de animação 3D/2D com +1 mi de views (pesquisa em `pesquisa-gringos.md`; formatos "E se…", "Como funciona", "O que acontece no seu corpo" e história real). Rodada 7 (121–128): versões brasileiras de virais gringos (transcrição do original adaptada, ~1 min, ~190–210 palavras). Rodada 8 (129–140): clones dos Reels do Garimpo com cena mundo3d (pedidos em `pedidos-rodada8.md`). A partir da Rodada 8, todo roteiro segue a seção "Fórmula de copy = a do viral de referência" abaixo (desde a Rodada 9: só acima de 3 mi). Rodada 9 (141–160): 20 clones de virais acima de 3 mi (pedidos em `pedidos-rodada9.md`). O próximo Reel (141) usa TURBINA, seguindo o rodízio.
+Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Rodadas 1 (Reels 01–20), 2 (21–40) e 3 (41–60), com roteiros e CTAs em `roteiros.md`/`cta.md`, usam as 20 palavras na mesma ordem. Rodada 4 (61–80): formato "Construa do zero" com gancho de duplo sentido ("Se você X, você não tem Y. Tem Z."), até 40 s (~95–105 palavras). Rodada 5 (81–100): mesmo formato "Construa do zero". Rodada 6 (101–120): nova estratégia — roteiros modelados em virais gringos de animação 3D/2D com +1 mi de views (pesquisa em `pesquisa-gringos.md`; formatos "E se…", "Como funciona", "O que acontece no seu corpo" e história real). Rodada 7 (121–128): versões brasileiras de virais gringos (transcrição do original adaptada, ~1 min, ~190–210 palavras). Rodada 8 (129–140): clones dos Reels do Garimpo com cena mundo3d (pedidos em `pedidos-rodada8.md`). A partir da Rodada 8, todo roteiro segue a seção "Fórmula de copy = a do viral de referência" abaixo (desde a Rodada 9: só acima de 3 mi). Rodada 9 (141–160): 20 clones de virais acima de 3 mi (pedidos em `pedidos-rodada9.md`). Reels 141–155 feitos; o próximo (156) usa CURIOSO, seguindo o rodízio.
 
 ## CTAs sempre diferentes (regra do usuário)
 - A palavra-chave continua sendo SEMPRE uma das 20 da tabela acima (automação Youze já configurada; não inventar palavra nova).
