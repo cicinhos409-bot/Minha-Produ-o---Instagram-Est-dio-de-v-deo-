@@ -193,3 +193,8 @@
 163 JANELA — [marcar amigo / mandar pra alguém] 😮‍💨 Manda pra quem dorme de boca aberta e comenta JANELA que eu te mando no direct onde aprender a fazer os seus vídeos animados.
 164 CANETA — [honesta (modelo eseacontecesse._)] 🏺 Falando em honestidade: não prometo que todo vídeo viraliza. Mas, se quiser aprender, comenta CANETA que eu te mando no direct onde aprender a fazer os seus vídeos animados.
 165 SOL — [objeção (não sei desenhar)] 🐈 Não sabe desenhar nem um gatinho? Eu também não. Comenta SOL que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+166 ORIGEM — [pergunta + palavra] 🌊 Você conhecia a história do Bebê 81? Comenta ORIGEM que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+167 POLVO — [sem aparecer] 🦆 Nenhum pato foi filmado: animei tudo com IA, sem gravar e sem aparecer. Comenta POLVO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+168 LUA — [série / parte 2] 🌋 Parte 2: e se a lava caísse em São Paulo? Comenta LUA que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+169 VIDEO — [marcar amigo] 🐘 Marca alguém que torce pelos elefantes e comenta VIDEO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+170 ESTILOS — [escolha A/B/C] 🛁 A) máscara, B) guarda-chuva ou C) banheira: qual você usaria? Responde e comenta ESTILOS que eu te mando no direct onde aprender a fazer os seus vídeos animados.

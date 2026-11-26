@@ -7,3 +7,8 @@
 | 163 | JANELA | Respirar pela boca pode mudar o rosto | https://www.youtube.com/shorts/2ll9ClpJ3x8 · @zackdfilms · 14 mi (YouTube) · 3,92 mi (IG) views | e55da6e8-e417-49d3-b46d-3cea72cf9971 | 39,2 s |
 | 164 | CANETA | O oleiro e a caneca (fábula) | https://www.youtube.com/shorts/ZQnJl6rQs50 · @zackdfilms · 10,5 mi (YouTube) views | baaefb37-4d74-45e2-b927-76a25700b268 | 59,9 s |
 | 165 | SOL | Gato-do-deserto se achata na areia | https://www.tiktok.com/@faunaview8/video/7707594753541541150 · @faunaview8 · 15,9 mi (TikTok) views | 9dcbc5f6-e989-4c29-a641-dc91aef382ee | 62,4 s |
+| 166 | ORIGEM | Bebê 81 do tsunami (história real) | https://www.youtube.com/shorts/AMlsGz_YJD8 · @zackdfilms · 9,3 mi (YouTube) · 3,79 mi (IG) views | 0a6a10fc-76f2-424b-8ce6-0e653c398746 | ElevenLabs Matheus |
+| 167 | POLVO | Patos dormem com um olho aberto | https://www.youtube.com/shorts/9k_UeVDf-0Y · @zackdfilms · 5,3 mi (YouTube) views | 64482153-2835-43cf-b00e-1177005a510c | ElevenLabs Matheus |
+| 168 | LUA | E se o magma de Yellowstone caísse em Nova York (hipótese) | https://www.youtube.com/shorts/gpZstBrMiF0 · @zackdfilms · 6,1 mi (YouTube) views | f2d5ab82-fe25-40cf-b353-6a104a63b996 | ElevenLabs Matheus |
+| 169 | VIDEO | O elefante baleado que foi até o veterinário (história real) | https://www.youtube.com/shorts/buxxsDdLtP8 · @zackdfilms · 13 mi (YouTube) · 8,47 mi (IG) views | 4021c0ac-fa85-4e67-aa20-84822e78ea0b | ElevenLabs Matheus |
+| 170 | ESTILOS | 3 patentes bizarras | https://www.youtube.com/shorts/ofLgYMeZIEQ · @zackdfilms · 8,3 mi (YouTube) views | 6715599c-4299-450c-81f4-bc47e34c3612 | ElevenLabs Matheus |

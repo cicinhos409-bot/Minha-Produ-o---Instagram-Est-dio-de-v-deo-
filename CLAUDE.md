@@ -208,6 +208,11 @@ Só estas 20 disparam a DM. Todo roteiro/legenda deve usar UMA delas no CTA ("Co
 | 163 | Respirar pela boca pode mudar o rosto (orig. @zackdfilms) | JANELA |
 | 164 | O oleiro e a caneca (fábula) (orig. @zackdfilms) | CANETA |
 | 165 | Gato-do-deserto se achata na areia (orig. @faunaview8) | SOL |
+| 166 | Bebê 81 do tsunami (história real) (orig. @zackdfilms) | ORIGEM |
+| 167 | Patos dormem com um olho aberto (orig. @zackdfilms) | POLVO |
+| 168 | E se o magma de Yellowstone caísse em Nova York (hipótese) (orig. @zackdfilms) | LUA |
+| 169 | O elefante baleado que foi até o veterinário (história real) (orig. @zackdfilms) | VIDEO |
+| 170 | 3 patentes bizarras (orig. @zackdfilms) | ESTILOS |
 
 Roteiros completos em `roteiros.md`. Descrição dos Reels = SÓ a CTA de `cta.md` (sem título e SEM hashtags). Rodadas 1 (Reels 01–20), 2 (21–40) e 3 (41–60), com roteiros e CTAs em `roteiros.md`/`cta.md`, usam as 20 palavras na mesma ordem. Rodada 4 (61–80): formato "Construa do zero" com gancho de duplo sentido ("Se você X, você não tem Y. Tem Z."), até 40 s (~95–105 palavras). Rodada 5 (81–100): mesmo formato "Construa do zero". Rodada 6 (101–120): nova estratégia — roteiros modelados em virais gringos de animação 3D/2D com +1 mi de views (pesquisa em `pesquisa-gringos.md`; formatos "E se…", "Como funciona", "O que acontece no seu corpo" e história real). Rodada 7 (121–128): versões brasileiras de virais gringos (transcrição do original adaptada, ~1 min, ~190–210 palavras). Rodada 8 (129–140): clones dos Reels do Garimpo com cena mundo3d (pedidos em `pedidos-rodada8.md`). A partir da Rodada 8, todo roteiro segue a seção "Fórmula de copy = a do viral de referência" abaixo (desde a Rodada 9: só acima de 3 mi). Rodada 9 (141–160): 20 clones de virais acima de 3 mi (pedidos em `pedidos-rodada9.md`). Rodada 9 completa (141–160). Rodada 10 (161–180): garimpo em `pesquisa-gringos.md`, pedidos em `pedidos-rodada10.md`.
 

@@ -585,3 +585,28 @@ O professor entregou um barro especial pra turma e pediu uma caneca de café. Um
 Original: https://www.tiktok.com/@faunaview8/video/7707594753541541150 · @faunaview8 · 15,9 mi (TikTok) views
 
 Quando o gato-do-deserto dá de cara com gente, ele faz de tudo pra se achatar na areia, torcendo pra ninguém notar. Mas isso não impede os fotógrafos de tirar foto atrás de foto. Ele é um dos menores felinos selvagens do mundo, e é muito parecido com um gato de casa. A personalidade também. A melhor parte? Como vive no deserto, ele já nasceu com a maior caixa de areia do mundo. Mas, por mais fofo que seja, pensa duas vezes antes do carinho: chegou perto demais, e ele começa a chiar. E tem outra habilidade incrível: quase não bebe água. Tira quase toda a umidade das presas que come. E as orelhas enormes captam até os sons mais fracos, pra achar roedores, lagartos e até cobras venenosas. Mesmo sendo um caçador feroz, a rotina é de gato de casa: adora arranhar um poste, e se você acorda ele, faz a mesma cara de sono de qualquer gato. Não sabe desenhar nem um gato? Eu também não. Comenta SOL que eu te mando no direct onde aprender a fazer os seus.
+
+## Reel 166 · ORIGEM · Bebê 81 do tsunami (história real)
+Original: https://www.youtube.com/shorts/AMlsGz_YJD8 · @zackdfilms · 9,3 mi (YouTube) · 3,79 mi (IG) views
+
+O tsunami arrancou o bebê dos braços da mãe e levou ele pra longe. Em volta, as pessoas se afogavam nas ondas. Mas, de algum jeito, a água largou ele na praia, encharcado, mas vivo. Ninguém sabia quem ele era, nem se a família tinha sobrevivido. No hospital, ele virou o Bebê 81. Até que um casal apareceu dizendo que ele era deles. Mas aí, segundo o hospital, outra família disse a mesma coisa. E depois outra. Até nove famílias disseram que o menino era delas, porque muitas crianças tinham sumido no tsunami. Então a Justiça mandou fazer um exame de DNA. E o resultado confirmou um casal só: os pais de verdade, que finalmente levaram o filho pra casa. Isso aconteceu no Sri Lanka, em 2004. Você conhecia essa história? Comenta ORIGEM que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+
+## Reel 167 · POLVO · Patos dormem com um olho aberto
+Original: https://www.youtube.com/shorts/9k_UeVDf-0Y · @zackdfilms · 5,3 mi (YouTube) views
+
+Quando os patos se enfileiram pra dormir, o pato da ponta direita deixa o olho de fora aberto e o de dentro fechado. Já o pato da ponta esquerda faz exatamente o contrário. Isso porque o cérebro do pato funciona em duas metades: uma metade entra em sono profundo, enquanto a outra fica em alerta, pro olho aberto vigiar se vem algum predador. E os patos do meio da fila? Esses dormem mais vezes com os dois olhos fechados. Nenhum pato foi filmado: esse vídeo eu fiz com IA, sem aparecer. Comenta POLVO que eu te mando no direct onde aprender a fazer os seus.
+
+## Reel 168 · LUA · E se o magma de Yellowstone caísse em Nova York (hipótese)
+Original: https://www.youtube.com/shorts/gpZstBrMiF0 · @zackdfilms · 6,1 mi (YouTube) views
+
+Se você olhasse por baixo do Parque de Yellowstone, ia ver um supervulcão com um reservatório de magma tão grande que encheria o Grand Canyon mais de duas vezes. Mas calma: a maior parte é rocha quente quase sólida, e hoje não tem rocha derretida suficiente pra uma erupção dessas. Agora imagina, só imaginação: se você tirasse toda a rocha derretida lá de baixo e despejasse em cima de Nova York, a lava derreteria os arranha-céus, os rios iam evaporar com o calor, e o nordeste dos Estados Unidos ficaria enterrado debaixo de metros de rocha e aço derretidos. Parte 2: e se fosse em São Paulo? Comenta LUA que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+
+## Reel 169 · VIDEO · O elefante baleado que foi até o veterinário (história real)
+Original: https://www.youtube.com/shorts/buxxsDdLtP8 · @zackdfilms · 13 mi (YouTube) · 8,47 mi (IG) views
+
+Esse elefante levou um tiro na testa, e a bala parou a poucos centímetros do cérebro. Mesmo assim, ele passou semanas andando pelo parque, até que uma equipe de veterinários chegou. E o elefante caminhou calmo até o carro deles, como se estivesse pedindo ajuda. Eles sedaram o elefante, e no exame acharam sinais de outro tiro, no lado do corpo. Então tiraram os pedaços de osso quebrado da ferida, limparam tudo e deram antibióticos, o que salvou a vida dele. Isso aconteceu no Zimbábue, em 2016. Marca alguém que torce pelos elefantes e comenta VIDEO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+
+## Reel 170 · ESTILOS · 3 patentes bizarras
+Original: https://www.youtube.com/shorts/ofLgYMeZIEQ · @zackdfilms · 8,3 mi (YouTube) views
+
+Com essa máscara presa no rosto, as barras de metal impediam a pessoa de comer, até enquanto cozinhava. E ela tinha cadeado: só tirava quem tinha a chave. Outro inventor criou uma coleira presa num guarda-chuva. A ideia era o seu cachorro andar debaixo do guarda-chuva e ficar sequinho na chuva, enquanto você fica encharcado, segurando o guarda-chuva em cima dele como um mordomo. E nessa banheira aqui, você deitava e balançava ela inteira pra frente e pra trás, pra água ir e vir no corpo quase sem esforço. Essas três ideias viraram patente de verdade, mas eram estranhas demais pra fazer sucesso. Qual você usaria: A, a máscara; B, o guarda-chuva; ou C, a banheira? Responde e comenta ESTILOS que eu te mando no direct onde aprender a fazer os seus vídeos animados.
