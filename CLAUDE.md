@@ -2,6 +2,8 @@
 
 Responda sempre em português. Leia este arquivo antes de escrever roteiros, legendas ou mexer na automação.
 
+**Autonomia (regra do usuário):** não pedir confirmação nem escolhas ao usuário durante a produção — decidir pelo melhor caminho, fazer e só relatar o resultado.
+
 ## Estratégia (funil ODR)
 - Afiliado do **Estúdio de Vídeos (@yurizandotv)**: curso + ferramenta para criar vídeos animados com IA, sem aparecer e sem editar.
 - Preço R$ 297, comissão 80% (≈ R$ 237,60 por venda). Meta inicial: 5 vendas (R$ 1.188).
