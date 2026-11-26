@@ -24,3 +24,7 @@ Estilo claude:shorts:02-lowpoly-3d-desmontando · short 720 · narração KikiVo
 | 158 | PASSO | Galhos viram abrigo na mata (cabana de folhas) | https://www.tiktok.com/@youbuiltit/video/7703375912875625741 · @youbuiltit · 11,12 mi views (TikTok) | ca9ecf7b-4463-449f-bb5e-a15f831dff9f | 61,2 s |
 | 159 | QUERO | Por que o leão não é bem o rei | https://www.tiktok.com/@zheno_yt/video/7619817628361575687 · @zheno_yt · 3,27 mi views (TikTok) | 81db6842-b718-4c4a-902b-eb02138e836a | 41,4 s |
 | 160 | VÍDEO | Poço da Índia em pirâmide invertida (Chand Baori) | https://www.tiktok.com/@mildly.elsewhere/video/7710237802427862286 · @mildly.elsewhere · 3,42 mi views (TikTok) | 642bd6ba-bf69-4df6-a426-cbe90d98ab76 | 54,2 s |
+
+## Agendamento (Instagram @cicero.cf.ofcl, 27/11/2026, horário de Brasília)
+141 07:00 · 142 07:50 · 143 08:40 · 144 09:30 · 145 10:20 · 146 11:10 · 147 12:00 · 148 12:50 · 149 13:40 · 150 14:30 · 151 15:20 · 152 16:10 · 153 17:00 · 154 17:50 · 155 18:40 · 156 19:30 · 157 20:20 · 158 21:10 · 159 22:00 · 160 22:50 (20 posts, Reels + feed, legenda = só a CTA).
+O lote da Publicação do UMBRA falhou ("Instagram posts require media": o vídeo não subia antes de criar o post). Agendado pelo caminho do conector externo: Publora create_post (rascunho) → get_upload_url → UMBRA collect_generated_media + upload_generated_to_url → complete_media → update_post. Vídeos em Estudio/Rodada9/ na pasta do Umbra.
