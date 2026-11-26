@@ -249,3 +249,29 @@ Perfis varridos: @zackdfilms, @kodadmc, @neuronvisuals, @elchicodatos, @ai.toon.
 | 3,06 mi | @ifinity3d | https://www.tiktok.com/@ifinity3d/video/7697960681135508769 | E se cada pulo fosse 2x mais alto | não testado | — |
 | 3,78 mi | @humananatomy3d | https://www.tiktok.com/@humananatomy3d/video/7617109742086933774 | Estômago depois de comer melancia | não testado | — |
 | 10,58 mi | @plipstories | https://www.tiktok.com/@plipstories/video/7618116883786599693 | História real de Anthony Broadwater | pessoa real/condenação — não testado | — |
+
+# Garimpo Rodada 10 (Reels 161–180) — 26/11/2026
+Instagram pela extensão (sem bloqueio), cópias baixáveis no YouTube Shorts/TikTok. Principal achado: @zackdfilms (animação 3D narrada, muitos > 3 mi na semana).
+
+## Mapa 161→180 (palavra do rodízio · tema · original)
+161 TURBINA · Casca de banana gigante faria um carro rodar? · @zackdfilms · YT 3V9auyYJP1s
+162 QUADRO · Rambo, o jacaré gentil · @hoopssaga1 · TikTok 7707498965780008223
+163 JANELA · Respirar pela boca muda o rosto · @zackdfilms · YT 2ll9ClpJ3x8 ("pode", não destino certo)
+164 CANETA · O oleiro e a caneca (fábula — deixar claro que é ficção) · @zackdfilms · YT ZQnJl6rQs50
+165 SOL · Gato-do-deserto se achata na areia · @faunaview8 · TikTok 7707594753541541150
+166 ORIGEM · Bebê 81 do tsunami (Sri Lanka 2004) · @zackdfilms · YT AMlsGz_YJD8
+167 POLVO · Patos dormem com um olho aberto · @zackdfilms · YT 9k_UeVDf-0Y
+168 LUA · E se o magma de Yellowstone caísse em Nova York · @zackdfilms · YT gpZstBrMiF0 (corrigir fatos do magma)
+169 VIDEO · Elefante baleado que foi até o veterinário · @zackdfilms · YT buxxsDdLtP8
+170 ESTILOS · 3 patentes bizarras · @zackdfilms · YT ofLgYMeZIEQ
+171 SISTEMA · Quando trocar a escova de dentes (a cada 3 meses de qualquer jeito) · @zackdfilms · YT Zsr6EQdWNjA
+172 ROTEIRO · O menino e a fazenda (ficção) · @zackdfilms · YT 4fp5vMtRZuE
+173 CANAL · Orangotango salvo na piscina · @zackdfilms · YT TLmmiI1CiaA
+174 DARK · Em coma, ele "joga tênis" na mente · @weirdsecret_ · TikTok 7702771616136187169
+175 ANIMADO · Cidade da bolinha de apertar gigante (ficção, sem marca NeeDoh) · @mildly.elsewhere · TikTok 7711810121344601358
+176 CURIOSO · Corvos sabem contar (só de 1 a 4, Science 2024) · @zackdfilms · YT fhB5a9iUpQY
+177 SEGREDO · Buraco no quintal vira privada (reserva R6, troca do nariz que não tinha cópia baixável) · @youbuiltit · TikTok 7695368567193079053
+178 PASSO · Filhote de elefante não sabe usar a tromba · @mohackman · TikTok 7706105880122625294
+179 QUERO · E se um bicho vivesse no ventilador de teto (ficção) · @oddly.adapted · TikTok 7710438152699170061
+180 VÍDEO · Pescador solta baleia presa na rede (avisar: o certo é chamar o resgate) · @hoopssaga1 · TikTok 7705846582368849183
+
