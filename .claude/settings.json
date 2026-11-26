@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__umbra_clip_shop",
+      "mcp__Publora"
+    ]
+  }
+}
