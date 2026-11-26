@@ -17,3 +17,8 @@
 | 173 | CANAL | Orangotango salvo na piscina (história real) | https://www.youtube.com/shorts/TLmmiI1CiaA · @zackdfilms · 8,1 mi (YouTube) views | 6e07470b-f2fe-495d-a837-95c627b9da98 | ElevenLabs Matheus |
 | 174 | DARK | Em coma, ele "joga tênis" na mente (dramatização) | https://www.tiktok.com/@weirdsecret_/video/7702771616136187169 · @weirdsecret_ · 7,86 mi (TikTok) views | 1416ff56-811c-4263-a799-0650b7f9728d | ElevenLabs Matheus |
 | 175 | ANIMADO | A cidade da bolinha de apertar gigante (ficção) | https://www.tiktok.com/@mildly.elsewhere/video/7711810121344601358 · @mildly.elsewhere · 4,22 mi (TikTok) views | 0e1b79aa-0ced-4401-9abd-3b46939e8b94 | ElevenLabs Matheus |
+| 176 | CURIOSO | Corvos sabem contar (até 4) | https://www.youtube.com/shorts/fhB5a9iUpQY · @zackdfilms · 7,8 mi (YouTube) views | 6a2e4ad8-46b4-4292-a08b-c21690447e38 | ElevenLabs Matheus |
+| 177 | SEGREDO | Buraco no quintal vira privada | https://www.tiktok.com/@youbuiltit/video/7695368567193079053 · @youbuiltit · 6,16 mi (TikTok) views | 0defc9d4-1373-4152-b2ee-a90673a87758 | ElevenLabs Matheus |
+| 178 | PASSO | Filhote de elefante não sabe usar a tromba | https://www.tiktok.com/@mohackman/video/7706105880122625294 · @mohackman · 11,96 mi (TikTok) views | 43103407-1a3f-44df-8930-73683bd4ee36 | ElevenLabs Matheus |
+| 179 | QUERO | E se um bicho vivesse no ventilador de teto (ficção) | https://www.tiktok.com/@oddly.adapted/video/7710438152699170061 · @oddly.adapted · 3,66 mi (TikTok) views | b3e103ae-2ec0-4c66-b16a-1eb7cf346841 | ElevenLabs Matheus |
+| 180 | VÍDEO | Pescador solta baleia presa (história real) | https://www.tiktok.com/@hoopssaga1/video/7705846582368849183 · @hoopssaga1 · 4,15 mi (TikTok) views | a2f5f687-5fe1-4547-bbc1-c7989f17649b | ElevenLabs Matheus |

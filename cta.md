@@ -203,3 +203,8 @@
 173 CANAL — [pergunta / opinião] 🦧 E você, pularia na água pra salvar ela? Responde aqui e comenta CANAL que eu te mando no direct onde aprender a fazer os seus vídeos animados.
 174 DARK — [prompt + passo a passo] 🧠 Quer saber onde aprender o passo a passo de uma animação dessas? Comenta DARK que eu te mando no direct onde aprender a fazer os seus vídeos animados.
 175 ANIMADO — [neuronvisuals (Quer aprender a animar…?)] 🚚 Quer aprender a animar uma cidade inteira assim? Comenta ANIMADO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+176 CURIOSO — [identidade ("curioso igual…?")] 🐦‍⬛ Curioso igual esse corvo? Comenta CURIOSO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+177 SEGREDO — [objeção (não sei editar)] 🚽 Não sabe editar? Eu fiz esse vídeo com IA, sem editar nada. Comenta SEGREDO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+178 PASSO — [lição do vídeo (um passo de cada vez)] 🐘 Aprender é assim: um passo de cada vez, igual o filhote. Comenta PASSO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+179 QUERO — [pergunta do viral (deixava ou expulsava?)] 🪭 Você deixava esse bicho morar no seu ventilador ou mandava embora? Me conta aqui. Comenta QUERO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+180 VÍDEO — [mandar pra alguém (quem ama baleia)] 🐋 Manda pra quem ama baleia. Comenta VÍDEO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
