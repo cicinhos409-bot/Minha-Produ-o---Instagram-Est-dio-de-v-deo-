@@ -186,3 +186,10 @@
 158 PASSO — [passo a passo] 👣 Do galho à cabana em 1 minuto de animação. Quer o passo a passo? Comenta PASSO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
 159 QUERO — [pergunta / opinião] 👑 E aí, o leão merece a coroa ou não? Responde aqui e comenta QUERO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
 160 VÍDEO — [sem aparecer] 🎬 Animei esse poço inteiro sem câmera e sem aparecer. Comenta VÍDEO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+
+## Rodada 10
+161 TURBINA — [A/B (escolha)] 🍌 A) o carro roda ou B) passa reto? Responde aqui e comenta TURBINA que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+162 QUADRO — [pedido do público] 🐊 Qual história real de bicho merece o próximo vídeo? Me diz nos comentários e comenta QUADRO que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+163 JANELA — [marcar amigo / mandar pra alguém] 😮‍💨 Manda pra quem dorme de boca aberta e comenta JANELA que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+164 CANETA — [honesta (modelo eseacontecesse._)] 🏺 Falando em honestidade: não prometo que todo vídeo viraliza. Mas, se quiser aprender, comenta CANETA que eu te mando no direct onde aprender a fazer os seus vídeos animados.
+165 SOL — [objeção (não sei desenhar)] 🐈 Não sabe desenhar nem um gatinho? Eu também não. Comenta SOL que eu te mando no direct onde aprender a fazer os seus vídeos animados.
