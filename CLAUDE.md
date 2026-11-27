@@ -266,3 +266,9 @@ Regras que continuam valendo (não mudam com a referência):
 ## Efeito sonoro no rebobinar (regra do usuário)
 - Toda vez que a cena usar o passo `rebobinar` (◀◀ com riscas brancas, a montagem voltando no tempo), coloque junto o efeito sonoro de rebobinar: em `sfx.eventos` adicionar `{"t": <início do rebobinar>, "som": "rebobinar"}` (volume normal ou um pouco acima), um para cada rebobinar do vídeo.
 - Vale para todos os Reels novos e para os que já tinham rebobinar sem som (141, 143, 145).
+
+## Fluxo de produção (ferramentas novas da UMBRA, desde 27/11)
+- Narração do lote inteiro: `audio_narrate_batch` (até 20 roteiros em fila interna, sem derrubar a aba; ElevenLabs Matheus). Nunca mandar várias narrações em chamadas paralelas.
+- Pedidos do lote: `estudio_batch_produce` (até 10 por vez, com `roteiro` + `narracaoPath` + `referenciaPath`) — mandar sempre o texto do roteiro, para a legenda usar o texto certo.
+- Agendamento: `estudio_auto_schedule` guarda a regra e lista os prontos em `pendingReady`; o envio é com `send_to_publish`. A Publicação agora sobe direto para o S3 da Publora (até 150 MB); se o lote falhar, usar o caminho do conector (Publora create_post → get_upload_url → upload_generated_to_url → complete_media → update_post).
+- KikiVoice (reserva): Core/Multilingual aceitam 2.000 caracteres por chamada; Pro não fala português; verificação humana → `audio_kiki_open_tab`.
